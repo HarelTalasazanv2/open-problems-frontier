@@ -2,6 +2,8 @@
 
 **HTYT Enterprises LLC | Public research repository**
 
+Start with the [results index](RESULTS.md) for exact statements, proof/certificate links and review limits. Run the [automated verification](VERIFICATION.md) to replay the self-contained packages. Analytic proofs and external-input dependencies are identified separately.
+
 Open Problems Frontier is a research program for investigating open problems in mathematics and physics through precise statements, primary-source review, mathematical reasoning, computational certificates, and adversarial verification.
 
 Research is directed and commissioned by **Harel Talasazan, HTYT Enterprises LLC**, with AI assistance documented in the relevant research records.

@@ -1,0 +1,719 @@
+{
+  "schema": "OPF_RESULTS_V1",
+  "scope": "Exact authorized historical publication snapshot; record count is not a novelty count.",
+  "results": [
+    {
+      "id": "M05-ISOMETRY-SPAN-C150",
+      "area": "Algebraic geometry",
+      "title": "Isometry-span lemma",
+      "statement": "The stated identity-adjoint/field isometry-span lemma holds; the K3 application retains its explicit unsupplied geometric hypotheses.",
+      "scope": "Abstract linear-algebra lemma proved; actual K3 tensor application conditional.",
+      "outcome": "CONDITIONALLY_PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-002/ISOMETRY_SPAN_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-002/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M05-SURFACE-PROJECTIVE-C149",
+      "area": "Algebraic geometry",
+      "title": "Surface times projective space",
+      "statement": "Rational Hodge classes on S times P^r are algebraic for connected smooth complex projective surfaces S and every r >= 0.",
+      "scope": "Known restricted case; standard geometric inputs are explicit. No general Hodge solution.",
+      "outcome": "PROVED",
+      "novelty": "KNOWN_RESULT_REPRODUCED",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-002/SURFACE_PRODUCT_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-002/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M05-QUARTICS-NONCYCLOTOMIC-C178",
+      "area": "Arithmetic geometry",
+      "title": "Two irreducible noncyclotomic quartics",
+      "statement": "The two literal quartics are Q-irreducible and have no root p times a root of unity.",
+      "scope": "No identification as actual Frobenius factors, rank bound or RM conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-002/QUARTIC_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-002/quartic_certificate.json",
+        "backlog-batch-002/QUARTIC_AUDIT.json"
+      ],
+      "checks": [
+        "quartics"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M05-S1-F17-F23-C174",
+      "area": "Arithmetic geometry",
+      "title": "Two prime-field point counts",
+      "statement": "For the literal double plane, singular/resolved counts are 313/568 over F17 and 547/892 over F23.",
+      "scope": "Literal finite fields and explicit 15-node resolution correction; no Picard-rank or real-multiplication conclusion.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "finite-certificate",
+      "proofs": [
+        "backlog-batch-002/FINITE_COUNT_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-002/counts/AUDIT_CERTIFICATE.json"
+      ],
+      "checks": [
+        "finite-fields"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M05-S1-F289-COUNT-C175",
+      "area": "Arithmetic geometry",
+      "title": "F289 point count",
+      "statement": "For F17[u]/(u^2-3), singular/resolved counts are 83,881/88,216.",
+      "scope": "Literal finite fields and explicit 15-node resolution correction; no Picard-rank or real-multiplication conclusion.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "finite-certificate",
+      "proofs": [
+        "backlog-batch-002/FINITE_COUNT_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-002/counts/F289.json"
+      ],
+      "checks": [
+        "finite-fields"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M05-S1-F529-COUNT-C176",
+      "area": "Arithmetic geometry",
+      "title": "F529 point count",
+      "statement": "For F23[v]/(v^2-5), singular/resolved counts are 280,729/288,664.",
+      "scope": "Literal finite fields and explicit 15-node resolution correction; no Picard-rank or real-multiplication conclusion.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "finite-certificate",
+      "proofs": [
+        "backlog-batch-002/FINITE_COUNT_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-002/counts/F529.json"
+      ],
+      "checks": [
+        "finite-fields"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M04-DECISION-SEARCH-C111",
+      "area": "Complexity theory",
+      "title": "Decision-to-search reduction",
+      "statement": "The stated bounded-query search reduction follows under the explicit correct decision-oracle and reduction assumptions.",
+      "scope": "Exact model/conventions in proof; no conclusion about ordinary P versus NP.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-003/DECISION_SEARCH_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/COMPLEXITY_AUDIT.json"
+      ],
+      "checks": [],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M04-EQUALITY-ORACLE-C113",
+      "area": "Complexity theory",
+      "title": "One explicit equality oracle",
+      "statement": "For the explicitly defined unary-clock oracle A, ordinary EXP = P^A = NP^A.",
+      "scope": "Exact model/conventions in proof; no conclusion about ordinary P versus NP.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-003/EQUALITY_ORACLE_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/COMPLEXITY_AUDIT.json"
+      ],
+      "checks": [],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M04-UNIFORMITY-C112",
+      "area": "Complexity theory",
+      "title": "Uniformity matters",
+      "statement": "There is a decidable language outside uniform P with two noninput circuit gates per positive length under the stated convention.",
+      "scope": "Exact model/conventions in proof; no conclusion about ordinary P versus NP.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-003/UNIFORMITY_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/COMPLEXITY_AUDIT.json"
+      ],
+      "checks": [],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M09-DENSITY-SCREEN-C064",
+      "area": "Covering systems",
+      "title": "Complete finite density screen",
+      "statement": "All 393,119 positive periods below 393,120 are screened; first survivor 55,440 and 28 total survivors.",
+      "scope": "Only the stated distinct shifted-prime model; no unrestricted nonexistence or current-best-bound assertion.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-003/PERIOD_BOUND_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/period_certificate_v2.json"
+      ],
+      "checks": [
+        "periods"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M09-DIVISOR360-NONCOVER-C063",
+      "area": "Covering systems",
+      "title": "Shifted-prime noncover at period 360",
+      "statement": "No distinct p >= 5 shifted-prime covering has every modulus dividing 360.",
+      "scope": "Only the stated distinct shifted-prime model; no unrestricted nonexistence or current-best-bound assertion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-003/PERIOD_BOUND_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/period_certificate_v2.json"
+      ],
+      "checks": [
+        "periods"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M09-FINITE-SIEVE-C147",
+      "area": "Covering systems",
+      "title": "Finite distortion-sieve criterion",
+      "statement": "The precise finite noncover criterion holds, including the stated zero-mass and endpoint cases.",
+      "scope": "Analytic finite criterion; not the cited paper's full density theorem.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-003/FINITE_SIEVE_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/SIEVE_AUDIT.json"
+      ],
+      "checks": [
+        "finite-sieve"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M09-PARITY-CRT-C065",
+      "area": "Covering systems",
+      "title": "Parity and CRT exclusions",
+      "statement": "All 28 survivors fail the covering tests; every admissible cover has LCM at least 393,120.",
+      "scope": "Only the stated distinct shifted-prime model; no unrestricted nonexistence or current-best-bound assertion.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-003/PERIOD_BOUND_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/period_certificate_v2.json"
+      ],
+      "checks": [
+        "periods"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M09-U877-C146",
+      "area": "Covering systems",
+      "title": "Fixed U877 noncover certificate",
+      "statement": "Every subset of the fixed 149-modulus, 47-prime U877 family fails to cover; exact beta < 199983/200000.",
+      "scope": "Fixed finite universe and explicit rational vector; no unrestricted covering conclusion.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "finite-certificate",
+      "proofs": [
+        "backlog-batch-003/U877_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/sieve_candidate.json",
+        "backlog-batch-003/SIEVE_AUDIT.json"
+      ],
+      "checks": [
+        "finite-sieve"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-A6-ORBIT-C188",
+      "area": "Graph theory",
+      "title": "Complete six-vertex census",
+      "statement": "All 32,768 masks yield 22,484 admissible masks in 84 complete orbits; the specified filters leave 63 classes.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c188_orbits.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/verification_result.json"
+      ],
+      "checks": [
+        "graph-base",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-BASE663-C195",
+      "area": "Graph theory",
+      "title": "Class 663 exclusion",
+      "statement": "The class-663 full base model has an exact infeasibility certificate.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c195_663.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/verification_result.json"
+      ],
+      "checks": [
+        "graph-base",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-CLASS633-20261115",
+      "area": "Graph theory",
+      "title": "Class 633 exclusion",
+      "statement": "The class-633 base model is infeasible under the specified constraints.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c633.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/verification_result.json"
+      ],
+      "checks": [
+        "graph-base",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-CLASS635-20261115",
+      "area": "Graph theory",
+      "title": "Class 635 exclusion",
+      "statement": "The class-635 model is excluded using the stated additional clique constraints.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c635.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/verification_result.json"
+      ],
+      "checks": [
+        "graph-base",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-CLASS655-20261115",
+      "area": "Graph theory",
+      "title": "Class 655 exclusion",
+      "statement": "The class-655 model is excluded using the stated clique and minimum-degree constraints.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c655.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/verification_result.json"
+      ],
+      "checks": [
+        "graph-base",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-CLASS671-C196",
+      "area": "Graph theory",
+      "title": "Class 671 exclusion",
+      "statement": "The class-671 model is excluded; all 36,720 specified relabeling decisions are checked.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c196_671.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/verification_result.json"
+      ],
+      "checks": [
+        "graph-base",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-CLASS685-C197",
+      "area": "Graph theory",
+      "title": "Class 685 exclusion and support-capacity audit",
+      "statement": "Class 685 is impossible; all 50 supplied classes times six vertices are audited.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion. Historical chain leaves 49 classes / 14,872 labeled neighborhoods unresolved.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "cycle-197/PROOF.md"
+      ],
+      "evidence": [
+        "cycle-197/data/certificate.json",
+        "cycle-197/verification_result.json"
+      ],
+      "checks": [
+        "c197",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-DEGREE-FLOOR-C186",
+      "area": "Graph theory",
+      "title": "Minimum-degree restriction",
+      "statement": "Every vertex has degree at least six under the proof hypotheses.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c186_degree_floor.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/verification_result.json"
+      ],
+      "checks": [
+        "graph-base",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-E5-BINARY-FAMILY-C192",
+      "area": "Graph theory",
+      "title": "Binary-weight search exhausted",
+      "statement": "All 256 specified binary-weight decisions fail to exclude the four stated five-edge cases.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c192_binary.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/extension_result.json"
+      ],
+      "checks": [
+        "graph-extension",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-E5-CASE617-C190",
+      "area": "Graph theory",
+      "title": "Class 617 exclusion",
+      "statement": "The exact class-617 neighborhood model is infeasible.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c190_617.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/extension_result.json"
+      ],
+      "checks": [
+        "graph-extension",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-E5-CASE632-C191",
+      "area": "Graph theory",
+      "title": "Class 632 exclusion",
+      "statement": "The exact class-632 neighborhood model is infeasible.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c191_632.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/extension_result.json"
+      ],
+      "checks": [
+        "graph-extension",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-E5-CASE684-C189",
+      "area": "Graph theory",
+      "title": "Class 684 exclusion",
+      "statement": "The exact class-684 neighborhood model is infeasible.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c189_684.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/extension_result.json"
+      ],
+      "checks": [
+        "graph-extension",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-E5-FOUR-EXCLUSIONS-20261115",
+      "area": "Graph theory",
+      "title": "Four five-edge exclusions",
+      "statement": "Classes 659, 662, 692 and 920 are excluded by the specified capacity and aggregate arguments.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/manual_e5_capacity.md",
+        "backlog-batch-001/proofs/manual_e5_662.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/extension_result.json"
+      ],
+      "checks": [
+        "graph-extension",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-EXCESS-IDENTITY-C170",
+      "area": "Graph theory",
+      "title": "Exact graph excess identity",
+      "statement": "The stated excess identity holds for every finite simple graph, including the empty graph.",
+      "scope": "General counting identity; finite canaries supplement the analytic proof.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-002/EXCESS_IDENTITY_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-002/GRAPH_COUNTING_AUDIT.json"
+      ],
+      "checks": [
+        "graph-counting"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-FIXED-NOEXT-C169",
+      "area": "Graph theory",
+      "title": "Fixed-seed nonextension",
+      "statement": "No one-vertex extension of that exact seed satisfies the stated constraints; 282 resolution steps are checked.",
+      "scope": "Exact external seed required; source data not redistributed and its redistribution terms unresolved. No complete seed catalogue or global result.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-003/GRAPH_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/GRAPH_OUTPUT_AUDIT.json",
+        "backlog-batch-003/resolution_proof.json"
+      ],
+      "checks": [
+        "external-graph"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-MIXED-619-C193",
+      "area": "Graph theory",
+      "title": "Class 619 mixed-type exclusion",
+      "statement": "The specified class-619 model with justified common-neighbor cuts is infeasible.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c193_619.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/extension_result.json"
+      ],
+      "checks": [
+        "graph-extension",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-PRISM-EXCLUSION-C187",
+      "area": "Graph theory",
+      "title": "Prism neighborhood exclusion",
+      "statement": "The specified triangular-prism root neighborhood is impossible; stated singleton/pair restrictions hold.",
+      "scope": "Specified 17-vertex simple graphs with no K5, no independent four-set, maximum degree at most seven, and the stated degree-six-root hypotheses. No global Ramsey conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-001/proofs/c187_prism.md"
+      ],
+      "evidence": [
+        "backlog-batch-001/verification_result.json"
+      ],
+      "checks": [
+        "graph-base",
+        "graph-chain"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-SEED42-NEIGHBORHOODS-C171",
+      "area": "Graph theory",
+      "title": "All degree-22 centers in the seed",
+      "statement": "The complete three-center family has induced edge counts 108, 107 and 107.",
+      "scope": "Exact external seed required; source data not redistributed and its redistribution terms unresolved. No complete seed catalogue or global result.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-003/GRAPH_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/GRAPH_OUTPUT_AUDIT.json",
+        "backlog-batch-003/resolution_proof.json"
+      ],
+      "checks": [
+        "external-graph"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-TYPED-COVERING-C172",
+      "area": "Graph theory",
+      "title": "Typed high-edge covering implication",
+      "statement": "The stated high-edge covering thresholds hold for 46-vertex graphs with degrees in 21..24.",
+      "scope": "The Ramsey-type corollary retains its extra assumptions; no global bound established.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-002/TYPED_COVERING_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-002/GRAPH_COUNTING_AUDIT.json"
+      ],
+      "checks": [
+        "graph-counting"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M12-WITNESS42-C168",
+      "area": "Graph theory",
+      "title": "One 42-vertex seed",
+      "statement": "The exact externally supplied seed has neither a five-clique nor an independent five-set.",
+      "scope": "Exact external seed required; source data not redistributed and its redistribution terms unresolved. No complete seed catalogue or global result.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-003/GRAPH_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/GRAPH_OUTPUT_AUDIT.json",
+        "backlog-batch-003/resolution_proof.json"
+      ],
+      "checks": [
+        "external-graph"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M11-MOD120-C158",
+      "area": "Number theory",
+      "title": "Eight unit-fraction identities",
+      "statement": "Eight positive integer identities solve the stated equation for every n >= 2 outside 1 and 49 modulo 120.",
+      "scope": "The remaining residue classes are not counterexamples; no global Erd\u0151s\u2013Straus solution.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-003/UNIT_FRACTION_PROOF.md"
+      ],
+      "evidence": [
+        "backlog-batch-003/unit_fraction_candidate.json",
+        "backlog-batch-003/UNIT_FRACTION_AUDIT.json"
+      ],
+      "checks": [
+        "unit-fractions"
+      ],
+      "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    }
+  ]
+}

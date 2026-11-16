@@ -1,0 +1,26 @@
+name: Verify published research packages
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  certificates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        optimization: ["", "-O", "-OO"]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, inspected 2026-11-16
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5, inspected 2026-11-16
+        with:
+          python-version: "3.12"
+      - name: Challenge runner failure handling
+        run: python -B ${{ matrix.optimization }} -m unittest discover -s scripts -p test_verify_all.py -v
+      - name: Replay every self-contained certificate
+        run: python -B ${{ matrix.optimization }} scripts/verify_all.py --report verification-report.json

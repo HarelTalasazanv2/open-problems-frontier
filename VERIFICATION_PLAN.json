@@ -1,0 +1,174 @@
+{
+  "schema": "OPF_REPLAY_PLAN_V1",
+  "checks": [
+    {
+      "id": "c197",
+      "script": "cycle-197/verify_v2.py",
+      "arguments": [],
+      "expected": {
+        "verdict": "PASS_AT_CLAIM_CEILING",
+        "classes": 50,
+        "vertex_decisions": 300
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "graph-base",
+      "script": "backlog-batch-001/verify_batch.py",
+      "arguments": [],
+      "expected": {
+        "verdict": "PASS_AT_CLAIM_CEILING",
+        "c196_permutation_decisions": 36720
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "graph-extension",
+      "script": "backlog-batch-001/verify_extension_v2.py",
+      "arguments": [],
+      "expected": {
+        "verdict": "PASS_AT_CLAIM_CEILING",
+        "binary_weight_decisions": 256,
+        "capacity_vertex_decisions": 24
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "graph-chain",
+      "script": "backlog-batch-001/verify_chain.py",
+      "arguments": [],
+      "expected": {
+        "verdict": "PASS_AT_CLAIM_CEILING",
+        "final_labeled": 14872
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "finite-fields",
+      "script": "backlog-batch-002/finite_count_audit.py",
+      "arguments": [
+        "--output",
+        "counts",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_RESTRICTED",
+        "points_checked": 365042,
+        "negative_controls_detected": 36
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "quartics",
+      "script": "backlog-batch-002/quartic_audit.py",
+      "arguments": [
+        "--output",
+        "quartic_certificate.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_RESTRICTED",
+        "polynomial_cases": 2,
+        "divisor_cases": 24
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "graph-counting",
+      "script": "backlog-batch-002/graph_counting_check.py",
+      "arguments": [
+        "--certificate",
+        "GRAPH_COUNTING_AUDIT.json"
+      ],
+      "expected": {
+        "status": "PASS_RESTRICTED"
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "periods",
+      "script": "backlog-batch-003/period_bound_check_v2.py",
+      "arguments": [
+        "--certificate",
+        "period_certificate_v2.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_RESTRICTED",
+        "periods": 393119,
+        "density_survivors": 28,
+        "CRT_configurations": 14400
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "finite-sieve",
+      "script": "backlog-batch-003/sieve_check.py",
+      "arguments": [
+        "--candidate",
+        "sieve_candidate.json",
+        "--certificate",
+        "SIEVE_AUDIT.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_RESTRICTED",
+        "moduli": 149,
+        "prime_keys": 47,
+        "strict_beta_lt_199983_over_200000": true
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "unit-fractions",
+      "script": "backlog-batch-003/unit_fraction_check.py",
+      "arguments": [
+        "--candidate",
+        "unit_fraction_candidate.json",
+        "--certificate",
+        "UNIT_FRACTION_AUDIT.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_RESTRICTED",
+        "identities": 8,
+        "residue_classes": 120,
+        "covered": 118,
+        "global_solution": false
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "external-graph",
+      "script": "backlog-batch-003/graph_outputs_check.py",
+      "arguments": [
+        "--seed",
+        "{EXTERNAL_SEED}",
+        "--resolution",
+        "resolution_proof.json",
+        "--certificate",
+        "GRAPH_OUTPUT_AUDIT.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_RESTRICTED",
+        "external_seed_exact": true,
+        "five_subsets": 850668,
+        "resolution_steps": 282,
+        "curator_data_redistributed": false
+      },
+      "kind": "external-input",
+      "timeout_seconds": 240
+    }
+  ]
+}

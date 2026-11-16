@@ -1,0 +1,121 @@
+{
+  "scope": "Eleven audited historical records; only eight are released publicly. Source-input-dependent C168/C169/C171are mathematically passing but held for unresolved redistribution admission.",
+  "files": [
+    {
+      "path": "reviews/2026-11-16-github-audit-batch-001/candidate_status_published.json",
+      "sha256": "a6abf6a16344bc162c2733abe32bbcff71f653e6e9a0e2d09e9f28629c3188f7",
+      "bytes": 144368
+    },
+    {
+      "path": "artifacts/m05_surface_product_cycle149/restricted_proof.md",
+      "sha256": "4f148952293187327576f2ae5a78ace3d21a9f5dc34b05ae15b0dcd9547dd55d",
+      "bytes": 10953
+    },
+    {
+      "path": "artifacts/m05_isometry_span_cycle150/span_lemma.md",
+      "sha256": "29f7a71eb56797d97b12912e2285a0c0a7653ed2a8b5fd10451e6efd435e6219",
+      "bytes": 8642
+    },
+    {
+      "path": "artifacts/m05_ej14_source_cycle174/BASEFIELD_PROOF.md",
+      "sha256": "ae1db11d522416bf531211a9da2d6be3b8ac1ad569c8bb1d4c2087c808134460",
+      "bytes": 3173
+    },
+    {
+      "path": "artifacts/m05_ej14_source_cycle174/basefield_certificate.json",
+      "sha256": "860674396e153725f5dba233807dbb33bb65f734e0284f1c0b1c64e159c4b1e4",
+      "bytes": 11917
+    },
+    {
+      "path": "artifacts/m05_f17sq_count_cycle175/FINITE_COUNT_PROOF.md",
+      "sha256": "5cc62072839f05f590e9a41bd37712253d838f0e559b69fee185ac85373dd35c",
+      "bytes": 4728
+    },
+    {
+      "path": "artifacts/m05_f17sq_count_cycle175/count_certificate.json",
+      "sha256": "ff985c5e6128440cfe304f43ec39f0365eef3b6d3b18c47a67b2892bae7879b8",
+      "bytes": 4425
+    },
+    {
+      "path": "artifacts/m05_f23sq_count_cycle176/FINITE_COUNT_PROOF.md",
+      "sha256": "6e4c69e6d959711c949a41246dd1c362a0ce4b317e51ef3c4f37d7c305eea7de",
+      "bytes": 5758
+    },
+    {
+      "path": "artifacts/m05_f23sq_count_cycle176/count_certificate.json",
+      "sha256": "d0fcf04fc231406192e436c105d10b274f7170077d3d84feec2f9ef8784009ad",
+      "bytes": 4543
+    },
+    {
+      "path": "artifacts/m05_quartic_resume_cycle178/PROOF.md",
+      "sha256": "b472273504abd9cc7c58cc46244026d75dc10d5c1c7753d0d98d6fa32183a366",
+      "bytes": 5120
+    },
+    {
+      "path": "artifacts/m05_quartic_resume_cycle178/polynomial_inputs.json",
+      "sha256": "42ea34b60e41ed49f73c6b9d2f0f7c5d9c861eeae4323766fc5f99b1814d632b",
+      "bytes": 1020
+    },
+    {
+      "path": "artifacts/m05_quartic_resume_cycle178/algebra_certificate.json",
+      "sha256": "153a71f39425f933bdd991b03231d8ab669d878a73174c2af858fe0f38755cc4",
+      "bytes": 4293
+    },
+    {
+      "path": "dossiers/M12_RAMSEY_WITNESS_2026-11-11_CYCLE168.md",
+      "sha256": "58d4b951424ede5925e641e28c11451044e4c1adc5ab126683cbb08542313e0d",
+      "bytes": 8572
+    },
+    {
+      "path": "dossiers/M12_FIXED_EXTENSION_2026-11-11_CYCLE169.md",
+      "sha256": "30c261d2ab10d4b192142c6e45be632ff5015bb66dd2249ff68b3103978e6251",
+      "bytes": 7677
+    },
+    {
+      "path": "artifacts/m12_ramsey_witness_cycle168/witness.first.g6",
+      "sha256": "ab0b10364ac62ab07f662c0ed4e8b47a44956f63a78356b64ae64ccb6520ecb0",
+      "bytes": 146
+    },
+    {
+      "path": "artifacts/m12_ramsey_witness_cycle168/witness.adjacency.json",
+      "sha256": "43ef9720d299813a3584901d9a11aaafd37da98cb368d0f474f97f59d8fb7b92",
+      "bytes": 985
+    },
+    {
+      "path": "artifacts/m12_ramsey_witness_cycle168/witness.cnf",
+      "sha256": "5934d7346d6365809788730caa203e1655542f5c4a051a6c5019facaa77ee17e",
+      "bytes": 34996
+    },
+    {
+      "path": "artifacts/m12_ramsey_witness_cycle168/witness.json",
+      "sha256": "127e5733738b804af16c7f31c51c5c88cbf2b90856aa8723f1de74f84546f761",
+      "bytes": 1787
+    },
+    {
+      "path": "artifacts/m12_fixed_extension_cycle169/resolution_certificate.json",
+      "sha256": "ee1bd35d3b3d842c7215a2e30684bd2ebb22a701ddc5a8e62807246214d2cda9",
+      "bytes": 19276
+    },
+    {
+      "path": "artifacts/m12_fixed_extension_cycle169/CERTIFICATE_SOUNDNESS.md",
+      "sha256": "184408c442dc97ec79d0ce716558d7ef57e17214d9558c6f298427aff7b38f24",
+      "bytes": 2771
+    },
+    {
+      "path": "artifacts/m12_excess_identity_cycle170/PROOF.md",
+      "sha256": "a1e69f9827a2bf8d89494fc2c8628c00cd8fe2cc7c49056bec527387fa8c893f",
+      "bytes": 4180
+    },
+    {
+      "path": "artifacts/m12_c3_archive_cycle171/negative_count_certificate.json",
+      "sha256": "38520d48e48ae26b9199f7e19662895a247787f9153e6c3e1059d9f70a12b0d3",
+      "bytes": 2917
+    },
+    {
+      "path": "artifacts/m12_typed_covering_cycle172/PROOF.md",
+      "sha256": "b2e402d62124e0ee97e97df729e001dd1edb0e77a93043baeef25eaf75727d4d",
+      "bytes": 5532
+    }
+  ],
+  "sealed_originals_preserved": true
+}

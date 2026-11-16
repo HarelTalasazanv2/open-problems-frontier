@@ -1,0 +1,20 @@
+{
+  "p": 17,
+  "e": 1,
+  "d": 0,
+  "q": 17,
+  "model": "W^2=(-y^2+8yz-8z^2)(7x^2+40xz+56z^2)(2x^2+3xy+y^2)",
+  "chart_sizes": [
+    289,
+    17,
+    1
+  ],
+  "fibres_sha256": "676e2561bebd3cf6f027e981c5bd892b01a0c938628f7c351e01ebe8770a3867",
+  "singular_count": 313,
+  "fibre_counts": {
+    "0": 104,
+    "1": 93,
+    "2": 110
+  },
+  "resolved_count": 568
+}

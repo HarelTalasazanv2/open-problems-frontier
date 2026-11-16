@@ -1,0 +1,62 @@
+{
+  "C149": {
+    "outcome": "PROVED",
+    "scope": "Known rational Hodge theorem for S x P^r, connected smooth complex projective surface S, all r>=0 and0<=p<=r+2.",
+    "adjudication": "PASS_RESTRICTED",
+    "proof_checks": [
+      "Q-coefficient clearing through integral H2 modulo torsion",
+      "(0,2) exponential-sequence kernel, GAGA and rational section divisor",
+      "J=max(0,p-2)..min(r,p); no odd-degree projective summand",
+      "coefficient pushforward h^(r-j) gives no factorial/sign",
+      "H0/H4 and r0/codimension0/top boundaries",
+      "external product cycle codimension a+j=p"
+    ],
+    "analytic_adversarial_controls": {
+      "no_rationality": "sqrt2 times hyperplane has irrational intersection and cannot be a Q-cycle class",
+      "no_Hodge_type": "integral dx1∧dx2-dy1∧dy2 on square E x E pairs2with holomorphic2-form",
+      "both_controls": "FALSIFIED only for the overbroad variant"
+    },
+    "imports": [
+      "Betti Kunneth",
+      "Hodge/Dolbeault decomposition",
+      "projective-space cohomology",
+      "Poincare duality",
+      "GAGA",
+      "cycle-class product and pushforward functoriality"
+    ]
+  },
+  "C150": {
+    "outcome": "PROVED",
+    "conditional_application_outcome": "CONDITIONALLY_PROVED",
+    "scope": "Abstract field and identity-adjoint span lemma; K3 tensor conditional on actually realizing all geometric hypotheses.",
+    "adjudication": "PASS_RESTRICTED",
+    "proof_checks": [
+      "nondegenerate q makes isometry iff u†u=I",
+      "identity adjoint turns this into u²=1",
+      "field and characteristic0 force u=+/-1",
+      "psi²=2I gives multiplier2",
+      "2c²=1 has no rational scalar solution",
+      "inverse Gram tensor is rational, basis independent, action psi and type(2,2)",
+      "generator exclusion is restricted to fixed-surface isometries/divisor/point/diagonal family"
+    ],
+    "analytic_adversarial_controls": {
+      "E_Q": "lemma holds but its scalar span already equals E",
+      "nonidentity_adjoint": "Q(i) conjugation admits i†i=1",
+      "zero_divisors": "QxQ admits(1,-1)²=1",
+      "clarification": "Real scalar normalization differs from composition by psi/2; corrected reading edition only."
+    },
+    "not_supplied": [
+      "actual K3 with verified End_Hdg and adjoint",
+      "algebraic or nonalgebraic tensor",
+      "universal correspondence obstruction"
+    ]
+  },
+  "assurance": {
+    "review_actor": "Codex, same actor exposed to the historical conclusions",
+    "external_human_review": false,
+    "formal_verification": false,
+    "new_Claude_audit": false,
+    "source_credit": "References preserve academic authors and documented assistant roles.",
+    "scientific_corpus_denominators": "UNKNOWN"
+  }
+}

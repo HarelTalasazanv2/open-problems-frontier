@@ -1,0 +1,72 @@
+{
+  "status": "PASS_PUBLIC_RELEASE_PREFLIGHT",
+  "selected_records": [
+    "M05-SURFACE-PROJECTIVE-C149",
+    "M05-ISOMETRY-SPAN-C150",
+    "M05-S1-F17-F23-C174",
+    "M05-S1-F289-COUNT-C175",
+    "M05-S1-F529-COUNT-C176",
+    "M05-QUARTICS-NONCYCLOTOMIC-C178",
+    "M12-WITNESS42-C168",
+    "M12-FIXED-NOEXT-C169",
+    "M12-EXCESS-IDENTITY-C170",
+    "M12-SEED42-NEIGHBORHOODS-C171",
+    "M12-TYPED-COVERING-C172"
+  ],
+  "candidate_backlog_before": 103,
+  "passed_restricted": 11,
+  "candidate_backlog_after": 92,
+  "total_historical_candidates": 118,
+  "total_published_after_if_remote_verified": 23,
+  "mathematical_ceiling": "Exact statements in the six scoped proof entries only. No global open-problem promotion.",
+  "review_method": "New exact code and analytic adversarial review, nonblind same actor.",
+  "new_controls": {
+    "counts": 36,
+    "quartics": 7,
+    "analytic_variants": 5
+  },
+  "operational_repairs": [
+    {
+      "defect": "Earlier public root README can read as current graph residual even though released chain ends at C197.",
+      "consequence": "Readers might mistake a historical49/14872count for current local state.",
+      "repair": "Qualify it explicitly as the historical released chain; preserve value and previous files.",
+      "acceptance": "New README names C197historical scope and makes no newer graph claim."
+    },
+    {
+      "defect": "C150 wording can conflate real scalar normalization with composition in its quadratic field.",
+      "consequence": "The two operations can be mistaken for the same rational scalar.",
+      "repair": "Clarify only in the new reading edition; sealed original retained.",
+      "acceptance": "Rational-scalar equation2c\u00b2=1and composition(psi/2)\u2218psi=id are separately stated."
+    }
+  ],
+  "authority": "Explicit owner authorization for passing historical backlog; no other public results or private estates included.",
+  "credit_file": "REFERENCES.md",
+  "external_review": false,
+  "formal_verification": false,
+  "complete_full_backlog": false,
+  "reviewed_this_batch": 11,
+  "publicly_admitted": 8,
+  "held_after_math_review": 3,
+  "publication_holds": "Three seed-input-dependent graph records, source redistribution admission unresolved; no curator source dataset uploaded.",
+  "published_claim_ids": [
+    "M05-SURFACE-PROJECTIVE-C149",
+    "M05-ISOMETRY-SPAN-C150",
+    "M05-S1-F17-F23-C174",
+    "M05-S1-F289-COUNT-C175",
+    "M05-S1-F529-COUNT-C176",
+    "M05-QUARTICS-NONCYCLOTOMIC-C178",
+    "M12-EXCESS-IDENTITY-C170",
+    "M12-TYPED-COVERING-C172"
+  ],
+  "held_claim_ids": [
+    "M12-WITNESS42-C168",
+    "M12-FIXED-NOEXT-C169",
+    "M12-SEED42-NEIGHBORHOODS-C171"
+  ],
+  "portable_modes_checked": [
+    "normal",
+    "-O",
+    "-OO"
+  ],
+  "prepublication_scope": "Portable package and local source/claim admission verified; this file does not itself assert completion of a remote ref update or readback."
+}

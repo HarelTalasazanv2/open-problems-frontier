@@ -1,0 +1,321 @@
+{
+  "schema": "OPF_GITHUB_BATCH002_QUARTIC_V1",
+  "rows": [
+    {
+      "p": 17,
+      "coefficients_ascending": [
+        83521,
+        8092,
+        646,
+        28,
+        1
+      ],
+      "mod3_remainders": [
+        {
+          "divisor": [
+            0,
+            1
+          ],
+          "remainder": [
+            1
+          ]
+        },
+        {
+          "divisor": [
+            1,
+            1
+          ],
+          "remainder": [
+            1
+          ]
+        },
+        {
+          "divisor": [
+            2,
+            1
+          ],
+          "remainder": [
+            2
+          ]
+        },
+        {
+          "divisor": [
+            0,
+            0,
+            1
+          ],
+          "remainder": [
+            1,
+            1
+          ]
+        },
+        {
+          "divisor": [
+            0,
+            1,
+            1
+          ],
+          "remainder": [
+            1
+          ]
+        },
+        {
+          "divisor": [
+            0,
+            2,
+            1
+          ],
+          "remainder": [
+            1,
+            1
+          ]
+        },
+        {
+          "divisor": [
+            1,
+            0,
+            1
+          ],
+          "remainder": [
+            1
+          ]
+        },
+        {
+          "divisor": [
+            1,
+            1,
+            1
+          ],
+          "remainder": [
+            1,
+            1
+          ]
+        },
+        {
+          "divisor": [
+            1,
+            2,
+            1
+          ],
+          "remainder": [
+            2,
+            1
+          ]
+        },
+        {
+          "divisor": [
+            2,
+            0,
+            1
+          ],
+          "remainder": [
+            0,
+            2
+          ]
+        },
+        {
+          "divisor": [
+            2,
+            1,
+            1
+          ],
+          "remainder": [
+            0,
+            2
+          ]
+        },
+        {
+          "divisor": [
+            2,
+            2,
+            1
+          ],
+          "remainder": [
+            2,
+            1
+          ]
+        }
+      ],
+      "normalized_coefficients": [
+        [
+          1,
+          1
+        ],
+        [
+          28,
+          17
+        ],
+        [
+          38,
+          17
+        ],
+        [
+          28,
+          17
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "p": 23,
+      "coefficients_ascending": [
+        279841,
+        27508,
+        1702,
+        52,
+        1
+      ],
+      "mod3_remainders": [
+        {
+          "divisor": [
+            0,
+            1
+          ],
+          "remainder": [
+            1
+          ]
+        },
+        {
+          "divisor": [
+            1,
+            1
+          ],
+          "remainder": [
+            1
+          ]
+        },
+        {
+          "divisor": [
+            2,
+            1
+          ],
+          "remainder": [
+            2
+          ]
+        },
+        {
+          "divisor": [
+            0,
+            0,
+            1
+          ],
+          "remainder": [
+            1,
+            1
+          ]
+        },
+        {
+          "divisor": [
+            0,
+            1,
+            1
+          ],
+          "remainder": [
+            1
+          ]
+        },
+        {
+          "divisor": [
+            0,
+            2,
+            1
+          ],
+          "remainder": [
+            1,
+            1
+          ]
+        },
+        {
+          "divisor": [
+            1,
+            0,
+            1
+          ],
+          "remainder": [
+            1
+          ]
+        },
+        {
+          "divisor": [
+            1,
+            1,
+            1
+          ],
+          "remainder": [
+            1,
+            1
+          ]
+        },
+        {
+          "divisor": [
+            1,
+            2,
+            1
+          ],
+          "remainder": [
+            2,
+            1
+          ]
+        },
+        {
+          "divisor": [
+            2,
+            0,
+            1
+          ],
+          "remainder": [
+            0,
+            2
+          ]
+        },
+        {
+          "divisor": [
+            2,
+            1,
+            1
+          ],
+          "remainder": [
+            0,
+            2
+          ]
+        },
+        {
+          "divisor": [
+            2,
+            2,
+            1
+          ],
+          "remainder": [
+            2,
+            1
+          ]
+        }
+      ],
+      "normalized_coefficients": [
+        [
+          1,
+          1
+        ],
+        [
+          52,
+          23
+        ],
+        [
+          74,
+          23
+        ],
+        [
+          52,
+          23
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    }
+  ]
+}

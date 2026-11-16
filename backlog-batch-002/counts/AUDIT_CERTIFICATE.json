@@ -1,0 +1,1080 @@
+{
+  "status": "PASS_RESTRICTED",
+  "outcome": "CERTIFIED_RANGE",
+  "records": [
+    "C174",
+    "C175",
+    "C176"
+  ],
+  "results": [
+    {
+      "field": "F17",
+      "certificate": {
+        "p": 17,
+        "e": 1,
+        "d": 0,
+        "q": 17,
+        "model": "W^2=(-y^2+8yz-8z^2)(7x^2+40xz+56z^2)(2x^2+3xy+y^2)",
+        "chart_sizes": [
+          289,
+          17,
+          1
+        ],
+        "fibres_sha256": "676e2561bebd3cf6f027e981c5bd892b01a0c938628f7c351e01ebe8770a3867",
+        "singular_count": 313,
+        "fibre_counts": {
+          "0": 104,
+          "1": 93,
+          "2": 110
+        },
+        "resolved_count": 568
+      },
+      "verification": {
+        "chart_sizes": [
+          289,
+          17,
+          1
+        ],
+        "chart_sums": [
+          293,
+          19,
+          1
+        ],
+        "points_checked": 307,
+        "geometry": {
+          "lines": [
+            [
+              0,
+              1,
+              8
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              7
+            ],
+            [
+              1,
+              0,
+              6
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "nodes": [
+            {
+              "pair": [
+                0,
+                1
+              ],
+              "point": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "pair": [
+                0,
+                2
+              ],
+              "point": [
+                1,
+                6,
+                12
+              ]
+            },
+            {
+              "pair": [
+                0,
+                3
+              ],
+              "point": [
+                1,
+                7,
+                14
+              ]
+            },
+            {
+              "pair": [
+                0,
+                4
+              ],
+              "point": [
+                1,
+                16,
+                15
+              ]
+            },
+            {
+              "pair": [
+                0,
+                5
+              ],
+              "point": [
+                1,
+                15,
+                13
+              ]
+            },
+            {
+              "pair": [
+                1,
+                2
+              ],
+              "point": [
+                1,
+                5,
+                12
+              ]
+            },
+            {
+              "pair": [
+                1,
+                3
+              ],
+              "point": [
+                1,
+                3,
+                14
+              ]
+            },
+            {
+              "pair": [
+                1,
+                4
+              ],
+              "point": [
+                1,
+                16,
+                1
+              ]
+            },
+            {
+              "pair": [
+                1,
+                5
+              ],
+              "point": [
+                1,
+                15,
+                2
+              ]
+            },
+            {
+              "pair": [
+                2,
+                3
+              ],
+              "point": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "pair": [
+                2,
+                4
+              ],
+              "point": [
+                1,
+                16,
+                12
+              ]
+            },
+            {
+              "pair": [
+                2,
+                5
+              ],
+              "point": [
+                1,
+                15,
+                12
+              ]
+            },
+            {
+              "pair": [
+                3,
+                4
+              ],
+              "point": [
+                1,
+                16,
+                14
+              ]
+            },
+            {
+              "pair": [
+                3,
+                5
+              ],
+              "point": [
+                1,
+                15,
+                14
+              ]
+            },
+            {
+              "pair": [
+                4,
+                5
+              ],
+              "point": [
+                0,
+                0,
+                1
+              ]
+            }
+          ],
+          "factor_scalar": -7
+        },
+        "singular_count": 313,
+        "resolved_count": 568
+      },
+      "controls": {
+        "negative_controls_detected": [
+          "wrong model",
+          "wrong field",
+          "missing infinity metadata",
+          "short payload",
+          "long payload",
+          "invalid root byte with new hash",
+          "same-total fibre swap with new hash",
+          "q+1 instead of q correction",
+          "reducible extension modulus"
+        ],
+        "negative_controls_scored": 9,
+        "positive_fixture_totals": {
+          "zero": 307,
+          "square_z6": 596,
+          "nonsquare_z6": 18
+        },
+        "nonsquare_element_id": 3
+      },
+      "historical_comparison": {
+        "path": "artifacts/m05_ej14_source_cycle174/basefield_certificate.json",
+        "sha256": "860674396e153725f5dba233807dbb33bb65f734e0284f1c0b1c64e159c4b1e4",
+        "verdict_match": true,
+        "historical_per_fibre_check": false
+      }
+    },
+    {
+      "field": "F23",
+      "certificate": {
+        "p": 23,
+        "e": 1,
+        "d": 0,
+        "q": 23,
+        "model": "W^2=(-y^2+8yz-8z^2)(7x^2+40xz+56z^2)(2x^2+3xy+y^2)",
+        "chart_sizes": [
+          529,
+          23,
+          1
+        ],
+        "fibres_sha256": "e18fc9b0bd4f55c97edb699697390919d2c84ab35de8a923368d3cc94e33a917",
+        "singular_count": 547,
+        "fibre_counts": {
+          "0": 215,
+          "1": 129,
+          "2": 209
+        },
+        "resolved_count": 892
+      },
+      "verification": {
+        "chart_sizes": [
+          529,
+          23,
+          1
+        ],
+        "chart_sums": [
+          525,
+          21,
+          1
+        ],
+        "points_checked": 553,
+        "geometry": {
+          "lines": [
+            [
+              0,
+              1,
+              9
+            ],
+            [
+              0,
+              1,
+              6
+            ],
+            [
+              1,
+              0,
+              8
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "nodes": [
+            {
+              "pair": [
+                0,
+                1
+              ],
+              "point": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "pair": [
+                0,
+                2
+              ],
+              "point": [
+                1,
+                4,
+                20
+              ]
+            },
+            {
+              "pair": [
+                0,
+                3
+              ],
+              "point": [
+                1,
+                9,
+                22
+              ]
+            },
+            {
+              "pair": [
+                0,
+                4
+              ],
+              "point": [
+                1,
+                22,
+                18
+              ]
+            },
+            {
+              "pair": [
+                0,
+                5
+              ],
+              "point": [
+                1,
+                21,
+                13
+              ]
+            },
+            {
+              "pair": [
+                1,
+                2
+              ],
+              "point": [
+                1,
+                18,
+                20
+              ]
+            },
+            {
+              "pair": [
+                1,
+                3
+              ],
+              "point": [
+                1,
+                6,
+                22
+              ]
+            },
+            {
+              "pair": [
+                1,
+                4
+              ],
+              "point": [
+                1,
+                22,
+                4
+              ]
+            },
+            {
+              "pair": [
+                1,
+                5
+              ],
+              "point": [
+                1,
+                21,
+                8
+              ]
+            },
+            {
+              "pair": [
+                2,
+                3
+              ],
+              "point": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "pair": [
+                2,
+                4
+              ],
+              "point": [
+                1,
+                22,
+                20
+              ]
+            },
+            {
+              "pair": [
+                2,
+                5
+              ],
+              "point": [
+                1,
+                21,
+                20
+              ]
+            },
+            {
+              "pair": [
+                3,
+                4
+              ],
+              "point": [
+                1,
+                22,
+                22
+              ]
+            },
+            {
+              "pair": [
+                3,
+                5
+              ],
+              "point": [
+                1,
+                21,
+                22
+              ]
+            },
+            {
+              "pair": [
+                4,
+                5
+              ],
+              "point": [
+                0,
+                0,
+                1
+              ]
+            }
+          ],
+          "factor_scalar": -7
+        },
+        "singular_count": 547,
+        "resolved_count": 892
+      },
+      "controls": {
+        "negative_controls_detected": [
+          "wrong model",
+          "wrong field",
+          "missing infinity metadata",
+          "short payload",
+          "long payload",
+          "invalid root byte with new hash",
+          "same-total fibre swap with new hash",
+          "q+1 instead of q correction",
+          "reducible extension modulus"
+        ],
+        "negative_controls_scored": 9,
+        "positive_fixture_totals": {
+          "zero": 553,
+          "square_z6": 1082,
+          "nonsquare_z6": 24
+        },
+        "nonsquare_element_id": 5
+      },
+      "historical_comparison": {
+        "path": "artifacts/m05_ej14_source_cycle174/basefield_certificate.json",
+        "sha256": "860674396e153725f5dba233807dbb33bb65f734e0284f1c0b1c64e159c4b1e4",
+        "verdict_match": true,
+        "historical_per_fibre_check": false
+      }
+    },
+    {
+      "field": "F289",
+      "certificate": {
+        "p": 17,
+        "e": 2,
+        "d": 3,
+        "q": 289,
+        "model": "W^2=(-y^2+8yz-8z^2)(7x^2+40xz+56z^2)(2x^2+3xy+y^2)",
+        "chart_sizes": [
+          83521,
+          289,
+          1
+        ],
+        "fibres_sha256": "bc55393cfe17efc362b81cf3636c5398d8fdb3dbd5a809002f5974131b99bfc2",
+        "singular_count": 83881,
+        "fibre_counts": {
+          "0": 41008,
+          "1": 1725,
+          "2": 41078
+        },
+        "resolved_count": 88216
+      },
+      "verification": {
+        "chart_sizes": [
+          83521,
+          289,
+          1
+        ],
+        "chart_sums": [
+          83593,
+          287,
+          1
+        ],
+        "points_checked": 83811,
+        "geometry": {
+          "lines": [
+            [
+              0,
+              1,
+              8
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              7
+            ],
+            [
+              1,
+              0,
+              6
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "nodes": [
+            {
+              "pair": [
+                0,
+                1
+              ],
+              "point": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "pair": [
+                0,
+                2
+              ],
+              "point": [
+                1,
+                6,
+                12
+              ]
+            },
+            {
+              "pair": [
+                0,
+                3
+              ],
+              "point": [
+                1,
+                7,
+                14
+              ]
+            },
+            {
+              "pair": [
+                0,
+                4
+              ],
+              "point": [
+                1,
+                16,
+                15
+              ]
+            },
+            {
+              "pair": [
+                0,
+                5
+              ],
+              "point": [
+                1,
+                15,
+                13
+              ]
+            },
+            {
+              "pair": [
+                1,
+                2
+              ],
+              "point": [
+                1,
+                5,
+                12
+              ]
+            },
+            {
+              "pair": [
+                1,
+                3
+              ],
+              "point": [
+                1,
+                3,
+                14
+              ]
+            },
+            {
+              "pair": [
+                1,
+                4
+              ],
+              "point": [
+                1,
+                16,
+                1
+              ]
+            },
+            {
+              "pair": [
+                1,
+                5
+              ],
+              "point": [
+                1,
+                15,
+                2
+              ]
+            },
+            {
+              "pair": [
+                2,
+                3
+              ],
+              "point": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "pair": [
+                2,
+                4
+              ],
+              "point": [
+                1,
+                16,
+                12
+              ]
+            },
+            {
+              "pair": [
+                2,
+                5
+              ],
+              "point": [
+                1,
+                15,
+                12
+              ]
+            },
+            {
+              "pair": [
+                3,
+                4
+              ],
+              "point": [
+                1,
+                16,
+                14
+              ]
+            },
+            {
+              "pair": [
+                3,
+                5
+              ],
+              "point": [
+                1,
+                15,
+                14
+              ]
+            },
+            {
+              "pair": [
+                4,
+                5
+              ],
+              "point": [
+                0,
+                0,
+                1
+              ]
+            }
+          ],
+          "factor_scalar": -7
+        },
+        "singular_count": 83881,
+        "resolved_count": 88216
+      },
+      "controls": {
+        "negative_controls_detected": [
+          "wrong model",
+          "wrong field",
+          "missing infinity metadata",
+          "short payload",
+          "long payload",
+          "invalid root byte with new hash",
+          "same-total fibre swap with new hash",
+          "q+1 instead of q correction",
+          "reducible extension modulus"
+        ],
+        "negative_controls_scored": 9,
+        "positive_fixture_totals": {
+          "zero": 83811,
+          "square_z6": 167332,
+          "nonsquare_z6": 290
+        },
+        "nonsquare_element_id": 17
+      },
+      "historical_comparison": {
+        "path": "artifacts/m05_f17sq_count_cycle175/count_certificate.json",
+        "sha256": "ff985c5e6128440cfe304f43ec39f0365eef3b6d3b18c47a67b2892bae7879b8",
+        "verdict_match": true,
+        "historical_per_fibre_check": true
+      }
+    },
+    {
+      "field": "F529",
+      "certificate": {
+        "p": 23,
+        "e": 2,
+        "d": 5,
+        "q": 529,
+        "model": "W^2=(-y^2+8yz-8z^2)(7x^2+40xz+56z^2)(2x^2+3xy+y^2)",
+        "chart_sizes": [
+          279841,
+          529,
+          1
+        ],
+        "fibres_sha256": "f3c407c85866bda603ccc4cca0aa4c47f068d3d45b0b805b2779991fb05a8664",
+        "singular_count": 280729,
+        "fibre_counts": {
+          "0": 138424,
+          "1": 3165,
+          "2": 138782
+        },
+        "resolved_count": 288664
+      },
+      "verification": {
+        "chart_sizes": [
+          279841,
+          529,
+          1
+        ],
+        "chart_sums": [
+          280201,
+          527,
+          1
+        ],
+        "points_checked": 280371,
+        "geometry": {
+          "lines": [
+            [
+              0,
+              1,
+              9
+            ],
+            [
+              0,
+              1,
+              6
+            ],
+            [
+              1,
+              0,
+              8
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "nodes": [
+            {
+              "pair": [
+                0,
+                1
+              ],
+              "point": [
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "pair": [
+                0,
+                2
+              ],
+              "point": [
+                1,
+                4,
+                20
+              ]
+            },
+            {
+              "pair": [
+                0,
+                3
+              ],
+              "point": [
+                1,
+                9,
+                22
+              ]
+            },
+            {
+              "pair": [
+                0,
+                4
+              ],
+              "point": [
+                1,
+                22,
+                18
+              ]
+            },
+            {
+              "pair": [
+                0,
+                5
+              ],
+              "point": [
+                1,
+                21,
+                13
+              ]
+            },
+            {
+              "pair": [
+                1,
+                2
+              ],
+              "point": [
+                1,
+                18,
+                20
+              ]
+            },
+            {
+              "pair": [
+                1,
+                3
+              ],
+              "point": [
+                1,
+                6,
+                22
+              ]
+            },
+            {
+              "pair": [
+                1,
+                4
+              ],
+              "point": [
+                1,
+                22,
+                4
+              ]
+            },
+            {
+              "pair": [
+                1,
+                5
+              ],
+              "point": [
+                1,
+                21,
+                8
+              ]
+            },
+            {
+              "pair": [
+                2,
+                3
+              ],
+              "point": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "pair": [
+                2,
+                4
+              ],
+              "point": [
+                1,
+                22,
+                20
+              ]
+            },
+            {
+              "pair": [
+                2,
+                5
+              ],
+              "point": [
+                1,
+                21,
+                20
+              ]
+            },
+            {
+              "pair": [
+                3,
+                4
+              ],
+              "point": [
+                1,
+                22,
+                22
+              ]
+            },
+            {
+              "pair": [
+                3,
+                5
+              ],
+              "point": [
+                1,
+                21,
+                22
+              ]
+            },
+            {
+              "pair": [
+                4,
+                5
+              ],
+              "point": [
+                0,
+                0,
+                1
+              ]
+            }
+          ],
+          "factor_scalar": -7
+        },
+        "singular_count": 280729,
+        "resolved_count": 288664
+      },
+      "controls": {
+        "negative_controls_detected": [
+          "wrong model",
+          "wrong field",
+          "missing infinity metadata",
+          "short payload",
+          "long payload",
+          "invalid root byte with new hash",
+          "same-total fibre swap with new hash",
+          "q+1 instead of q correction",
+          "reducible extension modulus"
+        ],
+        "negative_controls_scored": 9,
+        "positive_fixture_totals": {
+          "zero": 280371,
+          "square_z6": 560212,
+          "nonsquare_z6": 530
+        },
+        "nonsquare_element_id": 24
+      },
+      "historical_comparison": {
+        "path": "artifacts/m05_f23sq_count_cycle176/count_certificate.json",
+        "sha256": "d0fcf04fc231406192e436c105d10b274f7170077d3d84feec2f9ef8784009ad",
+        "verdict_match": true,
+        "historical_per_fibre_check": true
+      }
+    }
+  ],
+  "total_projective_points": 365042,
+  "negative_controls_detected": 36,
+  "code_sha256": "fa23456abd578a8d1bcea1b97b30b2ddb6540bf90c16525efc42590897855df6",
+  "claim_ceiling": "Four literal singular double-plane counts and explicit15-node resolution correction only; not a rank/RM/Frobenius/Hodge proof.",
+  "independence": "Fresh algorithms, same exposed actor/model/Python integers; nonblind, no external human or formal verification."
+}

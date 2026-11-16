@@ -1,0 +1,34 @@
+{
+  "status": "PASS_RESTRICTED",
+  "records": [
+    "M12-EXCESS-IDENTITY-C170",
+    "M12-TYPED-COVERING-C172"
+  ],
+  "outcome": "PROVED",
+  "claim_ceiling": "The exact universal finite-simple-graph identity and the46vertex degree21..24threshold implication/corollary in the linked proofs. No R(5,5)global result.",
+  "controls": {
+    "complete_graph_orders": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "graphs_checked": 76,
+    "centre_membership_faults_detectable": 75,
+    "centre_empty_equivalent": 1,
+    "threshold_cases": 4,
+    "exact_margins": {
+      "21": 2,
+      "22": 1,
+      "23": 1,
+      "24": 2
+    },
+    "analytic_proof_required_for_all_n": true
+  },
+  "analytic_proof_review": "Two complete count derivations; endpoint n0,1,2; nonneighbor centre exclusion; exact weak/strict boundary; complementary degree partition; Ramsey type corollary only with its explicit additional hypothesis.",
+  "external_human_review": false,
+  "formal_verification": false,
+  "nonblind": true,
+  "code_sha256": "3adf666c3102c17a4944c5286f91fa971454d2a6dd4b482c0d4391b819901b0f"
+}

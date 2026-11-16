@@ -1,0 +1,21 @@
+# References and attribution
+
+Harel Talasazan and HTYT Enterprises LLC direct, commission and steward Open Problems Frontier. Codex (OpenAI) supplied the present AI-assisted proof review, exact-checker implementation, adversarial controls, documentation and publication checks. Claude (Anthropic) retains its documented historical mathematical/formalization assistance and nonblind M07-review credit; Claude did not perform a new audit of this package. Original academic authors and software contributors retain their work and priority. These roles do not imply human expert review, institutional endorsement or a novel solution of an open conjecture.
+
+## Mathematical sources
+
+- Pierre Deligne, [The Hodge Conjecture](https://www.claymath.org/wp-content/uploads/2022/06/hodge.pdf), especially physical pages1–2for rational classes/divisor algebraicity and page4for Hodge-compatible Künneth decomposition. This supplies named standard inputs; the surface-times-projective-space combination is a known restricted case. GAGA, Poincaré duality, projective-space cohomology and cycle-class functoriality are explicit imported standard theorems.
+- Andreas-Stephan Elsenhans and Jörg Jahnel, [Examples of K3 surfaces with real multiplication](https://arxiv.org/abs/1402.4555v2), LMS Journal of Computation and Mathematics17(Special issueA),2014,14–35, [DOI10.1112/S1461157014000199](https://doi.org/10.1112/S1461157014000199). The family formula is in [Theorem6.3 and the named rank/RM theorem in6.6](https://arxiv.org/html/1402.4555v2#S6). Published physical page18(printed31) supplies the literal counts/quartics. The public reading editions reproduce selected finite arithmetic and algebra, not the full rank/RM proof. No PDF or whole third-party paper is redistributed here.
+- Serre's normality criterion, standard properties of blowups and the exceptional conic of an ordinary double point are the stated geometric imports for the resolution correction. The local charts, nonsquare-unit case, conic point count and normal degree are shown in the proof. The cohomological16-class assertion from historical C181 is outside this audit.
+
+## Local research lineage
+
+Six candidate identifiers from the118-record historical snapshot are covered: M05-SURFACE-PROJECTIVE-C149; M05-ISOMETRY-SPAN-C150; M05-S1-F17-F23-C174; M05-S1-F289-COUNT-C175; M05-S1-F529-COUNT-C176; M05-QUARTICS-NONCYCLOTOMIC-C178. Their original sealed proofs/certificates remain under the project folder; [input hashes](INPUT_LINEAGE.json) identify them. These are new reading editions and fresh exact rechecks. Source-currentness language in C149 is made historical; C150's real-scalar/composition distinction is clarified. No sealed historical artifact was rewritten.
+
+All checks are nonblind and performed by the same exposed actor. Different arithmetic paths share the literal model and Python's integer backend. No external mathematical reviewer or formal kernel was involved. Scientific cumulative path/content/source/estate totals remain UNKNOWN. Individual source lookups and repeated local reads do not establish comprehensive literature coverage.
+
+## Graph counting sources and scope
+
+- Vigleik Angeltveit and Brendan D. McKay, [R(5,5)<=46, version2](https://arxiv.org/html/2409.15709v2), equation1.2and its threshold method supply historical context. The two released proofs derive the identity and the explicit local implication without importing the paper's large computational census or full upper-bound proof.
+- [McKay's Ramsey data](https://users.cecs.anu.edu.au/~bdm/data/ramsey.html) is the historical source of the first42vertex seed; the collection credits Geoffrey Exoo and McKay/Radziszowski for constructions/expansion. The source-input-dependent C168/C169/C171packages are held locally pending the retained source-redistribution admission question; no curator data file is mirrored in this release.
+- [NetworkX graph6implementation at commit3739ec9](https://github.com/networkx/networkx/blob/3739ec9b18de3cf217ccb7510fefec76b79578ef/networkx/readwrite/graph6.py), lines1–150, was inspected as a primary open-source cross-check of column-major edge order, six-bit groups and right padding after writing the new local checker. It was not executed or copied as a dependency. Its original author header credits D. Eppstein; NetworkX contributors retain software credit.

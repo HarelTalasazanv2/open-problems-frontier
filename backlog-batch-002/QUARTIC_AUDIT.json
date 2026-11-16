@@ -1,0 +1,19 @@
+{
+  "status": "PASS_RESTRICTED",
+  "outcome": "PROVED",
+  "record": "M05-QUARTICS-NONCYCLOTOMIC-C178",
+  "polynomial_cases": 2,
+  "divisor_cases": 24,
+  "negative_controls_detected": [
+    "missing instance",
+    "duplicate instance",
+    "wrong coefficient",
+    "missing divisor",
+    "duplicate divisor",
+    "wrong nonzero remainder",
+    "wrong scaling"
+  ],
+  "analytic_control": "Reducible nonintegral normalized polynomial retains2-times cube roots of unity; irreducibility hypothesis is essential.",
+  "code_sha256": "854ce9a8864663b85bda5c27638e70201f1fa15e661fd50d70481c4a10df88d0",
+  "claim_ceiling": "Literal polynomial irreducibility and all-orders p-times-root-of-unity exclusion only. No actual Frobenius-factor identification or rank/RM consequence."
+}

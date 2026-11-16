@@ -4,3 +4,4 @@ Research directed and commissioned by Harel Talasazan, HTYT Enterprises LLC. Cod
 
 - [Cycle197references and precise roles](cycle-197/REFERENCES.md)
 - [Backlog batch001references and precise roles](backlog-batch-001/REFERENCES.md)
+- [Backlog batch002references and precise roles](backlog-batch-002/REFERENCES.md)

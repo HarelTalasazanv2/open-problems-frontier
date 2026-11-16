@@ -1,0 +1,71 @@
+{
+  "verdict": "PASS_AT_CLAIM_CEILING",
+  "certificate": {
+    "full": {
+      "rows": 57,
+      "columns": 63,
+      "rhs": "-2",
+      "multiplier_l1": 17,
+      "residual_bound": "2/17",
+      "nonzero_columns": [
+        32,
+        48
+      ]
+    },
+    "without_lower_degree_rows": {
+      "rows": 51,
+      "columns": 57,
+      "rhs": "-2",
+      "multiplier_l1": 17,
+      "residual_bound": "2/17",
+      "nonzero_columns": [
+        26,
+        42
+      ]
+    }
+  },
+  "classes": 50,
+  "vertex_decisions": 300,
+  "excluded_classes": [
+    685
+  ],
+  "excluded_labeled": 360,
+  "remaining_classes": 49,
+  "remaining_labeled": 14872,
+  "census": {
+    "mask_domain": 32768,
+    "admissible_masks": 22484,
+    "orbits": 84,
+    "permutations_per_orbit": 720,
+    "all_members_recomputed": true
+  },
+  "formal_verification": "NOT_TESTED",
+  "external_expert_review": "NOT_TESTED",
+  "controls": {
+    "selected_invalid_controls": 17,
+    "rejected": [
+      "missing_class",
+      "duplicate_class",
+      "missing_vertex",
+      "duplicate_vertex",
+      "wrong_capacity_sum",
+      "wrong_population",
+      "negative_certificate",
+      "short_certificate",
+      "missing_orbit",
+      "duplicate_orbit",
+      "global_promotion",
+      "missing_source_mask",
+      "duplicate_source_mask",
+      "feasible_false_cone",
+      "zero_cone_margin",
+      "float_matrix",
+      "boolean_weight"
+    ],
+    "zero_margin_655_not_excluded": true,
+    "limit": "Selected cases, not exhaustive software verification."
+  },
+  "python": "3.12.14",
+  "optimization": 0,
+  "independence": "Fresh code; same actor, exposed original conclusions and inputs; nonblind."
+}

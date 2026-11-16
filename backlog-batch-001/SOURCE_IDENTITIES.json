@@ -1,0 +1,362 @@
+{
+  "original_project_inputs": {
+    "artifacts/m12_a6_orbits_cycle188/a6_orbit_ledger.json": {
+      "bytes": 626873,
+      "sha256": "969e8811bb8a45ad7121e38b2e76ef184c1b21fd62dc71deb3c645e91d9cd366"
+    },
+    "artifacts/m12_partition_family_cycle196/membership.json": {
+      "bytes": 11881,
+      "sha256": "0c632a4e0c246c74bea6fac4ad1217e1ddcb87528d213f402cf81a1ddd0d4399"
+    },
+    "artifacts/m12_base663_cycle195/base_model.json": {
+      "bytes": 48270,
+      "sha256": "8f9e476a13da0b38846dcfde0ba293027b0fd70e5ad2cb8b584ac4fefe022f0f"
+    },
+    "artifacts/m12_base663_cycle195/base_certificate.json": {
+      "bytes": 569,
+      "sha256": "ddc79de83965b9da7874b4acf1331cfa96f5d5097a017f36d227b7a21e8a14f2"
+    },
+    "artifacts/m12_base663_cycle195/residual.json": {
+      "bytes": 4741,
+      "sha256": "dccd4a4e21cc238d51bb033ee375e52af857d4e3d65b15a97a1daa657dd27de7"
+    },
+    "artifacts/m12_partition_family_cycle196/model_671.json": {
+      "bytes": 47092,
+      "sha256": "dc6a0904a466ec6211e92fb4aed46bc5d48804b1c48c9b79cd5c99772bc82549"
+    },
+    "artifacts/m12_partition_family_cycle196/certificate_671.json": {
+      "bytes": 541,
+      "sha256": "75391d9c14d431ebb99f86ca1b3e46e85229ab88721cec35749062f78e8d40e5"
+    },
+    "artifacts/m12_partition_family_cycle196/residual.json": {
+      "bytes": 1958,
+      "sha256": "1c62dc5640743ae2f6113a3185722ab061d7ff033628275f1e848ccc8fc00e8a"
+    },
+    "artifacts/m12_class633_20261115/base_model.json": {
+      "bytes": 45763,
+      "sha256": "f4686d12d47ba4c649a2065759ffa69a63d1731cbab2a56453ce60a769393c5e"
+    },
+    "artifacts/m12_class633_20261115/base_certificate.json": {
+      "bytes": 549,
+      "sha256": "29a9cec7e8db7365ea2b6c24d89b387b8f3eb1e5345ecacd1bb96b797b5f3a02"
+    },
+    "artifacts/m12_class633_20261115/full_model.json": {
+      "bytes": 106029,
+      "sha256": "febba47bf1684991f89c919ac7b54d93f591f1455a948a0412d8e390a8b4f5e6"
+    },
+    "artifacts/m12_class633_20261115/full_certificate.json": {
+      "bytes": 802,
+      "sha256": "82d0b38bf7bb3a73800781e84c61be310e5d56e77ae368c21308f25347b18b57"
+    },
+    "artifacts/m12_class633_20261115/upper_only_model.json": {
+      "bytes": 94581,
+      "sha256": "28eff27f7be52e7d21aa7ec61b85b9d242be02fee5c0621c36e19437ba248a60"
+    },
+    "artifacts/m12_class633_20261115/upper_only_certificate.json": {
+      "bytes": 766,
+      "sha256": "ab53aa9721b3b1d56b746159ed29ad22ac9f8f525c87170bb14fa06e264fc5d2"
+    },
+    "artifacts/m12_class633_20261115/residual.json": {
+      "bytes": 2872,
+      "sha256": "7d2536785d1d989429f671204947b80bbbe75db663abf5e78604e3d58e565618"
+    },
+    "artifacts/m12_class635_20261115/base_model.json": {
+      "bytes": 44467,
+      "sha256": "9bf0f8e5afcdc4a97070c35f478b21ab48e08ee01387508f6801e3b4d6d3418e"
+    },
+    "artifacts/m12_class635_20261115/base_witness.json": {
+      "bytes": 1134,
+      "sha256": "da25247f372a5be6569802d5e2d647c79342510b3f9aba8241a0cdd456212ebb"
+    },
+    "artifacts/m12_class635_20261115/full_model.json": {
+      "bytes": 96309,
+      "sha256": "7c707bf5562cc8e81a440dd29a24ecfad047ffc2896c110b818cbe235df20540"
+    },
+    "artifacts/m12_class635_20261115/full_certificate.json": {
+      "bytes": 775,
+      "sha256": "5d011fc33363aad7658391ece66d244c094fcc1837ad3c32c012ea6cbac38b54"
+    },
+    "artifacts/m12_class635_20261115/upper_only_model.json": {
+      "bytes": 85401,
+      "sha256": "fa84e6a3a36cec8802966096cba1ae8fead7d853b041908e5b1555b7ca6408e3"
+    },
+    "artifacts/m12_class635_20261115/upper_only_certificate.json": {
+      "bytes": 739,
+      "sha256": "22637135208b93df541353f9b31735655206743800f14e75a475867123252fae"
+    },
+    "artifacts/m12_class635_20261115/residual.json": {
+      "bytes": 2881,
+      "sha256": "5a98185dd1d1be5646f52d1cce7d147cbc06c4dfec593c3b1fe6a1109857d43e"
+    },
+    "artifacts/m12_class655_20261115/base_model.json": {
+      "bytes": 48278,
+      "sha256": "e3e7fc09513fa15e4865eac1288a4d8427bfe9d59d709f4d7099ced05ae1cfca"
+    },
+    "artifacts/m12_class655_20261115/base_witness.json": {
+      "bytes": 1167,
+      "sha256": "96418b310435b9f57d5a41c84d33e7cc19612726d48dc3c55298ec1bc71ae84b"
+    },
+    "artifacts/m12_class655_20261115/full_model.json": {
+      "bytes": 109516,
+      "sha256": "393b135449b4b2292d4a879ee8a9aa4ecb8bc197982bd2d0683472995da3dfcc"
+    },
+    "artifacts/m12_class655_20261115/full_certificate.json": {
+      "bytes": 823,
+      "sha256": "a6f61f9469593cc310f2e5da3dd9ed1c035ce567354ceec18f3962960e924ad5"
+    },
+    "artifacts/m12_class655_20261115/without_lower0_model.json": {
+      "bytes": 107545,
+      "sha256": "a11f3a532763bd19b2a5c75b31b2290d6c75bf8e3f40b4de236f6c45c8577265"
+    },
+    "artifacts/m12_class655_20261115/without_lower0_witness.json": {
+      "bytes": 1667,
+      "sha256": "e4d417555d4635cd8d0c2d6fd85736658b9cc8f948ebedb898893bfc63445d46"
+    },
+    "artifacts/m12_class655_20261115/residual.json": {
+      "bytes": 1904,
+      "sha256": "2d3399d1207c0f4368542b74e32c6fd54c2a5eac2091abb1e3d4debee492ec0b"
+    },
+    "artifacts/m12_mixed_model_cycle193/residual.json": {
+      "bytes": 4773,
+      "sha256": "440c2e35ebab7855c2d605ffe59ae821f4faf113aeffb7b7f8e352fd7322e428"
+    },
+    "artifacts/m12_vertex_symmetry_cycle186/PROOF_REFINEMENT_02.md": {
+      "bytes": 5503,
+      "sha256": "01d55e9a1ac0d171ffe2d32912930785200cb7b3c8e3c10026c92b3cb83d7d6f"
+    },
+    "artifacts/m12_d6_occupancy_cycle187/PROOF.md": {
+      "bytes": 6222,
+      "sha256": "3006c3a40de4197ad9d617f235835fd7fa5f0b97d3755a4cc2eb8e2a1ea1894f"
+    },
+    "artifacts/m12_a6_orbits_cycle188/PROOF.md": {
+      "bytes": 6283,
+      "sha256": "63f33aa6f90cbcf999f8774f5999110bd16af545927f345dce52d098b0c40822"
+    },
+    "artifacts/m12_base663_cycle195/PROOF.md": {
+      "bytes": 7580,
+      "sha256": "f04185d0e316b11f3f7352766f86bf4247523df6fb7fd9631c9e1622f3001a41"
+    },
+    "artifacts/m12_partition_family_cycle196/PROOF.md": {
+      "bytes": 7927,
+      "sha256": "42eb409e51e94a468d627753c41e3187dde27e31e569e8c0ea7c9a3624d56be3"
+    },
+    "artifacts/m12_class633_20261115/PROOF.md": {
+      "bytes": 10906,
+      "sha256": "ee8aa8a388377e3c83cfe14a1c8d7e5c6e03b8dc731172a82ca33e8c7e87eac3"
+    },
+    "artifacts/m12_class635_20261115/PROOF.md": {
+      "bytes": 6255,
+      "sha256": "eb6357e6c4417736a16221563327b6130d40f7d379b2eca96160f4558a0cb115"
+    },
+    "artifacts/m12_class655_20261115/PROOF.md": {
+      "bytes": 7134,
+      "sha256": "e0c0c68b75b20f3be8bf1a6a5e9c1371727e982f45a925e9fb2d3dc30a65e095"
+    },
+    "reviews/2026-11-16-github-cycle197-audit/release/verify_v2.py": {
+      "bytes": 13104,
+      "sha256": "ef689d9a996eda359bae39316aa590cb291a382f690c22e9327d7002d2e80847"
+    },
+    "artifacts/m12_e5_support_cycle189/pair_model.json": {
+      "bytes": 5064,
+      "sha256": "87f2a554d95d89b26db3715f94521abfb2fd6ceb92b2069ea162111a871af7f7"
+    },
+    "artifacts/m12_e5_support_cycle189/row_certificate.json": {
+      "bytes": 325,
+      "sha256": "22a762f30184a01712952b38fb0ce01f361785f5a3572eb73ae705f1e115668e"
+    },
+    "artifacts/m12_e5_support_cycle189/residual_update.json": {
+      "bytes": 1739,
+      "sha256": "612a84ddbc61c6b8396b0851c0131959b47d9cf1107259e69bc8679ddd931e14"
+    },
+    "artifacts/m12_e5_cone_cycle190/pair_model.json": {
+      "bytes": 4834,
+      "sha256": "59c024c6a26efab37273f1df24aaf98a02c3e33f739d2680fc55111143a7b220"
+    },
+    "artifacts/m12_e5_cone_cycle190/cone_certificate.json": {
+      "bytes": 318,
+      "sha256": "1186a1a5b1175e8c0aff65d1e6da04bc05ffd5be51a49c5327b1694642414709"
+    },
+    "artifacts/m12_e5_cone_cycle190/signed_witness.json": {
+      "bytes": 311,
+      "sha256": "025ce43b8b1cc6f582a127ae8896583472e9dd77f10edba2fd8fb77898a3e7be"
+    },
+    "artifacts/m12_e5_cone_cycle190/residual_update.json": {
+      "bytes": 4809,
+      "sha256": "c178e963d440518117243aca876c7a821f7a208f63de6a6f7755ce9106e30c35"
+    },
+    "artifacts/m12_e5_cover_cycle191/pair_model.json": {
+      "bytes": 3972,
+      "sha256": "dcd5f6a5ea334ae9dfcd17c8cba43260a6af670701f694ae19b99d95e6de1e3c"
+    },
+    "artifacts/m12_e5_cover_cycle191/cone_certificate.json": {
+      "bytes": 464,
+      "sha256": "b25762856492e803151869fdffa193a4e5c829eec1772e1282e23fa2d4160c60"
+    },
+    "artifacts/m12_e5_cover_cycle191/signed_witness.json": {
+      "bytes": 310,
+      "sha256": "a0c574ff9d45332046075dd9d2222bd6d503782cd2ebda0ace00ffb4a1054a7d"
+    },
+    "artifacts/m12_e5_cover_cycle191/residual_update.json": {
+      "bytes": 1685,
+      "sha256": "e78668393b2828f090c0e7fbcb90f0262dafd3f53fbdff85abe629bc9f86113d"
+    },
+    "artifacts/m12_e5_family_cycle192/family_ledger.json": {
+      "bytes": 139730,
+      "sha256": "f4bffc9e641f6e093631bafd70516c62ddc3ce38600c5a341a7bd57224433d79"
+    },
+    "artifacts/m12_e5_family_cycle192/family_certificate.json": {
+      "bytes": 3900,
+      "sha256": "859f54c2c19eaa6456a80289b46e68cadb2a3a7e64f360489029325456b23323"
+    },
+    "artifacts/m12_e5_family_cycle192/residual_update.json": {
+      "bytes": 1094,
+      "sha256": "ccae2c43d087cdad50981430577b8c1e08225eefbd6ab8c947110adcc68a7598"
+    },
+    "artifacts/m12_mixed_model_cycle193/model.json": {
+      "bytes": 49338,
+      "sha256": "e10363b6e57100d644c27ee8ca109af817bb14809e2a3c7c3ddc180777a31dcd"
+    },
+    "artifacts/m12_mixed_model_cycle193/certificate.json": {
+      "bytes": 558,
+      "sha256": "879a373643728a6ffecd26acc7c858d08be86a3af209248a35e4ddd7ea7640ab"
+    },
+    "artifacts/convex_full_review_20261115T2150Z/capacity_mode_0.json": {
+      "bytes": 25032,
+      "sha256": "38b332078878ed2db91d37437fde4fe06b14ba9de859bb0393d7fd6ec3cdab9d"
+    },
+    "artifacts/convex_full_review_20261115T2150Z/aggregate_mode_0.json": {
+      "bytes": 1224,
+      "sha256": "a3ded9b17e8e8419e2ed15f1d320c52d759ed0bc621f6ad82b167bab6ddb7e22"
+    },
+    "artifacts/convex_full_review_20261115T2150Z/residual_update.json": {
+      "bytes": 8982,
+      "sha256": "06f678136f35f8bea2c7fa94b21e8507c06165b89fc8d9f86c2c5f362acbd08f"
+    },
+    "artifacts/convex_full_review_20261115T2150Z/residual_after_662.json": {
+      "bytes": 2957,
+      "sha256": "0b692f2510ba4875494ae44f07f6e8f434ed5c4b6564434fe136f458fdc5c4d9"
+    },
+    "artifacts/m12_e5_support_cycle189/PROOF.md": {
+      "bytes": 4956,
+      "sha256": "b66d2cf5cadf22ca9191b89878192502673b3c699fd6863366a0fac3c8197845"
+    },
+    "artifacts/m12_e5_cone_cycle190/PROOF.md": {
+      "bytes": 6936,
+      "sha256": "16707d5d2a3d16c194415609666e296fdc7eef5cf45bfabdcf34da199ba16f71"
+    },
+    "artifacts/m12_e5_cover_cycle191/PROOF.md": {
+      "bytes": 6660,
+      "sha256": "5bde4128b4af75d10ded09df8bf39e56dae0a7a3886a2b1d48c036b220446892"
+    },
+    "artifacts/m12_e5_family_cycle192/PROOF.md": {
+      "bytes": 5432,
+      "sha256": "25be5306e8564da7f27271ebf8dfb23d4e218e7d6f4d37941e7783966e7640a4"
+    },
+    "artifacts/m12_mixed_model_cycle193/PROOF.md": {
+      "bytes": 6017,
+      "sha256": "213a93e62d8b34d0d9d2ba725aa85f56a3cc6cc4c56d19ba2086a6180976de28"
+    },
+    "artifacts/convex_full_review_20261115T2150Z/PROOF.md": {
+      "bytes": 5820,
+      "sha256": "60beb103fe01eed7b1f310fff7bfa1810d24cf7584e424fa6fc4e4886c6dcbdf"
+    },
+    "artifacts/convex_full_review_20261115T2150Z/PROOF_662.md": {
+      "bytes": 2987,
+      "sha256": "d8e4f11ff03541efa39134fb0bed989796ff6dfd3e80964c9ffc250cd5952572"
+    }
+  },
+  "proof_reading_editions": [
+    {
+      "publication_path": "proofs/c186_degree_floor.md",
+      "original_project_path": "artifacts/m12_vertex_symmetry_cycle186/PROOF_REFINEMENT_02.md",
+      "original_sha256": "01d55e9a1ac0d171ffe2d32912930785200cb7b3c8e3c10026c92b3cb83d7d6f",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c187_prism.md",
+      "original_project_path": "artifacts/m12_d6_occupancy_cycle187/PROOF.md",
+      "original_sha256": "3006c3a40de4197ad9d617f235835fd7fa5f0b97d3755a4cc2eb8e2a1ea1894f",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c188_orbits.md",
+      "original_project_path": "artifacts/m12_a6_orbits_cycle188/PROOF.md",
+      "original_sha256": "63f33aa6f90cbcf999f8774f5999110bd16af545927f345dce52d098b0c40822",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c189_684.md",
+      "original_project_path": "artifacts/m12_e5_support_cycle189/PROOF.md",
+      "original_sha256": "b66d2cf5cadf22ca9191b89878192502673b3c699fd6863366a0fac3c8197845",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c190_617.md",
+      "original_project_path": "artifacts/m12_e5_cone_cycle190/PROOF.md",
+      "original_sha256": "16707d5d2a3d16c194415609666e296fdc7eef5cf45bfabdcf34da199ba16f71",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c191_632.md",
+      "original_project_path": "artifacts/m12_e5_cover_cycle191/PROOF.md",
+      "original_sha256": "5bde4128b4af75d10ded09df8bf39e56dae0a7a3886a2b1d48c036b220446892",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c192_binary.md",
+      "original_project_path": "artifacts/m12_e5_family_cycle192/PROOF.md",
+      "original_sha256": "25be5306e8564da7f27271ebf8dfb23d4e218e7d6f4d37941e7783966e7640a4",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/manual_e5_capacity.md",
+      "original_project_path": "artifacts/convex_full_review_20261115T2150Z/PROOF.md",
+      "original_sha256": "60beb103fe01eed7b1f310fff7bfa1810d24cf7584e424fa6fc4e4886c6dcbdf",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/manual_e5_662.md",
+      "original_project_path": "artifacts/convex_full_review_20261115T2150Z/PROOF_662.md",
+      "original_sha256": "d8e4f11ff03541efa39134fb0bed989796ff6dfd3e80964c9ffc250cd5952572",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c193_619.md",
+      "original_project_path": "artifacts/m12_mixed_model_cycle193/PROOF.md",
+      "original_sha256": "213a93e62d8b34d0d9d2ba725aa85f56a3cc6cc4c56d19ba2086a6180976de28",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c633.md",
+      "original_project_path": "artifacts/m12_class633_20261115/PROOF.md",
+      "original_sha256": "ee8aa8a388377e3c83cfe14a1c8d7e5c6e03b8dc731172a82ca33e8c7e87eac3",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c635.md",
+      "original_project_path": "artifacts/m12_class635_20261115/PROOF.md",
+      "original_sha256": "eb6357e6c4417736a16221563327b6130d40f7d379b2eca96160f4558a0cb115",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c655.md",
+      "original_project_path": "artifacts/m12_class655_20261115/PROOF.md",
+      "original_sha256": "e0c0c68b75b20f3be8bf1a6a5e9c1371727e982f45a925e9fb2d3dc30a65e095",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c195_663.md",
+      "original_project_path": "artifacts/m12_base663_cycle195/PROOF.md",
+      "original_sha256": "f04185d0e316b11f3f7352766f86bf4247523df6fb7fd9631c9e1622f3001a41",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    },
+    {
+      "publication_path": "proofs/c196_671.md",
+      "original_project_path": "artifacts/m12_partition_family_cycle196/PROOF.md",
+      "original_sha256": "42eb409e51e94a468d627753c41e3187dde27e31e569e8c0ea7c9a3624d56be3",
+      "conversion": "Reading edition; standalone credit paragraphs moved to reference files; included file links mapped to package copies; omitted historical links retain their label without a broken hyperlink."
+    }
+  ],
+  "identity_is_not_truth": true,
+  "github_source_review": "Pinned references retained from the Cycle197source assessment; no Lean code executed or expert endorsement inferred."
+}

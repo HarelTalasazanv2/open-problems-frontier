@@ -1,0 +1,191 @@
+{
+  "verdict": "PASS_AT_CLAIM_CEILING",
+  "pair_certificates": [
+    {
+      "representative": 684,
+      "row_identity_rhs": 5
+    },
+    {
+      "representative": 617,
+      "rows": 16,
+      "columns": 15,
+      "rhs": "-2",
+      "multiplier_l1": 9,
+      "residual_bound": "2/9",
+      "nonzero_columns": [
+        4
+      ]
+    },
+    {
+      "representative": 632,
+      "rows": 13,
+      "columns": 15,
+      "rhs": "-2",
+      "multiplier_l1": 9,
+      "residual_bound": "2/9",
+      "nonzero_columns": [
+        14
+      ]
+    }
+  ],
+  "binary_weight_decisions": 256,
+  "binary_minima": [
+    {
+      "representative": 659,
+      "minimum": 10,
+      "cost_ten_boundary_masks": [
+        25,
+        38
+      ],
+      "allowed_types": 5
+    },
+    {
+      "representative": 662,
+      "minimum": 11,
+      "cost_ten_boundary_masks": [],
+      "allowed_types": 7
+    },
+    {
+      "representative": 692,
+      "minimum": 10,
+      "cost_ten_boundary_masks": [
+        21,
+        42
+      ],
+      "allowed_types": 6
+    },
+    {
+      "representative": 920,
+      "minimum": 10,
+      "cost_ten_boundary_masks": [
+        7,
+        11,
+        52,
+        56
+      ],
+      "allowed_types": 5
+    }
+  ],
+  "capacity_vertex_decisions": 24,
+  "individual_cap_certificates": [
+    {
+      "representative": 659,
+      "vertex": 1,
+      "rows": 22,
+      "columns": 20,
+      "rhs": "-1",
+      "multiplier_l1": 6,
+      "residual_bound": "1/6",
+      "nonzero_columns": [
+        16
+      ]
+    },
+    {
+      "representative": 659,
+      "vertex": 2,
+      "rows": 22,
+      "columns": 20,
+      "rhs": "-1",
+      "multiplier_l1": 6,
+      "residual_bound": "1/6",
+      "nonzero_columns": [
+        17
+      ]
+    },
+    {
+      "representative": 692,
+      "vertex": 0,
+      "rows": 22,
+      "columns": 21,
+      "rhs": "-1",
+      "multiplier_l1": 6,
+      "residual_bound": "1/6",
+      "nonzero_columns": [
+        15
+      ]
+    },
+    {
+      "representative": 692,
+      "vertex": 1,
+      "rows": 22,
+      "columns": 21,
+      "rhs": "-1",
+      "multiplier_l1": 6,
+      "residual_bound": "1/6",
+      "nonzero_columns": [
+        16
+      ]
+    },
+    {
+      "representative": 920,
+      "vertex": 2,
+      "rows": 22,
+      "columns": 20,
+      "rhs": "-2",
+      "multiplier_l1": 6,
+      "residual_bound": "1/3",
+      "nonzero_columns": [
+        19
+      ]
+    },
+    {
+      "representative": 920,
+      "vertex": 3,
+      "rows": 22,
+      "columns": 20,
+      "rhs": "-2",
+      "multiplier_l1": 6,
+      "residual_bound": "1/3",
+      "nonzero_columns": [
+        19
+      ]
+    }
+  ],
+  "aggregate662": {
+    "rows": 22,
+    "columns": 22,
+    "rhs": "-2",
+    "multiplier_l1": 16,
+    "residual_bound": "1/8",
+    "nonzero_columns": [
+      11,
+      13,
+      16
+    ]
+  },
+  "mixed619": {
+    "rows": 57,
+    "columns": 64,
+    "rhs": "-1",
+    "multiplier_l1": 13,
+    "residual_bound": "1/13",
+    "nonzero_columns": [
+      5,
+      20,
+      22,
+      23,
+      63
+    ]
+  },
+  "removed_orbits": {
+    "684": 72,
+    "617": 360,
+    "632": 60,
+    "659": 360,
+    "662": 180,
+    "692": 360,
+    "920": 45,
+    "619": 360
+  },
+  "selected_invalid_controls": [
+    "missing_binary_weight",
+    "duplicate_binary_weight",
+    "cost_ten_promoted",
+    "missing_pair_zero",
+    "invalid_common_cut",
+    "wrong_cone_sign",
+    "feasible_false_cone"
+  ],
+  "optimization": 0,
+  "limits": "Known outcomes; C197 basis engine reused. Same actor, nonblind. No full-target/novelty/external/formal/empirical-physics claim."
+}

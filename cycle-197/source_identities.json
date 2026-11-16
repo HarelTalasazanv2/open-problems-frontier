@@ -1,0 +1,151 @@
+{
+  "original_project_artifacts": {
+    "artifacts/m12_support_capacity_cycle197/PROOF.md": {
+      "bytes": 9304,
+      "sha256": "e07b1c9364a976493777ffda6bee900cc0694a1aec53c91ba8eaab5ee9126568"
+    },
+    "artifacts/m12_support_capacity_cycle197/base685_model.json": {
+      "bytes": 49242,
+      "sha256": "08725cc691130711c3d67e501089be94ba81f1bdd61177ac1dd0ab18295341b6"
+    },
+    "artifacts/m12_support_capacity_cycle197/base685_certificate.json": {
+      "bytes": 599,
+      "sha256": "aaf0c08ac1de7fcaefcfa1d29874ef2fbd1230a721620c9877dcac0121506014"
+    },
+    "artifacts/m12_support_capacity_cycle197/audit.json": {
+      "bytes": 178046,
+      "sha256": "1e825ebb656077d50a73306feb31853b3df3c2b7ddaea2e7ba6a3c1bae36132b"
+    },
+    "artifacts/m12_support_capacity_cycle197/result.json": {
+      "bytes": 1336,
+      "sha256": "9f74245d4bcbee682af962c3400d33e3423c7ff44c62fc756a1868eb2f3dde4f"
+    },
+    "artifacts/m12_support_capacity_cycle197/residual.json": {
+      "bytes": 4801,
+      "sha256": "8aceecefa621b6fab5cc7a7a3e4f4ab13d291d4f1abd78202e8d3f27d56b0dde"
+    },
+    "artifacts/m12_support_capacity_cycle197/capacity197.py": {
+      "bytes": 13497,
+      "sha256": "89b6d4923839878b94d2853028138f94d1c19db2b93cfe8b07361b648ae8a6bb"
+    },
+    "artifacts/m12_support_capacity_cycle197/confirm197.py": {
+      "bytes": 9057,
+      "sha256": "1eb0fdf880806dc30eab8038441747b65664992e2885d2607315cbda84f79c00"
+    },
+    "artifacts/m12_support_capacity_cycle197/artifact_manifest.json": {
+      "bytes": 21775,
+      "sha256": "46b365a0218d54a5b3d14f209336f86877b5385df3e7e9967cff3553ea6ae232"
+    },
+    "artifacts/m12_support_capacity_cycle197/closeout.json": {
+      "bytes": 6240,
+      "sha256": "bea18d5c64d885e71b81cf33c70a4ec820b805404aa6d68b7e9a638242713f79"
+    },
+    "artifacts/m12_support_capacity_cycle197/REFERENCES.md": {
+      "bytes": 3808,
+      "sha256": "a1079b1563d6195b53c6dbda80fe67c72a07da1a2a6d85f8d259f0662f73d2b2"
+    },
+    "artifacts/m12_support_capacity_cycle197/ATTRIBUTION.txt": {
+      "bytes": 1238,
+      "sha256": "8143b0fb50d37f5e2a299ba40227aaf81b7d4f8954d4cb9cd57c8d8b2221c428"
+    },
+    "artifacts/m12_partition_family_cycle196/residual.json": {
+      "bytes": 1958,
+      "sha256": "1c62dc5640743ae2f6113a3185722ab061d7ff033628275f1e848ccc8fc00e8a"
+    },
+    "artifacts/m12_a6_orbits_cycle188/a6_orbit_ledger.json": {
+      "bytes": 626873,
+      "sha256": "969e8811bb8a45ad7121e38b2e76ef184c1b21fd62dc71deb3c645e91d9cd366"
+    }
+  },
+  "identity_not_truth": true,
+  "github_sources": [
+    {
+      "repository": "arXiv/html_feedback",
+      "path": "README.md",
+      "commit": "24f34773a0d7f1f8aed7ab739b659a98bf53d324",
+      "github_blob_sha": "feb9f1828d6845285306fd4346b6d46449f6c24b",
+      "retrieved_text_sha256": "b767bfe494baedb25d6dc34214072a17bfc1f15ace9111e87f3d2f149111fc22",
+      "source_url": "https://github.com/arXiv/html_feedback/blob/24f34773a0d7f1f8aed7ab739b659a98bf53d324/README.md"
+    },
+    {
+      "repository": "google-deepmind/formal-conjectures",
+      "path": "FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Ramsey.lean",
+      "commit": "083f7d02c2eececd918155b2ba06981d2dd61b2f",
+      "github_blob_sha": "9ad9e73d898e9b0cca1db96f1c537466bc07f385",
+      "retrieved_text_sha256": "6e52e0b8c4bb54f0a6dc53035577f48d4866008c7c23151f0ded8f17d4a82a91",
+      "source_url": "https://github.com/google-deepmind/formal-conjectures/blob/083f7d02c2eececd918155b2ba06981d2dd61b2f/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Ramsey.lean"
+    },
+    {
+      "repository": "google-deepmind/formal-conjectures",
+      "path": "FormalConjectures/Wikipedia/RamseyNumbers.lean",
+      "commit": "083f7d02c2eececd918155b2ba06981d2dd61b2f",
+      "github_blob_sha": "6151c8120ba3055ae0610f0f21968b7b614873cd",
+      "retrieved_text_sha256": "36d0764d496b8a96b5dd9eaa804dfe4fccffbf8cb4744b9de146cfdaa9def43d",
+      "source_url": "https://github.com/google-deepmind/formal-conjectures/blob/083f7d02c2eececd918155b2ba06981d2dd61b2f/FormalConjectures/Wikipedia/RamseyNumbers.lean"
+    },
+    {
+      "repository": "google-deepmind/formal-conjectures",
+      "path": "PROOFS.md",
+      "commit": "083f7d02c2eececd918155b2ba06981d2dd61b2f",
+      "github_blob_sha": "edf4eb1afdbf0182fd9ac603d0f23adf97003d4c",
+      "retrieved_text_sha256": "1c61237105db2e4654c0684fac2d8e9ed339b18f2e53596d407b2bb2845d60ba",
+      "source_url": "https://github.com/google-deepmind/formal-conjectures/blob/083f7d02c2eececd918155b2ba06981d2dd61b2f/PROOFS.md"
+    },
+    {
+      "repository": "leanprover-community/mathlib4",
+      "path": "Counterexamples.lean",
+      "commit": "4b39df7a6e9d22530ad9b787919829826eb55824",
+      "github_blob_sha": "030e93707ab58653973c400f98aec94795047d52",
+      "retrieved_text_sha256": "39ada764a497a702cc0fe9bb7a2641e1490149bd9817f59597ec58556039276c",
+      "source_url": "https://github.com/leanprover-community/mathlib4/blob/4b39df7a6e9d22530ad9b787919829826eb55824/Counterexamples.lean"
+    },
+    {
+      "repository": "leanprover-community/mathlib4",
+      "path": "Counterexamples/EulerSumOfPowers.lean",
+      "commit": "4b39df7a6e9d22530ad9b787919829826eb55824",
+      "github_blob_sha": "1e8e2baef705d15743f7c0c61d04c3cbc4edcf6f",
+      "retrieved_text_sha256": "6c9c4207e59df21fb607a7e530f16c6165719e51064da8c893d091211e939816",
+      "source_url": "https://github.com/leanprover-community/mathlib4/blob/4b39df7a6e9d22530ad9b787919829826eb55824/Counterexamples/EulerSumOfPowers.lean"
+    },
+    {
+      "repository": "leanprover-community/mathlib4",
+      "path": "Mathlib/Combinatorics/SimpleGraph/Clique.lean",
+      "commit": "4b39df7a6e9d22530ad9b787919829826eb55824",
+      "github_blob_sha": "c012842a39664c5d245eb6599e634798ea9440e6",
+      "retrieved_text_sha256": "e946e451563a6335fd4057bb9bf418f49b21471eea99aa8fdc6a28b2fde6169a",
+      "source_url": "https://github.com/leanprover-community/mathlib4/blob/4b39df7a6e9d22530ad9b787919829826eb55824/Mathlib/Combinatorics/SimpleGraph/Clique.lean"
+    },
+    {
+      "repository": "leanprover-community/mathlib4",
+      "path": "Mathlib/Combinatorics/SimpleGraph/Finite.lean",
+      "commit": "4b39df7a6e9d22530ad9b787919829826eb55824",
+      "github_blob_sha": "9fb04cae396aa278d85f55c4ea68649a5c061129",
+      "retrieved_text_sha256": "c49354a29e1fe49ffb3f435cb44b88737591ceb349ad6b444a2364c3255fb7eb",
+      "source_url": "https://github.com/leanprover-community/mathlib4/blob/4b39df7a6e9d22530ad9b787919829826eb55824/Mathlib/Combinatorics/SimpleGraph/Finite.lean"
+    },
+    {
+      "repository": "leanprover-community/mathlib4",
+      "path": "Mathlib/Combinatorics/SimpleGraph/Init.lean",
+      "commit": "4b39df7a6e9d22530ad9b787919829826eb55824",
+      "github_blob_sha": "1f82a6d787a733c4afaa1039021eca7dcd61a5a9",
+      "retrieved_text_sha256": "be544c65a1aa0df74b81405b8ac059cb0b3f3971e1e7701471d4cdd17b3133d8",
+      "source_url": "https://github.com/leanprover-community/mathlib4/blob/4b39df7a6e9d22530ad9b787919829826eb55824/Mathlib/Combinatorics/SimpleGraph/Init.lean"
+    },
+    {
+      "repository": "leanprover-community/physlib",
+      "path": "README.md",
+      "commit": "be0a9eef7dac78da524bfbde91c812340b194610",
+      "github_blob_sha": "170b50727879bc297bfdb83ca88326cbe2aad50d",
+      "retrieved_text_sha256": "d50075a51ec2a8e11fc2a3a5edab9b184b096ee925a640d86179f6ca461385b5",
+      "source_url": "https://github.com/leanprover-community/physlib/blob/be0a9eef7dac78da524bfbde91c812340b194610/README.md"
+    },
+    {
+      "repository": "teorth/erdosproblems",
+      "path": "README.md",
+      "commit": "641a78e3debdcbb2d53b936d3c4c7d9528c55a90",
+      "github_blob_sha": "cd01d463af24cbf99f83b4b407181333e7b60d8a",
+      "retrieved_text_sha256": "61b092f093690e61876bee301d73da3c4d8e288ec8ca6dc51aed7197e18ab754",
+      "source_url": "https://github.com/teorth/erdosproblems/blob/641a78e3debdcbb2d53b936d3c4c7d9528c55a90/README.md"
+    }
+  ]
+}

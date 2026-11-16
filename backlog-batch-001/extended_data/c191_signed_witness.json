@@ -1,0 +1,22 @@
+{
+  "schema": "OPF_SIGNED_EQUALITY_WITNESS_V1",
+  "scope": "SIGNED_EQUALITIES_ONLY_NOT_OCCUPANCY",
+  "model_sha256": "dcd5f6a5ea334ae9dfcd17c8cba43260a6af670701f694ae19b99d95e6de1e3c",
+  "values": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    3,
+    0,
+    3,
+    -2
+  ]
+}

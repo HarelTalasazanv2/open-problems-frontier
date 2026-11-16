@@ -1,0 +1,39 @@
+{
+  "schema": "OPF_SUPPORT_COVER_REFUTATION_V1",
+  "scope": "CASE_632_NECESSARY_CONE_ONLY",
+  "model_sha256": "dcd5f6a5ea334ae9dfcd17c8cba43260a6af670701f694ae19b99d95e6de1e3c",
+  "weights": [
+    -1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "vertex_cover_weights": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+  ],
+  "covered_type_indices": [
+    3,
+    4,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+  ]
+}

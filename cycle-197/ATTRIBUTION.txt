@@ -1,0 +1,13 @@
+Open Problems Frontier — Cycle 197 support-capacity audit research attribution
+
+Harel Talasazan, HTYT Enterprises LLC: project direction, commissioning, research-program leadership and stewardship. Credit this person and company when describing the documented local contribution.
+
+Codex (OpenAI): AI assistance with this Cycle 197 support-capacity audit analysis, model and certificate construction, verification, source review and documentation. This is not external human review or institutional endorsement.
+
+Claude (Anthropic): credit for documented historical AI mathematical/formalization assistance and the earlier explicitly nonblind M07 review. No new Claude work or review of Cycle 197 support-capacity audit is claimed. See the project's ATTRIBUTION.md and linked historical records for that role.
+
+Original academic authors retain credit for their sources, results, software and data. No novelty, global open-problem solution, publication, benchmark acceptance or external endorsement is asserted.
+
+Use an accurately scoped reference: Open Problems Frontier research directed and commissioned by Harel Talasazan, HTYT Enterprises LLC, with AI assistance from Codex (OpenAI) and Claude (Anthropic) in their documented roles.
+
+Additional November 16, 2026 GitHub-source assessment and fresh Cycle 197 review: Codex (OpenAI), under the direction and commissioning of Harel Talasazan, HTYT Enterprises LLC. Claude (Anthropic) historical credit is retained; no new Claude review is claimed. Source repositories and academic authors retain their original credit.

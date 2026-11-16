@@ -1,0 +1,274 @@
+{
+  "verdict": "PASS_AT_CLAIM_CEILING",
+  "certificate_checks": [
+    {
+      "model": "c195_base_model",
+      "representative": 663,
+      "rows": 56,
+      "columns": 63,
+      "rhs": "-1",
+      "multiplier_l1": 17,
+      "residual_bound": "1/17",
+      "nonzero_columns": [
+        32,
+        46,
+        48
+      ]
+    },
+    {
+      "model": "c196_model_671",
+      "representative": 671,
+      "rows": 55,
+      "columns": 62,
+      "rhs": "-1",
+      "multiplier_l1": 17,
+      "residual_bound": "1/17",
+      "nonzero_columns": [
+        32,
+        46,
+        48
+      ]
+    },
+    {
+      "model": "c633_base_model",
+      "representative": 633,
+      "rows": 53,
+      "columns": 63,
+      "rhs": "-1",
+      "multiplier_l1": 8,
+      "residual_bound": "1/8",
+      "nonzero_columns": [
+        4,
+        5,
+        20,
+        22,
+        24,
+        54
+      ]
+    },
+    {
+      "model": "c633_full_model",
+      "representative": 633,
+      "rows": 89,
+      "columns": 99,
+      "rhs": "-1",
+      "multiplier_l1": 27,
+      "residual_bound": "1/27",
+      "nonzero_columns": [
+        5,
+        10,
+        31,
+        74,
+        82,
+        90
+      ]
+    },
+    {
+      "model": "c633_upper_only_model",
+      "representative": 633,
+      "rows": 83,
+      "columns": 93,
+      "rhs": "-1",
+      "multiplier_l1": 27,
+      "residual_bound": "1/27",
+      "nonzero_columns": [
+        5,
+        10,
+        25,
+        68,
+        76,
+        84
+      ]
+    },
+    {
+      "model": "c635_full_model",
+      "representative": 635,
+      "rows": 84,
+      "columns": 94,
+      "rhs": "-1",
+      "multiplier_l1": 27,
+      "residual_bound": "1/27",
+      "nonzero_columns": [
+        5,
+        10,
+        31,
+        69,
+        77,
+        85
+      ]
+    },
+    {
+      "model": "c635_upper_only_model",
+      "representative": 635,
+      "rows": 78,
+      "columns": 88,
+      "rhs": "-1",
+      "multiplier_l1": 27,
+      "residual_bound": "1/27",
+      "nonzero_columns": [
+        5,
+        10,
+        25,
+        63,
+        71,
+        79
+      ]
+    },
+    {
+      "model": "c655_full_model",
+      "representative": 655,
+      "rows": 92,
+      "columns": 99,
+      "rhs": "-2",
+      "multiplier_l1": 48,
+      "residual_bound": "1/24",
+      "nonzero_columns": [
+        5,
+        21,
+        46,
+        48,
+        70,
+        74,
+        82,
+        90
+      ]
+    }
+  ],
+  "feasible_relaxation_points": [
+    {
+      "model": "c635_base_model",
+      "rows": 52,
+      "columns": 62,
+      "exact_nonnegative_integer_point": true,
+      "graph_realization": "NOT_TESTED"
+    },
+    {
+      "model": "c655_base_model",
+      "rows": 56,
+      "columns": 63,
+      "exact_nonnegative_integer_point": true,
+      "graph_realization": "NOT_TESTED"
+    },
+    {
+      "model": "c655_without_lower0_model",
+      "rows": 91,
+      "columns": 98,
+      "exact_nonnegative_integer_point": true,
+      "graph_realization": "NOT_TESTED"
+    }
+  ],
+  "c196_permutation_decisions": 36720,
+  "c196_positive_class": 671,
+  "c196_witness_permutations": 8,
+  "residual_updates": [
+    {
+      "representative": 633,
+      "removed": 180,
+      "remaining_classes": 54,
+      "remaining_labeled": 15952
+    },
+    {
+      "representative": 635,
+      "removed": 180,
+      "remaining_classes": 53,
+      "remaining_labeled": 15772
+    },
+    {
+      "representative": 655,
+      "removed": 90,
+      "remaining_classes": 52,
+      "remaining_labeled": 15682
+    },
+    {
+      "representative": 663,
+      "removed": 360,
+      "remaining_classes": 51,
+      "remaining_labeled": 15322
+    },
+    {
+      "representative": 671,
+      "removed": 90,
+      "remaining_classes": 50,
+      "remaining_labeled": 15232
+    }
+  ],
+  "c186": {
+    "five_vertex_masks": 1024,
+    "qualifying_masks": [
+      19,
+      37,
+      73,
+      134,
+      176,
+      266,
+      336,
+      524,
+      608,
+      896
+    ],
+    "triangle_plus_two_isolates_only": true,
+    "degree_floor_proof": "ANALYTIC_REDERIVATION; finite lemma check supplements it"
+  },
+  "c187": {
+    "singleton_choices": 6,
+    "types_per_choice": 21,
+    "exceptions": {
+      "0": [
+        1,
+        2
+      ],
+      "1": [
+        0,
+        2
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "3": [
+        4,
+        5
+      ],
+      "4": [
+        3,
+        5
+      ],
+      "5": [
+        3,
+        4
+      ]
+    },
+    "analytic_contradiction": "two singleton vertices required; each has full degree at least8>7"
+  },
+  "c188": {
+    "mask_domain": 32768,
+    "admissible_masks": 22484,
+    "orbits": 84,
+    "permutations_per_orbit": 720,
+    "all_members_recomputed": true,
+    "oriented_images_checked": 60480,
+    "member_rules_checked": 22484,
+    "surviving_classes": 63,
+    "excluded_classes": 21
+  },
+  "selected_invalid_controls": [
+    "wrong_degree",
+    "missing_common_cut",
+    "wrong_population",
+    "wrong_slack",
+    "signed_domain",
+    "negated_certificate",
+    "false_point",
+    "feasible_false_cone",
+    "zero_cone_margin",
+    "missing_class",
+    "duplicate_permutation",
+    "partial_header",
+    "essential_lower0_removed"
+  ],
+  "optimization": 0,
+  "independence": "Reviewed C197 arithmetic/orbit engine reused; new full row/cut reconstruction and selectors. Same actor, shared data and expected outcomes, nonblind.",
+  "global_target": "NOT_TESTED",
+  "formal_verification": "NOT_TESTED",
+  "physics_empirical_verification": "NOT_TESTED"
+}

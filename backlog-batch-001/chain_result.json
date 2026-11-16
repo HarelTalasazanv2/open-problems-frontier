@@ -1,0 +1,176 @@
+{
+  "verdict": "PASS_AT_CLAIM_CEILING",
+  "steps": [
+    {
+      "file": "extended_data/c189_residual_update.json",
+      "excluded": [
+        684
+      ],
+      "removed_labeled": 72,
+      "remaining_classes": 62,
+      "remaining_labeled": 17857
+    },
+    {
+      "file": "extended_data/c190_residual_update.json",
+      "excluded": [
+        617
+      ],
+      "removed_labeled": 360,
+      "remaining_classes": 61,
+      "remaining_labeled": 17497
+    },
+    {
+      "file": "extended_data/c191_residual_update.json",
+      "excluded": [
+        632
+      ],
+      "removed_labeled": 60,
+      "remaining_classes": 60,
+      "remaining_labeled": 17437
+    },
+    {
+      "file": "extended_data/c192_residual_update.json",
+      "excluded": [],
+      "removed_labeled": 0,
+      "remaining_classes": 60,
+      "remaining_labeled": 17437
+    },
+    {
+      "file": "extended_data/manual_residual_first.json",
+      "excluded": [
+        659,
+        692,
+        920
+      ],
+      "removed_labeled": 765,
+      "remaining_classes": 57,
+      "remaining_labeled": 16672
+    },
+    {
+      "file": "extended_data/manual_residual_final.json",
+      "excluded": [
+        662
+      ],
+      "removed_labeled": 180,
+      "remaining_classes": 56,
+      "remaining_labeled": 16492
+    },
+    {
+      "file": "extended_data/c193_residual.json",
+      "excluded": [
+        619
+      ],
+      "removed_labeled": 360,
+      "remaining_classes": 55,
+      "remaining_labeled": 16132
+    },
+    {
+      "file": "data/c633_residual.json",
+      "excluded": [
+        633
+      ],
+      "removed_labeled": 180,
+      "remaining_classes": 54,
+      "remaining_labeled": 15952
+    },
+    {
+      "file": "data/c635_residual.json",
+      "excluded": [
+        635
+      ],
+      "removed_labeled": 180,
+      "remaining_classes": 53,
+      "remaining_labeled": 15772
+    },
+    {
+      "file": "data/c655_residual.json",
+      "excluded": [
+        655
+      ],
+      "removed_labeled": 90,
+      "remaining_classes": 52,
+      "remaining_labeled": 15682
+    },
+    {
+      "file": "data/c195_residual.json",
+      "excluded": [
+        663
+      ],
+      "removed_labeled": 360,
+      "remaining_classes": 51,
+      "remaining_labeled": 15322
+    },
+    {
+      "file": "data/c196_residual.json",
+      "excluded": [
+        671
+      ],
+      "removed_labeled": 90,
+      "remaining_classes": 50,
+      "remaining_labeled": 15232
+    },
+    {
+      "file": "extended_data/c197_residual.json",
+      "excluded": [
+        685
+      ],
+      "removed_labeled": 360,
+      "remaining_classes": 49,
+      "remaining_labeled": 14872
+    }
+  ],
+  "final_representatives": [
+    687,
+    691,
+    693,
+    694,
+    695,
+    700,
+    701,
+    703,
+    750,
+    758,
+    760,
+    761,
+    762,
+    763,
+    921,
+    922,
+    923,
+    926,
+    927,
+    954,
+    955,
+    956,
+    957,
+    959,
+    1743,
+    1749,
+    1751,
+    1759,
+    1780,
+    1781,
+    1788,
+    1880,
+    1881,
+    1883,
+    1884,
+    1885,
+    1887,
+    1915,
+    1916,
+    2012,
+    2013,
+    5905,
+    5907,
+    5911,
+    5941,
+    5943,
+    5948,
+    6010,
+    7071
+  ],
+  "final_labeled": 14872,
+  "partial_orbit_control_rejected": true,
+  "limit": "Exact set bookkeeping linked to the separately reviewed proofs; no survivor feasibility or global target conclusion."
+}

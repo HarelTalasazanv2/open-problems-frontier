@@ -1,0 +1,7882 @@
+{
+  "schema": "OPF_E5_BINARY_COVER_FAMILY_V1",
+  "scope": "FOUR_E5_BINARY_COVERS_ONLY",
+  "ledger_sha256": "969e8811bb8a45ad7121e38b2e76ef184c1b21fd62dc71deb3c645e91d9cd366",
+  "prior_residual_sha256": "e78668393b2828f090c0e7fbcb90f0262dafd3f53fbdff85abe629bc9f86113d",
+  "case_ids": [
+    659,
+    662,
+    692,
+    920
+  ],
+  "weight_masks_per_case": 64,
+  "cases": [
+    {
+      "representative": 659,
+      "orbit_size": 360,
+      "model": {
+        "schema": "OPF_E5_PAIR_OCCUPANCY_V1",
+        "scope": "NECESSARY_NONNEGATIVE_PAIR_OCCUPANCY",
+        "variable_domain": "NONNEGATIVE_REAL",
+        "case_id": 659,
+        "a_mask": 659,
+        "pair_types": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "independent_triples": [
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            2,
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ],
+        "forbidden_types": [
+          {
+            "type_index": 0,
+            "independent_triple": [
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 1,
+            "independent_triple": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "type_index": 2,
+            "independent_triple": [
+              1,
+              2,
+              5
+            ]
+          },
+          {
+            "type_index": 3,
+            "independent_triple": [
+              1,
+              2,
+              5
+            ]
+          },
+          {
+            "type_index": 5,
+            "independent_triple": [
+              0,
+              3,
+              4
+            ]
+          },
+          {
+            "type_index": 6,
+            "independent_triple": [
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 8,
+            "independent_triple": [
+              0,
+              3,
+              4
+            ]
+          },
+          {
+            "type_index": 10,
+            "independent_triple": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "type_index": 11,
+            "independent_triple": [
+              0,
+              3,
+              4
+            ]
+          },
+          {
+            "type_index": 12,
+            "independent_triple": [
+              1,
+              2,
+              5
+            ]
+          }
+        ],
+        "allowed_type_indices": [
+          4,
+          7,
+          9,
+          13,
+          14
+        ],
+        "cross_degrees": [
+          2,
+          3,
+          3,
+          4,
+          4,
+          4
+        ],
+        "population": 10,
+        "row_labels": [
+          "total",
+          "degree:0",
+          "degree:1",
+          "degree:2",
+          "degree:3",
+          "degree:4",
+          "degree:5",
+          "zero:0",
+          "zero:1",
+          "zero:2",
+          "zero:3",
+          "zero:5",
+          "zero:6",
+          "zero:8",
+          "zero:10",
+          "zero:11",
+          "zero:12"
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "rhs": [
+          10,
+          2,
+          3,
+          3,
+          4,
+          4,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "canonical_model_sha256": "cc884b48ffe4242a7e3f880b2aeecd2938168fe312c19682d19001c7d920d3af",
+      "candidates": [
+        {
+          "weight_mask": 0,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 0,
+          "deficit": 10,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 1,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 2,
+          "deficit": 8,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 2,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 3,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 5,
+          "deficit": 5,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 4,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 5,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 5,
+          "deficit": 5,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 6,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 7,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 8,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 9,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 10,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 11,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 12,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 13,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            2,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 14,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 15,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 16,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 17,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 18,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 19,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 20,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 21,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 22,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 23,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 24,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 25,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 26,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 27,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 28,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            2,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 29,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 30,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            2,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 31,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 32,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 33,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 34,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 35,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 36,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 37,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 38,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 39,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 40,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 41,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            1,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 42,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 43,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 44,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            2,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 45,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            2,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 46,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 47,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 48,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 49,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            0,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 50,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            0,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 51,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            0,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 52,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 53,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 54,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 55,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            1,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 56,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 57,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 58,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 15,
+          "deficit": -5,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 59,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 60,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 15,
+          "deficit": -5,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 61,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 62,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 18,
+          "deficit": -8,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 63,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 20,
+          "deficit": -10,
+          "strict_obstruction": false
+        }
+      ],
+      "certificate": null,
+      "conclusion": "NO_BINARY_DEFICIT_IN_64_WEIGHTS"
+    },
+    {
+      "representative": 662,
+      "orbit_size": 180,
+      "model": {
+        "schema": "OPF_E5_PAIR_OCCUPANCY_V1",
+        "scope": "NECESSARY_NONNEGATIVE_PAIR_OCCUPANCY",
+        "variable_domain": "NONNEGATIVE_REAL",
+        "case_id": 662,
+        "a_mask": 662,
+        "pair_types": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "independent_triples": [
+          [
+            1,
+            2,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            2,
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ],
+        "forbidden_types": [
+          {
+            "type_index": 0,
+            "independent_triple": [
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 1,
+            "independent_triple": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "type_index": 2,
+            "independent_triple": [
+              1,
+              2,
+              5
+            ]
+          },
+          {
+            "type_index": 3,
+            "independent_triple": [
+              1,
+              2,
+              5
+            ]
+          },
+          {
+            "type_index": 5,
+            "independent_triple": [
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 6,
+            "independent_triple": [
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 10,
+            "independent_triple": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "type_index": 12,
+            "independent_triple": [
+              1,
+              2,
+              5
+            ]
+          }
+        ],
+        "allowed_type_indices": [
+          4,
+          7,
+          8,
+          9,
+          11,
+          13,
+          14
+        ],
+        "cross_degrees": [
+          2,
+          4,
+          3,
+          3,
+          4,
+          4
+        ],
+        "population": 10,
+        "row_labels": [
+          "total",
+          "degree:0",
+          "degree:1",
+          "degree:2",
+          "degree:3",
+          "degree:4",
+          "degree:5",
+          "zero:0",
+          "zero:1",
+          "zero:2",
+          "zero:3",
+          "zero:5",
+          "zero:6",
+          "zero:10",
+          "zero:12"
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "rhs": [
+          10,
+          2,
+          4,
+          3,
+          3,
+          4,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "canonical_model_sha256": "4b151edf9780c83ffe770415f87ec44ce5b68b7ca1342e2fc323fc213bf9e976",
+      "candidates": [
+        {
+          "weight_mask": 0,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 0,
+          "deficit": 10,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 1,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 2,
+          "deficit": 8,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 2,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 3,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 4,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 5,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 5,
+          "deficit": 5,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 6,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 7,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 8,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 9,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 5,
+          "deficit": 5,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 10,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 11,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 12,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            2,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 13,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            0,
+            2,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 14,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 15,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 16,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 17,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 18,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 19,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 20,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 21,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 22,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 23,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 24,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 25,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 26,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 27,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 28,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 29,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            2,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 30,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 31,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 32,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 33,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 34,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            0,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 35,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            0,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 36,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 37,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 38,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 39,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 40,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 41,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 42,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 43,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 44,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 45,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            1,
+            2,
+            2,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 46,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 47,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 48,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 49,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 50,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            2,
+            0,
+            1,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 51,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            0,
+            1,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 52,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 53,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 54,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 15,
+          "deficit": -5,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 55,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 56,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 57,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 58,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            2,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 15,
+          "deficit": -5,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 59,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 60,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 61,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 62,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 18,
+          "deficit": -8,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 63,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 20,
+          "deficit": -10,
+          "strict_obstruction": false
+        }
+      ],
+      "certificate": null,
+      "conclusion": "NO_BINARY_DEFICIT_IN_64_WEIGHTS"
+    },
+    {
+      "representative": 692,
+      "orbit_size": 360,
+      "model": {
+        "schema": "OPF_E5_PAIR_OCCUPANCY_V1",
+        "scope": "NECESSARY_NONNEGATIVE_PAIR_OCCUPANCY",
+        "variable_domain": "NONNEGATIVE_REAL",
+        "case_id": 692,
+        "a_mask": 692,
+        "pair_types": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "independent_triples": [
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            2,
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ],
+        "forbidden_types": [
+          {
+            "type_index": 0,
+            "independent_triple": [
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 1,
+            "independent_triple": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "type_index": 2,
+            "independent_triple": [
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 3,
+            "independent_triple": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "type_index": 5,
+            "independent_triple": [
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 6,
+            "independent_triple": [
+              0,
+              2,
+              4
+            ]
+          },
+          {
+            "type_index": 8,
+            "independent_triple": [
+              0,
+              2,
+              4
+            ]
+          },
+          {
+            "type_index": 10,
+            "independent_triple": [
+              1,
+              3,
+              5
+            ]
+          },
+          {
+            "type_index": 13,
+            "independent_triple": [
+              0,
+              2,
+              4
+            ]
+          }
+        ],
+        "allowed_type_indices": [
+          4,
+          7,
+          9,
+          11,
+          12,
+          14
+        ],
+        "cross_degrees": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          4
+        ],
+        "population": 10,
+        "row_labels": [
+          "total",
+          "degree:0",
+          "degree:1",
+          "degree:2",
+          "degree:3",
+          "degree:4",
+          "degree:5",
+          "zero:0",
+          "zero:1",
+          "zero:2",
+          "zero:3",
+          "zero:5",
+          "zero:6",
+          "zero:8",
+          "zero:10",
+          "zero:13"
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "rhs": [
+          10,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "canonical_model_sha256": "320c41d40ce3a76b1e0a82203f696b40ae401b78ac87f810aadd6b65b59b446b",
+      "candidates": [
+        {
+          "weight_mask": 0,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 0,
+          "deficit": 10,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 1,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 2,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 3,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 4,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 5,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 6,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 7,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 8,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 9,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 10,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 11,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 12,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            2,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 13,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            2,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 14,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 15,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 16,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 17,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 18,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            0,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 19,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            0,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 20,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 21,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 22,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 23,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 24,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            0,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 25,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            0,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 26,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            1,
+            0,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 27,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            0,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 28,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 29,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 30,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            0,
+            2,
+            2,
+            1,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 31,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            2,
+            2,
+            1,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 32,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 33,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 34,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 35,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 36,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            2,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 37,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            1,
+            2,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 38,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            2,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 39,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            2,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 40,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 41,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 42,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 43,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 44,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            0,
+            2,
+            2,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 45,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            0,
+            2,
+            2,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 46,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 47,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            2,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 48,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 49,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 50,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            0,
+            1,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 51,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            0,
+            1,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 52,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 53,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 54,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 55,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 56,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 57,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 58,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 59,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 60,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 61,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 62,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 63,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 20,
+          "deficit": -10,
+          "strict_obstruction": false
+        }
+      ],
+      "certificate": null,
+      "conclusion": "NO_BINARY_DEFICIT_IN_64_WEIGHTS"
+    },
+    {
+      "representative": 920,
+      "orbit_size": 45,
+      "model": {
+        "schema": "OPF_E5_PAIR_OCCUPANCY_V1",
+        "scope": "NECESSARY_NONNEGATIVE_PAIR_OCCUPANCY",
+        "variable_domain": "NONNEGATIVE_REAL",
+        "case_id": 920,
+        "a_mask": 920,
+        "pair_types": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "independent_triples": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            2,
+            4,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ],
+        "forbidden_types": [
+          {
+            "type_index": 0,
+            "independent_triple": [
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 1,
+            "independent_triple": [
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 2,
+            "independent_triple": [
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 5,
+            "independent_triple": [
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 6,
+            "independent_triple": [
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "type_index": 10,
+            "independent_triple": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "type_index": 11,
+            "independent_triple": [
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "type_index": 12,
+            "independent_triple": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "type_index": 13,
+            "independent_triple": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "type_index": 14,
+            "independent_triple": [
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "allowed_type_indices": [
+          3,
+          4,
+          7,
+          8,
+          9
+        ],
+        "cross_degrees": [
+          3,
+          3,
+          4,
+          4,
+          3,
+          3
+        ],
+        "population": 10,
+        "row_labels": [
+          "total",
+          "degree:0",
+          "degree:1",
+          "degree:2",
+          "degree:3",
+          "degree:4",
+          "degree:5",
+          "zero:0",
+          "zero:1",
+          "zero:2",
+          "zero:5",
+          "zero:6",
+          "zero:10",
+          "zero:11",
+          "zero:12",
+          "zero:13",
+          "zero:14"
+        ],
+        "matrix": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "rhs": [
+          10,
+          3,
+          3,
+          4,
+          4,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "canonical_model_sha256": "71ffa5dc749c6dcaacb12aa87e4fc2dc07f5891340d21efad045e7f435f5a09a",
+      "candidates": [
+        {
+          "weight_mask": 0,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 0,
+          "deficit": 10,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 1,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 2,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 3,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 4,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 5,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 6,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 7,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 8,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 4,
+          "deficit": 6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 9,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 10,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 11,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 12,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "is_cover": false,
+          "cost": 8,
+          "deficit": 2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 13,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            0,
+            0,
+            2
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 14,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            0,
+            0,
+            1,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 15,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 16,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 17,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            0,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 18,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            2,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 19,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 20,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 21,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 22,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            2,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 23,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 24,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 25,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            0,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 26,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            2,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 27,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 28,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            1,
+            0,
+            2
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 29,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            2,
+            1,
+            1,
+            0,
+            2
+          ],
+          "is_cover": false,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 30,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            1,
+            0,
+            2,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 31,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "support_weights": [
+            2,
+            1,
+            2,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 32,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 3,
+          "deficit": 7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 33,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            0,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 34,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            2,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 35,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            2,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 36,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 37,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 38,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 39,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 40,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 7,
+          "deficit": 3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 41,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            0,
+            1,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 42,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "is_cover": false,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 43,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 44,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            0,
+            1,
+            0,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 11,
+          "deficit": -1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 45,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            0,
+            1,
+            2
+          ],
+          "is_cover": false,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 46,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          "is_cover": false,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 47,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "support_weights": [
+            1,
+            2,
+            1,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 48,
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 6,
+          "deficit": 4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 49,
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            1,
+            1,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 50,
+          "weights": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            2,
+            0
+          ],
+          "is_cover": false,
+          "cost": 9,
+          "deficit": 1,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 51,
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            2,
+            0
+          ],
+          "is_cover": false,
+          "cost": 12,
+          "deficit": -2,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 52,
+          "weights": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 53,
+          "weights": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 54,
+          "weights": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 55,
+          "weights": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 56,
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 10,
+          "deficit": 0,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 57,
+          "weights": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 58,
+          "weights": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 13,
+          "deficit": -3,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 59,
+          "weights": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "is_cover": true,
+          "cost": 16,
+          "deficit": -6,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 60,
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 14,
+          "deficit": -4,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 61,
+          "weights": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            1,
+            1,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 62,
+          "weights": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 17,
+          "deficit": -7,
+          "strict_obstruction": false
+        },
+        {
+          "weight_mask": 63,
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "support_weights": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "is_cover": true,
+          "cost": 20,
+          "deficit": -10,
+          "strict_obstruction": false
+        }
+      ],
+      "certificate": null,
+      "conclusion": "NO_BINARY_DEFICIT_IN_64_WEIGHTS"
+    }
+  ],
+  "completed_candidates": 256,
+  "producer_pair_weight_evaluations": 1472,
+  "remaining_pairs": [],
+  "complete": true,
+  "outcome": "CERTIFIED_RANGE",
+  "global_target_decision": "NOT_TESTED",
+  "feasibility_claim": "NOT_TESTED",
+  "full_target_search": "NOT_RUN"
+}

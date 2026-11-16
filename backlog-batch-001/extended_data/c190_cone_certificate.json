@@ -1,0 +1,23 @@
+{
+  "schema": "OPF_NONNEGATIVE_EQUALITY_REFUTATION_V1",
+  "scope": "CASE_617_NECESSARY_CONE_ONLY",
+  "model_sha256": "59c024c6a26efab37273f1df24aaf98a02c3e33f739d2680fc55111143a7b220",
+  "weights": [
+    -1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ]
+}

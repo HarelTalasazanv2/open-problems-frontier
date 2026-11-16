@@ -1,0 +1,1130 @@
+{
+  "all_selected_controls_passed": true,
+  "independence": "Bit-based producer versus tuple/matrix consumer; same actor/spec/input/runtime, reused explicit prior arithmetic; no blind/external/formal review.",
+  "known_feasible_nonedge_boundary": {
+    "accepted": true,
+    "columns": 2,
+    "equalities_satisfied": 2,
+    "negative_indices": [],
+    "scope": "NONNEGATIVE_NECESSARY_MODEL_ONLY"
+  },
+  "known_infeasible_capacity_certificate": {
+    "accepted": true,
+    "column_combination": [
+      0,
+      1
+    ],
+    "columns": 2,
+    "criterion": "y^T M >= 0 and y^T b < 0; implies nonnegative equality infeasibility only.",
+    "rhs_combination": -1,
+    "rows": 2,
+    "variable_domain": "NONNEGATIVE_REAL"
+  },
+  "negative_controls": {
+    "Boolean_cap": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "Boolean_counter": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "Boolean_edge_flag": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "duplicate_allowed_type": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "duplicate_case": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "duplicate_incident_type": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "duplicate_json_field": {
+      "error_type": "ValueError",
+      "rejected": true
+    },
+    "duplicate_vertex": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "edge_cap_wrongly_three": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "equality_margin_not_strict_deficit": {
+      "error_type": "VerificationError",
+      "rejected": true
+    },
+    "fake_certificate": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "fake_exclusion": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "false_cursor": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "false_outcome": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "false_strict_deficit": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "feasibility_promotion": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "fractional_required": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "global_promotion": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "missing_allowed_type": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "missing_case": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "missing_incident_type": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "missing_vertex": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "negative_column_false_cone": {
+      "error_type": "VerificationError",
+      "rejected": true
+    },
+    "non_Boolean_completion_policy": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "nonedge_cap_wrongly_two": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "partial_0_cannot_complete": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "partial_1_cannot_complete": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "partial_23_cannot_complete": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "partial_6_cannot_complete": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "partial_7_cannot_complete": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "summary_cannot_complete_empty_domain": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "universal_scope": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "wrong_capacity": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "wrong_case_universe": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "wrong_counter": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "wrong_input_identity": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "wrong_margin": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "wrong_orbit_size": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "wrong_pair_endpoint": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "wrong_required_degree": {
+      "error_type": "Invalid",
+      "rejected": true
+    },
+    "wrong_vertex_id": {
+      "error_type": "Invalid",
+      "rejected": true
+    }
+  },
+  "negative_count": 41,
+  "optimization": 0,
+  "output": {
+    "case_ids": [
+      659,
+      662,
+      692,
+      920
+    ],
+    "cases": [
+      {
+        "allowed_types": [
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 4,
+            "vertices": [
+              0,
+              5
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 7,
+            "vertices": [
+              1,
+              4
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 9,
+            "vertices": [
+              2,
+              3
+            ]
+          },
+          {
+            "a_edge": false,
+            "cap": 3,
+            "type_index": 13,
+            "vertices": [
+              3,
+              5
+            ]
+          },
+          {
+            "a_edge": false,
+            "cap": 3,
+            "type_index": 14,
+            "vertices": [
+              4,
+              5
+            ]
+          }
+        ],
+        "case_id": 659,
+        "conclusion": "EXCLUDED_BY_VERTEX_CAP",
+        "exclusion_vertex": 1,
+        "orbit_size": 360,
+        "vertices": [
+          {
+            "capacity": 2,
+            "certificate": null,
+            "incident_type_indices": [
+              4
+            ],
+            "margin": 0,
+            "required": 2,
+            "strict_deficit": false,
+            "vertex": 0
+          },
+          {
+            "capacity": 2,
+            "certificate": {
+              "row_weights": [
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ]
+            },
+            "incident_type_indices": [
+              7
+            ],
+            "margin": -1,
+            "required": 3,
+            "strict_deficit": true,
+            "vertex": 1
+          },
+          {
+            "capacity": 2,
+            "certificate": {
+              "row_weights": [
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ]
+            },
+            "incident_type_indices": [
+              9
+            ],
+            "margin": -1,
+            "required": 3,
+            "strict_deficit": true,
+            "vertex": 2
+          },
+          {
+            "capacity": 5,
+            "certificate": null,
+            "incident_type_indices": [
+              9,
+              13
+            ],
+            "margin": 1,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 3
+          },
+          {
+            "capacity": 5,
+            "certificate": null,
+            "incident_type_indices": [
+              7,
+              14
+            ],
+            "margin": 1,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 4
+          },
+          {
+            "capacity": 8,
+            "certificate": null,
+            "incident_type_indices": [
+              4,
+              13,
+              14
+            ],
+            "margin": 4,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 5
+          }
+        ]
+      },
+      {
+        "allowed_types": [
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 4,
+            "vertices": [
+              0,
+              5
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 7,
+            "vertices": [
+              1,
+              4
+            ]
+          },
+          {
+            "a_edge": false,
+            "cap": 3,
+            "type_index": 8,
+            "vertices": [
+              1,
+              5
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 9,
+            "vertices": [
+              2,
+              3
+            ]
+          },
+          {
+            "a_edge": false,
+            "cap": 3,
+            "type_index": 11,
+            "vertices": [
+              2,
+              5
+            ]
+          },
+          {
+            "a_edge": false,
+            "cap": 3,
+            "type_index": 13,
+            "vertices": [
+              3,
+              5
+            ]
+          },
+          {
+            "a_edge": false,
+            "cap": 3,
+            "type_index": 14,
+            "vertices": [
+              4,
+              5
+            ]
+          }
+        ],
+        "case_id": 662,
+        "conclusion": "NO_VERTEX_CAP_DEFICIT",
+        "exclusion_vertex": null,
+        "orbit_size": 180,
+        "vertices": [
+          {
+            "capacity": 2,
+            "certificate": null,
+            "incident_type_indices": [
+              4
+            ],
+            "margin": 0,
+            "required": 2,
+            "strict_deficit": false,
+            "vertex": 0
+          },
+          {
+            "capacity": 5,
+            "certificate": null,
+            "incident_type_indices": [
+              7,
+              8
+            ],
+            "margin": 1,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 1
+          },
+          {
+            "capacity": 5,
+            "certificate": null,
+            "incident_type_indices": [
+              9,
+              11
+            ],
+            "margin": 2,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 2
+          },
+          {
+            "capacity": 5,
+            "certificate": null,
+            "incident_type_indices": [
+              9,
+              13
+            ],
+            "margin": 2,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 3
+          },
+          {
+            "capacity": 5,
+            "certificate": null,
+            "incident_type_indices": [
+              7,
+              14
+            ],
+            "margin": 1,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 4
+          },
+          {
+            "capacity": 14,
+            "certificate": null,
+            "incident_type_indices": [
+              4,
+              8,
+              11,
+              13,
+              14
+            ],
+            "margin": 10,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 5
+          }
+        ]
+      },
+      {
+        "allowed_types": [
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 4,
+            "vertices": [
+              0,
+              5
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 7,
+            "vertices": [
+              1,
+              4
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 9,
+            "vertices": [
+              2,
+              3
+            ]
+          },
+          {
+            "a_edge": false,
+            "cap": 3,
+            "type_index": 11,
+            "vertices": [
+              2,
+              5
+            ]
+          },
+          {
+            "a_edge": false,
+            "cap": 3,
+            "type_index": 12,
+            "vertices": [
+              3,
+              4
+            ]
+          },
+          {
+            "a_edge": false,
+            "cap": 3,
+            "type_index": 14,
+            "vertices": [
+              4,
+              5
+            ]
+          }
+        ],
+        "case_id": 692,
+        "conclusion": "EXCLUDED_BY_VERTEX_CAP",
+        "exclusion_vertex": 0,
+        "orbit_size": 360,
+        "vertices": [
+          {
+            "capacity": 2,
+            "certificate": {
+              "row_weights": [
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "incident_type_indices": [
+              4
+            ],
+            "margin": -1,
+            "required": 3,
+            "strict_deficit": true,
+            "vertex": 0
+          },
+          {
+            "capacity": 2,
+            "certificate": {
+              "row_weights": [
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            "incident_type_indices": [
+              7
+            ],
+            "margin": -1,
+            "required": 3,
+            "strict_deficit": true,
+            "vertex": 1
+          },
+          {
+            "capacity": 5,
+            "certificate": null,
+            "incident_type_indices": [
+              9,
+              11
+            ],
+            "margin": 2,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 2
+          },
+          {
+            "capacity": 5,
+            "certificate": null,
+            "incident_type_indices": [
+              9,
+              12
+            ],
+            "margin": 2,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 3
+          },
+          {
+            "capacity": 8,
+            "certificate": null,
+            "incident_type_indices": [
+              7,
+              12,
+              14
+            ],
+            "margin": 4,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 4
+          },
+          {
+            "capacity": 8,
+            "certificate": null,
+            "incident_type_indices": [
+              4,
+              11,
+              14
+            ],
+            "margin": 4,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 5
+          }
+        ]
+      },
+      {
+        "allowed_types": [
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 3,
+            "vertices": [
+              0,
+              4
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 4,
+            "vertices": [
+              0,
+              5
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 7,
+            "vertices": [
+              1,
+              4
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 8,
+            "vertices": [
+              1,
+              5
+            ]
+          },
+          {
+            "a_edge": true,
+            "cap": 2,
+            "type_index": 9,
+            "vertices": [
+              2,
+              3
+            ]
+          }
+        ],
+        "case_id": 920,
+        "conclusion": "EXCLUDED_BY_VERTEX_CAP",
+        "exclusion_vertex": 2,
+        "orbit_size": 45,
+        "vertices": [
+          {
+            "capacity": 4,
+            "certificate": null,
+            "incident_type_indices": [
+              3,
+              4
+            ],
+            "margin": 1,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 0
+          },
+          {
+            "capacity": 4,
+            "certificate": null,
+            "incident_type_indices": [
+              7,
+              8
+            ],
+            "margin": 1,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 1
+          },
+          {
+            "capacity": 2,
+            "certificate": {
+              "row_weights": [
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            },
+            "incident_type_indices": [
+              9
+            ],
+            "margin": -2,
+            "required": 4,
+            "strict_deficit": true,
+            "vertex": 2
+          },
+          {
+            "capacity": 2,
+            "certificate": {
+              "row_weights": [
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ]
+            },
+            "incident_type_indices": [
+              9
+            ],
+            "margin": -2,
+            "required": 4,
+            "strict_deficit": true,
+            "vertex": 3
+          },
+          {
+            "capacity": 4,
+            "certificate": null,
+            "incident_type_indices": [
+              3,
+              7
+            ],
+            "margin": 1,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 4
+          },
+          {
+            "capacity": 4,
+            "certificate": null,
+            "incident_type_indices": [
+              4,
+              8
+            ],
+            "margin": 1,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 5
+          }
+        ]
+      }
+    ],
+    "complete": true,
+    "completed_vertices": 24,
+    "excluded_representatives": [
+      659,
+      692,
+      920
+    ],
+    "full_graph_target": "NOT_TESTED",
+    "occupancy_feasibility": "NOT_TESTED",
+    "outcome": "CERTIFIED_RANGE",
+    "remaining_pairs": [],
+    "schema": "OPF_E5_VERTEX_CAPACITY_V1",
+    "scope": "FOUR_CASES_SIX_VERTEX_BOUNDS_ONLY",
+    "source_family_sha256": "f4bffc9e641f6e093631bafd70516c62ddc3ce38600c5a341a7bd57224433d79"
+  },
+  "partial_controls": [
+    {
+      "budget": 0,
+      "outcome": "INCONCLUSIVE"
+    },
+    {
+      "budget": 1,
+      "outcome": "INCONCLUSIVE"
+    },
+    {
+      "budget": 6,
+      "outcome": "INCONCLUSIVE"
+    },
+    {
+      "budget": 7,
+      "outcome": "INCONCLUSIVE"
+    },
+    {
+      "budget": 23,
+      "outcome": "INCONCLUSIVE"
+    }
+  ],
+  "verification": {
+    "accepted": true,
+    "case_summaries": [
+      {
+        "case_id": 659,
+        "conclusion": "EXCLUDED_BY_VERTEX_CAP",
+        "vertices": [
+          {
+            "capacity": 2,
+            "margin": 0,
+            "required": 2,
+            "strict_deficit": false,
+            "vertex": 0
+          },
+          {
+            "capacity": 2,
+            "margin": -1,
+            "required": 3,
+            "strict_deficit": true,
+            "vertex": 1
+          },
+          {
+            "capacity": 2,
+            "margin": -1,
+            "required": 3,
+            "strict_deficit": true,
+            "vertex": 2
+          },
+          {
+            "capacity": 5,
+            "margin": 1,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 3
+          },
+          {
+            "capacity": 5,
+            "margin": 1,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 4
+          },
+          {
+            "capacity": 8,
+            "margin": 4,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 5
+          }
+        ]
+      },
+      {
+        "case_id": 662,
+        "conclusion": "NO_VERTEX_CAP_DEFICIT",
+        "vertices": [
+          {
+            "capacity": 2,
+            "margin": 0,
+            "required": 2,
+            "strict_deficit": false,
+            "vertex": 0
+          },
+          {
+            "capacity": 5,
+            "margin": 1,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 1
+          },
+          {
+            "capacity": 5,
+            "margin": 2,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 2
+          },
+          {
+            "capacity": 5,
+            "margin": 2,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 3
+          },
+          {
+            "capacity": 5,
+            "margin": 1,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 4
+          },
+          {
+            "capacity": 14,
+            "margin": 10,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 5
+          }
+        ]
+      },
+      {
+        "case_id": 692,
+        "conclusion": "EXCLUDED_BY_VERTEX_CAP",
+        "vertices": [
+          {
+            "capacity": 2,
+            "margin": -1,
+            "required": 3,
+            "strict_deficit": true,
+            "vertex": 0
+          },
+          {
+            "capacity": 2,
+            "margin": -1,
+            "required": 3,
+            "strict_deficit": true,
+            "vertex": 1
+          },
+          {
+            "capacity": 5,
+            "margin": 2,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 2
+          },
+          {
+            "capacity": 5,
+            "margin": 2,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 3
+          },
+          {
+            "capacity": 8,
+            "margin": 4,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 4
+          },
+          {
+            "capacity": 8,
+            "margin": 4,
+            "required": 4,
+            "strict_deficit": false,
+            "vertex": 5
+          }
+        ]
+      },
+      {
+        "case_id": 920,
+        "conclusion": "EXCLUDED_BY_VERTEX_CAP",
+        "vertices": [
+          {
+            "capacity": 4,
+            "margin": 1,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 0
+          },
+          {
+            "capacity": 4,
+            "margin": 1,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 1
+          },
+          {
+            "capacity": 2,
+            "margin": -2,
+            "required": 4,
+            "strict_deficit": true,
+            "vertex": 2
+          },
+          {
+            "capacity": 2,
+            "margin": -2,
+            "required": 4,
+            "strict_deficit": true,
+            "vertex": 3
+          },
+          {
+            "capacity": 4,
+            "margin": 1,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 4
+          },
+          {
+            "capacity": 4,
+            "margin": 1,
+            "required": 3,
+            "strict_deficit": false,
+            "vertex": 5
+          }
+        ]
+      }
+    ],
+    "complete": true,
+    "excluded_representatives": [
+      659,
+      692,
+      920
+    ],
+    "full_graph_target": "NOT_TESTED",
+    "occupancy_feasibility": "NOT_TESTED",
+    "outcome": "CERTIFIED_RANGE",
+    "remaining_classes": 57,
+    "remaining_labeled_graphs": 16672,
+    "scope": "Only24necessary vertex capacities on four named cases. Passing these bounds is not coupled occupancy or graph feasibility.",
+    "vertices_checked": 24
+  }
+}

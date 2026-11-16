@@ -1,0 +1,24 @@
+{
+  "schema": "OPF_INTEGER_ROW_IDENTITY_V1",
+  "scope": "CASE_684_NECESSARY_MODEL_ONLY",
+  "model_sha256": "87f2a554d95d89b26db3715f94521abfb2fd6ceb92b2069ea162111a871af7f7",
+  "weights": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "status": "PASS_RESTRICTED",
+  "record": "M11-MOD120-C158",
+  "outcome": "PROVED",
+  "result": {
+    "families": [
+      {
+        "id": "even",
+        "min_t": 1,
+        "residual_coefficients": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "denominator_degrees": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "div3",
+        "min_t": 1,
+        "residual_coefficients": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "denominator_degrees": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "mod3_2",
+        "min_t": 0,
+        "residual_coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "denominator_degrees": [
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "id": "mod4_3",
+        "min_t": 0,
+        "residual_coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "denominator_degrees": [
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "id": "mod8_5",
+        "min_t": 0,
+        "residual_coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "denominator_degrees": [
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "id": "div5",
+        "min_t": 1,
+        "residual_coefficients": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "denominator_degrees": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "mod40_33",
+        "min_t": 0,
+        "residual_coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "denominator_degrees": [
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "id": "mod20_17",
+        "min_t": 0,
+        "residual_coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "denominator_degrees": [
+          1,
+          2,
+          2
+        ]
+      }
+    ],
+    "residue_classes": 120,
+    "covered_residue_classes": 118,
+    "uncovered_by_fixed_family": [
+      1,
+      49
+    ],
+    "49_witness": [
+      14,
+      196,
+      196
+    ]
+  },
+  "negative_controls_detected": [
+    "missing family",
+    "duplicate family same count",
+    "wrong polynomial",
+    "negative coefficient",
+    "wrong min parameter",
+    "missing residue",
+    "duplicate residue same count",
+    "wrong applicable family",
+    "global numerator changed",
+    "domain includes1",
+    "fake complement",
+    "global solution promotion",
+    "gap promoted to counterexample",
+    "zero witness denominator",
+    "missing root site",
+    "higher denominator degree"
+  ],
+  "negative_controls_scored": 16,
+  "equivalent_permutation_accepted": true,
+  "code_sha256": "b442bed4bad1491618e96e65333fea892770848378baecc533856765b71f38da",
+  "candidate_sha256": "b9cbf685b81290294a746c79e892f85c83d3fcd37fa9c934b1ad83e79dd342d9",
+  "claim_ceiling": "For every n>=2outside1and49mod120the eight fixed families give positive integer unit-fraction solutions. Neither complement is a counterexample family; no global or current-status result.",
+  "independence": "Fresh exact coefficient convolution and boundary rational checks; same exposed actor/model/Python backend. Nonblind, no external/formal review."
+}

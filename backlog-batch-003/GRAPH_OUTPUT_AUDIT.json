@@ -1,0 +1,88 @@
+{
+  "status": "PASS_RESTRICTED",
+  "records": [
+    "C168",
+    "C169",
+    "C171"
+  ],
+  "publication_profile": "PROJECT_OUTPUTS_ONLY_EXTERNAL_SEED_REQUIRED",
+  "source_record_sha256_without_LF": "7fda67be9b2d99b376c0f4e8188edf004599e64d5541331fbdd2d599246a067d",
+  "source_record_bytes_without_LF": 145,
+  "five_subsets": 850668,
+  "five_subset_histogram": [
+    0,
+    6078,
+    31577,
+    99576,
+    192531,
+    225712,
+    173847,
+    87463,
+    27923,
+    5961,
+    0
+  ],
+  "four_subsets": 111930,
+  "four_subset_types": {
+    "independent": 1172,
+    "mixed": 109617,
+    "cliques": 1141
+  },
+  "regenerated_CNF_sha256": "5934d7346d6365809788730caa203e1655542f5c4a051a6c5019facaa77ee17e",
+  "resolution": {
+    "steps": 282,
+    "final_empty_clause": 2595,
+    "outcome": "UNSAT"
+  },
+  "degree22_results": [
+    {
+      "vertex": 39,
+      "degree": 22,
+      "edges": 108,
+      "pairs_checked": 231
+    },
+    {
+      "vertex": 40,
+      "degree": 22,
+      "edges": 107,
+      "pairs_checked": 231
+    },
+    {
+      "vertex": 41,
+      "degree": 22,
+      "edges": 107,
+      "pairs_checked": 231
+    }
+  ],
+  "controls": {
+    "negative_controls_detected": [
+      "empty",
+      "illegal byte",
+      "short",
+      "long",
+      "padding",
+      "extended header",
+      "missing clause",
+      "duplicate clause",
+      "wrong sign",
+      "wrong pivot",
+      "future parent",
+      "lost nonpivot literal",
+      "duplicate derived literal",
+      "missing final step",
+      "false final pointer",
+      "wrong input hash",
+      "empty asserted final clause",
+      "SAT formula false refutation with updated hash"
+    ],
+    "negative_controls_scored": 18,
+    "hand_labeled_graphs": 5,
+    "healthy_manual_unsat_proof": true,
+    "SAT_truth_table_checked": true
+  },
+  "code_sha256": "dd0482f6b3ed07f8d538cb2f2ece8fd1faa35e04270b2e906aeab18149182336",
+  "resolution_sha256": "ee1bd35d3b3d842c7215a2e30684bd2ebb22a701ddc5a8e62807246214d2cda9",
+  "source_data_license": "Unresolved; no curator graph6, adjacency list or original CNF file is redistributed.",
+  "claim_ceiling": "One exact externally supplied42vertex seed and its fixed one-vertex extension/three-centre claims only. No complete seed catalogue or global Ramsey result.",
+  "independence": "Adapted same-actor batch002consumer; interface reproduction, no new algorithmic-independence credit."
+}

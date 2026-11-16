@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-16T21:31:45.901880+00:00",
+  "claim_ids": [
+    "M12-WITNESS42-C168",
+    "M12-FIXED-NOEXT-C169",
+    "M12-SEED42-NEIGHBORHOODS-C171"
+  ],
+  "mathematical_status": "PASS_RESTRICTED_REPRODUCED",
+  "prior_publication_status": "HELD_SOURCE_INPUT_REDISTRIBUTION_UNRESOLVED",
+  "new_publication_status": "ADMITTED_PROJECT_OUTPUTS_ONLY_EXTERNAL_SEED_REQUIRED",
+  "hold_resolution_method": "Release only project-authored proofs/checking tools/derived summaries and project-generated resolution steps. Require exact external seed at reproduction time; regenerate CNF in memory.",
+  "source_data_license_resolved": false,
+  "source_input_mirrored": false,
+  "source_endpoints_currently_accessible": "NOT_ESTABLISHED_TIMEOUTS",
+  "excluded": [
+    "Curator graph6record/collection",
+    "Complete adjacency and neighborhood-membership lists",
+    "Original CNF input file",
+    "Source HTML/PDF/code copies"
+  ],
+  "included": [
+    "GRAPH_PROOF.md",
+    "graph_outputs_check.py",
+    "GRAPH_OUTPUT_AUDIT.json",
+    "resolution_proof.json"
+  ],
+  "controls": "Healthy exact input accepted; missing/wrong seed and corrupt proof rejected by actualCLI. Internal18faultcontrols retained.",
+  "limitations": "The public graph package is reproducible only with its exact external input; it is not a wholly self-contained graph dataset. No license grant, global Ramsey result or new independence is claimed."
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_RESTRICTED",
+  "records": [
+    "C063",
+    "C064",
+    "C065"
+  ],
+  "negative_controls_detected": [
+    "missing period",
+    "duplicate period same count",
+    "wrong capacity",
+    "omitted pool modulus",
+    "wrong forced set",
+    "wrong CRT period",
+    "omitted configuration",
+    "duplicate configuration same count",
+    "forged zero margin",
+    "forged maximum",
+    "wrong prime cutoff",
+    "p3 cover promoted to p5",
+    "damaged boundary residue"
+  ],
+  "negative_controls_scored": 13,
+  "code_sha256": "0525cd5382f2087cf499a2876c8c86b9f8d0811ae4ebe6878b1404533f3b10d1",
+  "prime_and_divisor_algorithms": "Strided Eratosthenes plus linear least-prime-factor sieve; every capacity checked by complete divisors.",
+  "independence": "Fresh implementation, same exposed actor/model/expected values/Python integers; notblind, external or formal."
+}

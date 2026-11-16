@@ -1,0 +1,42 @@
+{
+  "utc": "2026-11-16T21:24:10.565462+00:00",
+  "records": [
+    "M04-DECISION-SEARCH-C111",
+    "M04-UNIFORMITY-C112",
+    "M04-EQUALITY-ORACLE-C113"
+  ],
+  "claims": [
+    {
+      "proof": "DECISION_SEARCH_PROOF.md",
+      "scope": "For each fixed polynomially bounded polynomial-time verifier relation, a correct decision oracle and a fixed polynomial prefix-language reduction give a uniform search algorithm with at most p(n)+1queries. Ordinary polynomial search remains conditional on an ordinary polynomial decider.",
+      "verdict": "PASS_RESTRICTED",
+      "outcome": "PROVED",
+      "assurance": "Analytic proof audit; no executed complexity research instrument."
+    },
+    {
+      "proof": "UNIFORMITY_PROOF.md",
+      "scope": "There exists a decidable binary language outside uniform Pwith constant functions/two noninput gates at every positive length. A uniform polynomial unary-length circuit generator would instead give a polynomial decider. No NPmembership or PversusNPseparation is claimed.",
+      "verdict": "PASS_RESTRICTED",
+      "outcome": "PROVED",
+      "assurance": "Analytic proof audit; no executed complexity research instrument."
+    },
+    {
+      "proof": "EQUALITY_ORACLE_PROOF.md",
+      "scope": "For the exact unary-clock/program oracle Adefined here, ordinaryEXP=P^A=NP^A. This single-oracle known theorem does not imply ordinaryP=NP, P!=NP, EXP^A=EXP, or a new barrier for a submitted proof.",
+      "verdict": "PASS_RESTRICTED",
+      "outcome": "PROVED",
+      "assurance": "Analytic proof audit; no executed complexity research instrument."
+    }
+  ],
+  "attacks": [
+    "Variable/empty witnesses and p(0)=0; initial prefix query and terminal verifier prevent padding error.",
+    "One fixed verifier/reduction/clock per language, no input-dependent exponent.",
+    "Diagonal enumeration includes every machine and global polynomial clock; bounded simulation stays decidable.",
+    "Two noninput gates use x1only for n>=1; empty input separate; polynomial generator plus explicit DAGevaluation would imply uniformP.",
+    "Same encoded oracle in all containments; unary tmeans2^ttransitions; t0means1transition.",
+    "Charged explicit query writing limits every adaptive query; complete bounded branching enumeration and ordinaryAdecider cost stayEXP.",
+    "Binary clock substitution invalidates the unchanged simulation bound; it is not a theorem classifying all changed oracles."
+  ],
+  "global_P_versus_NP": "NOT_TESTED_UNRESOLVED_WITHIN_THIS_AUDIT",
+  "blind_external_formal_review": false
+}

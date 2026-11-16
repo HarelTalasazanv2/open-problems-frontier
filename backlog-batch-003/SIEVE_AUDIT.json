@@ -1,0 +1,611 @@
+{
+  "status": "PASS_RESTRICTED",
+  "records": [
+    "C146",
+    "C147"
+  ],
+  "result": {
+    "beta": "114794077875241116581417079678284693699638429309008317551833805947321545176372499329902455078098059116073649942205662215995349066184010446806720181750688052771859497633745122016515500281426591533669264772525/114803962631759392536999492079637840298103687784380550669888891816998729257503274598978118025283854136599901498671953888132998001385210207443501262716952710895691969275871917890110504314844238085543574663488",
+    "margin": "9884756518275955582412401353146598465258475372233118055085869677184081130775269075662947185795020526251556466291672137648935201199760636781080966264658123832471642126795873595004033417646551874309890963/114803962631759392536999492079637840298103687784380550669888891816998729257503274598978118025283854136599901498671953888132998001385210207443501262716952710895691969275871917890110504314844238085543574663488",
+    "rows": [
+      {
+        "prime": 2,
+        "moduli": [
+          4,
+          16,
+          256
+        ],
+        "F": "81/256",
+        "G": "6561/65536",
+        "contribution": "81/256",
+        "ordered_pairs": 9
+      },
+      {
+        "prime": 3,
+        "moduli": [
+          6,
+          12,
+          18,
+          36,
+          72,
+          96,
+          108,
+          162,
+          192,
+          432,
+          486,
+          576,
+          768
+        ],
+        "F": "23993/62208",
+        "G": "5474741/15116544",
+        "contribution": "23993/62208",
+        "ordered_pairs": 169
+      },
+      {
+        "prime": 5,
+        "moduli": [
+          10,
+          30,
+          40,
+          60,
+          100,
+          150,
+          180,
+          240,
+          250,
+          270,
+          400,
+          540,
+          600,
+          640,
+          750,
+          810
+        ],
+        "F": "284137/1296000",
+        "G": "23183743/162000000",
+        "contribution": "28979678750/195699193911",
+        "ordered_pairs": 256
+      },
+      {
+        "prime": 7,
+        "moduli": [
+          28,
+          42,
+          70,
+          112,
+          126,
+          196,
+          210,
+          280,
+          336,
+          378,
+          420,
+          448,
+          490,
+          630,
+          672,
+          700,
+          756
+        ],
+        "F": "238714963/1669816512",
+        "G": "20727586825/245463027264",
+        "contribution": "5181896706250000/61210804444679799",
+        "ordered_pairs": 289
+      },
+      {
+        "prime": 11,
+        "moduli": [
+          22,
+          66,
+          88,
+          198,
+          330,
+          352,
+          396,
+          462,
+          616,
+          660,
+          726
+        ],
+        "F": "31648859711/320787150112",
+        "G": "214732980089785/7336081335911328",
+        "contribution": "419400351737861328125000/14310364728361259608701651",
+        "ordered_pairs": 121
+      },
+      {
+        "prime": 13,
+        "moduli": [
+          52,
+          78,
+          130,
+          156,
+          312,
+          520,
+          546,
+          676,
+          858
+        ],
+        "F": "11185862603900525/171727065266244488",
+        "G": "4187285189402908217/261196866269957866248",
+        "contribution": "2044572846388138777832031250/127274379094929936244495319199",
+        "ordered_pairs": 81
+      },
+      {
+        "prime": 17,
+        "moduli": [
+          102,
+          136,
+          238,
+          306,
+          408,
+          442,
+          612
+        ],
+        "F": "187719344245/5095616376396",
+        "G": "39940019649/7218789866561",
+        "contribution": "83208374268750000/15013617508103968117",
+        "ordered_pairs": 49
+      },
+      {
+        "prime": 19,
+        "moduli": [
+          190,
+          228,
+          418,
+          456,
+          570,
+          646,
+          760
+        ],
+        "F": "96055350182593489/3399099472473890328",
+        "G": "78563996209748605/21527629992334638744",
+        "contribution": "78563996209748605/21527629992334638744",
+        "ordered_pairs": 49
+      },
+      {
+        "prime": 23,
+        "moduli": [
+          46,
+          138,
+          276,
+          460,
+          598,
+          690,
+          828
+        ],
+        "F": "3835546811/88909978911",
+        "G": "2490475348889/478513506499002",
+        "contribution": "2490475348889/478513506499002",
+        "ordered_pairs": 49
+      },
+      {
+        "prime": 29,
+        "moduli": [
+          58,
+          232,
+          348,
+          522
+        ],
+        "F": "55/2088",
+        "G": "35/20184",
+        "contribution": "35/20184",
+        "ordered_pairs": 16
+      },
+      {
+        "prime": 31,
+        "moduli": [
+          310,
+          372,
+          682
+        ],
+        "F": "76401225657/6962678984404",
+        "G": "26504434349/52502363152668",
+        "contribution": "26504434349/52502363152668",
+        "ordered_pairs": 9
+      },
+      {
+        "prime": 37,
+        "moduli": [
+          148,
+          222,
+          592
+        ],
+        "F": "23/1776",
+        "G": "13/21904",
+        "contribution": "13/21904",
+        "ordered_pairs": 9
+      },
+      {
+        "prime": 41,
+        "moduli": [
+          82,
+          738,
+          820
+        ],
+        "F": "113605/7277049",
+        "G": "499978/895077027",
+        "contribution": "499978/895077027",
+        "ordered_pairs": 9
+      },
+      {
+        "prime": 43,
+        "moduli": [
+          172,
+          430
+        ],
+        "F": "99163/10176036",
+        "G": "139163/437569548",
+        "contribution": "139163/437569548",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 47,
+        "moduli": [
+          282,
+          658
+        ],
+        "F": "53407/8292774",
+        "G": "69407/389760378",
+        "contribution": "69407/389760378",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 53,
+        "moduli": [
+          106,
+          742
+        ],
+        "F": "37407/3117142",
+        "G": "53407/165208526",
+        "contribution": "53407/165208526",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 59,
+        "moduli": [
+          708,
+          826
+        ],
+        "F": "77407/20820156",
+        "G": "93407/1228389204",
+        "contribution": "93407/1228389204",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 61,
+        "moduli": [
+          366,
+          732
+        ],
+        "F": "1/244",
+        "G": "5/44652",
+        "contribution": "5/44652",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 67,
+        "moduli": [
+          268
+        ],
+        "F": "1/268",
+        "G": "1/17956",
+        "contribution": "1/17956",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 71,
+        "moduli": [
+          568,
+          852
+        ],
+        "F": "5/1704",
+        "G": "7/120984",
+        "contribution": "7/120984",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 73,
+        "moduli": [
+          292,
+          438,
+          876
+        ],
+        "F": "1/146",
+        "G": "1/5329",
+        "contribution": "1/5329",
+        "ordered_pairs": 9
+      },
+      {
+        "prime": 79,
+        "moduli": [
+          316
+        ],
+        "F": "1/316",
+        "G": "1/24964",
+        "contribution": "1/24964",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 83,
+        "moduli": [
+          166,
+          498
+        ],
+        "F": "2/249",
+        "G": "1/6889",
+        "contribution": "1/6889",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 89,
+        "moduli": [
+          178
+        ],
+        "F": "1/178",
+        "G": "1/15842",
+        "contribution": "1/15842",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 97,
+        "moduli": [
+          388
+        ],
+        "F": "1/388",
+        "G": "1/37636",
+        "contribution": "1/37636",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 101,
+        "moduli": [
+          606,
+          808
+        ],
+        "F": "7/2424",
+        "G": "3/81608",
+        "contribution": "3/81608",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 103,
+        "moduli": [
+          618
+        ],
+        "F": "1/618",
+        "G": "1/63654",
+        "contribution": "1/63654",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 107,
+        "moduli": [
+          642,
+          856
+        ],
+        "F": "7/2568",
+        "G": "3/91592",
+        "contribution": "3/91592",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 113,
+        "moduli": [
+          226
+        ],
+        "F": "1/226",
+        "G": "1/25538",
+        "contribution": "1/25538",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 127,
+        "moduli": [
+          508
+        ],
+        "F": "1/508",
+        "G": "1/64516",
+        "contribution": "1/64516",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 131,
+        "moduli": [
+          262,
+          786
+        ],
+        "F": "2/393",
+        "G": "1/17161",
+        "contribution": "1/17161",
+        "ordered_pairs": 4
+      },
+      {
+        "prime": 137,
+        "moduli": [
+          822
+        ],
+        "F": "1/822",
+        "G": "1/112614",
+        "contribution": "1/112614",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 139,
+        "moduli": [
+          556
+        ],
+        "F": "1/556",
+        "G": "1/77284",
+        "contribution": "1/77284",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 163,
+        "moduli": [
+          652
+        ],
+        "F": "1/652",
+        "G": "1/106276",
+        "contribution": "1/106276",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 173,
+        "moduli": [
+          346
+        ],
+        "F": "1/346",
+        "G": "1/59858",
+        "contribution": "1/59858",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 179,
+        "moduli": [
+          358
+        ],
+        "F": "1/358",
+        "G": "1/64082",
+        "contribution": "1/64082",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 191,
+        "moduli": [
+          382
+        ],
+        "F": "1/382",
+        "G": "1/72962",
+        "contribution": "1/72962",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 193,
+        "moduli": [
+          772
+        ],
+        "F": "1/772",
+        "G": "1/148996",
+        "contribution": "1/148996",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 199,
+        "moduli": [
+          796
+        ],
+        "F": "1/796",
+        "G": "1/158404",
+        "contribution": "1/158404",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 233,
+        "moduli": [
+          466
+        ],
+        "F": "1/466",
+        "G": "1/108578",
+        "contribution": "1/108578",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 239,
+        "moduli": [
+          478
+        ],
+        "F": "1/478",
+        "G": "1/114242",
+        "contribution": "1/114242",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 251,
+        "moduli": [
+          502
+        ],
+        "F": "1/502",
+        "G": "1/126002",
+        "contribution": "1/126002",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 281,
+        "moduli": [
+          562
+        ],
+        "F": "1/562",
+        "G": "1/157922",
+        "contribution": "1/157922",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 293,
+        "moduli": [
+          586
+        ],
+        "F": "1/586",
+        "G": "1/171698",
+        "contribution": "1/171698",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 359,
+        "moduli": [
+          718
+        ],
+        "F": "1/718",
+        "G": "1/257762",
+        "contribution": "1/257762",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 419,
+        "moduli": [
+          838
+        ],
+        "F": "1/838",
+        "G": "1/351122",
+        "contribution": "1/351122",
+        "ordered_pairs": 1
+      },
+      {
+        "prime": 431,
+        "moduli": [
+          862
+        ],
+        "F": "1/862",
+        "G": "1/371522",
+        "contribution": "1/371522",
+        "ordered_pairs": 1
+      }
+    ],
+    "ordered_pairs": 1187
+  },
+  "kernel_controls": {
+    "cells": 216,
+    "prior_vectors": 648,
+    "zero_prior_and_alpha0_1_delta0_half": true,
+    "actual_kernel_fault_detected": true
+  },
+  "negative_controls_detected": [
+    "missing modulus",
+    "duplicate modulus same count",
+    "wrong pool member",
+    "missing prime key",
+    "duplicate prime key",
+    "float delta",
+    "inadmissible delta",
+    "zero denominator",
+    "noncanonical rational",
+    "actual omitted ordered cross pairs",
+    "actual exponent instead of distinct-prime weight",
+    "beta equality must not certify"
+  ],
+  "negative_controls_scored": 12,
+  "code_sha256": "ebfcd68cd433c96392f413fa48217555629de0a4a3da57c8e17b3025d0e9b341",
+  "candidate_sha256": "1728195f035210969c1e205bad6e424f5f9cfdab329c02136411288911464a22",
+  "claim_ceiling": "Every subset of the fixed U877pool fails to cover Z, using the full finite criterion proof. No larger pool, density theorem, optimality or unrestricted global result.",
+  "independence": "Fresh code/formulation with exposed inputs/answers and shared actor/Python Fraction backend; nonblind, not external or formal."
+}

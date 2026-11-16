@@ -1,0 +1,31 @@
+{
+  "status": "PASS_RESTRICTED_LOCAL_ADMISSION",
+  "new_audit_ids": [
+    "M09-DIVISOR360-NONCOVER-C063",
+    "M09-DENSITY-SCREEN-C064",
+    "M09-PARITY-CRT-C065",
+    "M09-U877-C146",
+    "M09-FINITE-SIEVE-C147",
+    "M11-MOD120-C158",
+    "M04-DECISION-SEARCH-C111",
+    "M04-UNIFORMITY-C112",
+    "M04-EQUALITY-ORACLE-C113"
+  ],
+  "previous_hold_ids_admitted_output_only": [
+    "M12-WITNESS42-C168",
+    "M12-FIXED-NOEXT-C169",
+    "M12-SEED42-NEIGHBORHOODS-C171"
+  ],
+  "new_records_audited": 9,
+  "previous_holds_resolved_for_output_only_release": 3,
+  "public_records_this_batch_if_remote_verified": 12,
+  "historical_roster_total": 118,
+  "published_total_if_remote_verified": 35,
+  "remaining_unaudited": 83,
+  "remaining_record_publication_holds_after_if_remote_verified": 0,
+  "source_data_redistribution_question": "STILL_UNRESOLVED_INPUT_NOT_REDISTRIBUTED",
+  "source_input_required_for_graph_replay": true,
+  "claim_ceiling": "Only exact proof/certificate statements in this package; no global open-problem resolution, novelty, human/formal/blind review or performance claim.",
+  "current_external_authority": "Explicit user authorization to publish passing historical backlog and to add public README/LICENSE from supplied template.",
+  "native_main_thread_controls_untouched": true
+}

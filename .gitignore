@@ -1,0 +1,7 @@
+/.verification-inputs/
+/.runtime-inputs-*/
+/.opf-input-stage-*/
+/input-report.json
+/verification-report.json
+/__pycache__/
+/scripts/__pycache__/

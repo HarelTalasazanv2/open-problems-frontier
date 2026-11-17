@@ -52,7 +52,9 @@ def check_integrity(root):
     require(paths and len(paths) == len(set(paths)), "Empty or duplicate file membership")
     required = {"RESULTS.json", "RESULTS.md", "PUBLISHED_RECORD_IDS.json",
                 "VERIFICATION_PLAN.json", "scripts/verify_all.py",
-                "scripts/test_verify_all.py", ".github/workflows/verify.yml"}
+                "scripts/test_verify_all.py", ".github/workflows/verify.yml",
+                "scripts/prepare_inputs.py", "scripts/test_prepare_inputs.py",
+                "verification-inputs/INPUTS.json", "verification-inputs/inputs-v1.zip"}
     require(required <= set(paths), "Missing verification infrastructure membership")
     for entry in entries:
         path = inside(root, entry["path"])

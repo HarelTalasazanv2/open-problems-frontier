@@ -1,28 +1,23 @@
-# Automated verification
+# Reproduce all18 declared replay tasks
 
-Run from a clean repository checkout with Python 3.12 and its standard library:
+A clean checkout includes the exact21data files required by the four input-dependent tasks, in a versioned archive. The materializer checks the archive, complete member identities, sizes and SHA256 hashes before making a fresh data directory. Captured source and decoder text remain inert.
 
-```sh
-python -B -m unittest discover -s scripts -p test_verify_all.py -v
-python -B scripts/verify_all.py
-python -B -O scripts/verify_all.py
-python -B -OO scripts/verify_all.py
-```
-
-GitHub Actions runs the same contract tests and all declared self-contained checks in normal, `-O` and `-OO` modes on pushes, pull requests and manual dispatch. The checkout and Python setup actions are pinned to the commits inspected on 2026-11-16. Permissions are limited to reading repository contents; the workflow installs no project dependencies and sends no research data elsewhere.
-
-A successful default job means all 14 declared self-contained certificate replays and the file/index checks passed. The index contains 118 historical claim records: 51 analytic-proof, 37 mixed, four finite-certificate, 19 external-input-required and seven source-contract records. Several records share evidence and checkers; these are not counts of independent theorems. Analytic arguments and source assertions are not proved by the runner.
-
-Four tasks require separate inputs: one graph seed, the 15 final Hadamard matrices, the selected source relationships, and the order-668 CSV. Default CI reports each as `MISSING_EXTERNAL_INPUT`, and `all_declared_replays_verified` stays false. Green CI does not mean these tasks were replayed, or that analytic proofs, novelty or global conjectures were machine-verified.
-
-To require every declared replay, obtain the exact inputs under applicable permissions and follow the [external-input inventory](backlog-batch-004/EXTERNAL_INPUTS.md), then run:
+Run with Python3.12 and its standard library from the repository root:
 
 ```sh
-python -B scripts/verify_all.py --external-seed /absolute/path/to/authorized-seed.g6 --matrix-root /absolute/path/to/authorized-matrix-inputs --require-external
+python -B -m unittest discover -s scripts -p 'test_*.py' -v
+python -B scripts/prepare_inputs.py --output .verification-inputs --report input-report.json
+python -B scripts/verify_all.py --external-seed .verification-inputs/graph/seed.g6 --matrix-root .verification-inputs/matrices --require-external --report verification-report.json
 ```
 
-The checker downloads nothing. A graph seed cannot discharge a matrix-input obligation, or conversely. Missing required input, a wrong input, a missing checker, an invalid certificate, a timeout, a nonzero child exit or a mismatched success contract produces a failing exit. Optional `--report NEW_FILE.json` saves the observed machine-readable result without overwriting an existing report. Normal, `-O` and `-OO` modes propagate to every child checker.
+The report files and output directory must be new; the tools refuse to overwrite them. A repeat can use new report names and reuse the already verified data directory. To test another optimization mode, use `python -B -O` or `python -B -OO` for both commands, selecting fresh report names. Child checkers inherit the selected mode.
 
-[RESULTS.md](RESULTS.md) explains each exact claim and its scope. [RESULTS.json](RESULTS.json) distinguishes analytic proofs, finite certificates, mixed arguments and external-input packages. [VERIFICATION_PLAN.json](VERIFICATION_PLAN.json) fixes checker membership, arguments and success contracts. [VERIFICATION_MANIFEST.json](VERIFICATION_MANIFEST.json) checks byte custody; editing both a file and its manifest is not independent proof of correctness.
+GitHub Actions runs the runner/input contract tests, materializes the frozen inputs in a fresh checkout, and **requires all18 replays** in each of normal, `-O` and `-OO` modes. There is no missing-input success fallback in the workflow. A successful full run reports `DECLARED_REPLAYS_VERIFIED`,18 `VERIFIED_REPLAY` rows, zero failed/missing tasks and `all_declared_replays_verified=true`. Checkout and Python setup actions remain pinned; permissions are read-only. No source program from the archive is imported or executed, and no external input download or secret is needed.
 
-Each mathematical consumer retains its own finite membership and invalid-input controls. The runner tests address execution and failure propagation. Neither set constitutes exhaustive software assurance, formal verification or independent expert review. Credit and source roles are in [REFERENCES.md](REFERENCES.md) and [ATTRIBUTION.txt](ATTRIBUTION.txt).
+Calling `verify_all.py` directly without its data arguments still explicitly reports missing inputs. `--require-external` makes that incomplete run fail. Keeping this direct-call behavior preserves the distinction between missing data and a mathematical counterexample.
+
+The18 tasks consist of14 self-contained consumers and4 typed-input consumers. The input origin remains external to each individual historical package, but the required bytes are now included at the repository level. The [input inventory](verification-inputs/INPUTS.json) and [source references](verification-inputs/REFERENCES.md) identify every supplied object. No scientific statement, output certificate or mandatory task was changed to create this reproduction path.
+
+[RESULTS.md](RESULTS.md) and [RESULTS.json](RESULTS.json) retain118 historical claim records. These comprise51 analytic-proof,37 mixed,4 finite-certificate,19 external-input-required and7 source-contract records; several share checkers. The19 record labels describe their historical evidence dependency, now satisfied for CI by the frozen bundle. This is not118 new or independent theorems.
+
+The runner checks [complete record membership](PUBLISHED_RECORD_IDS.json), [task contracts](VERIFICATION_PLAN.json) and [file byte custody](VERIFICATION_MANIFEST.json). Green CI does not machine-prove analytic arguments, imported theorems, source authenticity, novelty or global conjectures. Concrete defects and their exact affected statements are assessed in [REVIEW_FINDINGS.md](REVIEW_FINDINGS.md). Credit and original source roles remain in [REFERENCES.md](REFERENCES.md) and [ATTRIBUTION.txt](ATTRIBUTION.txt).

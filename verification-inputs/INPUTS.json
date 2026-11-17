@@ -1,0 +1,231 @@
+{
+  "schema": "OPF_REPLAY_INPUT_BUNDLE_V1",
+  "scope": "Exactly the21data inputs of the four previously external replay tasks; this is not a new mathematical result, source-authorship authentication or data-license grant.",
+  "archive": {
+    "path": "verification-inputs/inputs-v1.zip",
+    "bytes": 4283184,
+    "sha256": "679d9a41a0e9abc42ce9d7a7f8cedc2311d135494afacd4e472ba2e56b8c4342"
+  },
+  "files": [
+    {
+      "path": "graph/seed.g6",
+      "bytes": 146,
+      "sha256": "ab0b10364ac62ab07f662c0ed4e8b47a44956f63a78356b64ae64ccb6520ecb0",
+      "used_by": [
+        "external-graph"
+      ],
+      "source_url": "https://users.cecs.anu.edu.au/~bdm/data/r55_42some.g6",
+      "lineage": "Only the fixed first42-vertex graph6record, preserving its saved final newline; not the curator collection."
+    },
+    {
+      "path": "matrices/H1132.gz",
+      "bytes": 254349,
+      "sha256": "1ba3de6a5e1d25467fa95677b02751115db315bf011241758c9cb85e211f82df",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_1132.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H1212.gz",
+      "bytes": 25593,
+      "sha256": "36f582d444957dd034c483686bf24819bb88035a0d90c1c4825c7beac3d5249d",
+      "used_by": [
+        "external-matrices"
+      ],
+      "source_url": "https://cran.r-project.org/src/contrib/HadamardR_1.0.0.tar.gz",
+      "lineage": "Project-generated final witness from the documented HadamardR auxiliary data; see the exact published proof. Not a new upstream download."
+    },
+    {
+      "path": "matrices/H1244.gz",
+      "bytes": 306640,
+      "sha256": "e92845e882befde229f7c949f156ec2578ffc564e301f9ab8126bd9f7e7f1de7",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_1244.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H1388.gz",
+      "bytes": 371520,
+      "sha256": "f7d5c0ec21350058eb6328b63d150b419ceffa902156c0093d09694443fd097d",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_1388.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H1436.gz",
+      "bytes": 210443,
+      "sha256": "74f6541378e85ca2c10110b310dddf8fdcdab383b650b232b8c868d5b426c5a9",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_1436.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H1676.gz",
+      "bytes": 555166,
+      "sha256": "3bb48b0014d144c376a0c6a2ba15e59757067c7dc070d8ee886f33dabd1bb0f1",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_1676.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H1772.gz",
+      "bytes": 617677,
+      "sha256": "e7087d772c47164e4ca15f9b9dedc0ec0a9396d09239db9eedd91d28a5382c71",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_1772.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H1916.gz",
+      "bytes": 719217,
+      "sha256": "7c8c4e73b69456007d936c80ca9af224d512d176d006dd7072a354f006f0cdf1",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_1916.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H1940.gz",
+      "bytes": 62236,
+      "sha256": "7c31e4b254e1eee72205a8b239f6b803abb99581fb4360ecf0a4923010fd61bc",
+      "used_by": [
+        "external-matrices"
+      ],
+      "source_url": "https://cran.r-project.org/src/contrib/HadamardR_1.0.0.tar.gz",
+      "lineage": "Project-generated final witness from the documented HadamardR auxiliary data; see the exact published proof. Not a new upstream download."
+    },
+    {
+      "path": "matrices/H1948.gz",
+      "bytes": 749059,
+      "sha256": "a6a8fc73d0c45c195d5ccbd131a5c3ecc4d7d7ee48dc03a9db889916325dd6a0",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_1948.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H1964.gz",
+      "bytes": 761531,
+      "sha256": "a6b834d131a565aa1356b5657db85f2fce8928492d2e4c1d85fad2b5e994fe03",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_1964.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H2092.gz",
+      "bytes": 43426,
+      "sha256": "bfae5d317f8710c050cd971524ecf1a4f0503adef3f03a97e93372df705dc0d5",
+      "used_by": [
+        "external-matrices"
+      ],
+      "source_url": "https://raw.githubusercontent.com/Middletownbooks/Hadamard/d91311b4e36b68b9b6a9d785c3d6ef3075c8ec98/pub/H2092/H2092_normalized.txt.gz",
+      "lineage": "Pinned public final matrix; original compressed bytes."
+    },
+    {
+      "path": "matrices/H2292.gz",
+      "bytes": 54255,
+      "sha256": "63deb5a9783c7050d819be3b749f36abd0106da0c5a88b792bdbdc56e2d08fab",
+      "used_by": [
+        "external-matrices"
+      ],
+      "source_url": "https://raw.githubusercontent.com/Middletownbooks/Hadamard/d91311b4e36b68b9b6a9d785c3d6ef3075c8ec98/pub/H2292/H2292_normalized.txt.gz",
+      "lineage": "Pinned public final matrix; original compressed bytes."
+    },
+    {
+      "path": "matrices/H668.csv",
+      "bytes": 1115894,
+      "sha256": "5eaef5f4c814469a1f0815756876b83e8c4944ff7ccf4f023ee479de5e8f9a8b",
+      "used_by": [
+        "external-csv668"
+      ],
+      "source_url": "https://drive.google.com/file/d/1kxRbFEF5QFn7lWTSDhEDJCAETTgaSAsV/view",
+      "lineage": "Exact previously audited one-file public release candidate; no release completeness or account authentication inferred."
+    },
+    {
+      "path": "matrices/H716.gz",
+      "bytes": 90698,
+      "sha256": "158b04b0b7dfe3145e4438de4217e4aefe4ba057e70fb868ed256f0ac91d8d97",
+      "used_by": [
+        "external-matrices",
+        "external-relations"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_716.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/H892.gz",
+      "bytes": 158150,
+      "sha256": "20beacc079cd64368df66f1781125b3aff4a026f446c08ebd18a419f66a32e56",
+      "used_by": [
+        "external-matrices"
+      ],
+      "source_url": "https://raw.githubusercontent.com/bbeartheancient/hoa64/d825201089123126ce792d4921cba4ae1b8977a3/matrices/hadamard_892.csv.gz",
+      "lineage": "Pinned public final matrix mirror; original compressed bytes."
+    },
+    {
+      "path": "matrices/author_decoder_actual.html",
+      "bytes": 226939,
+      "sha256": "fc5362d59805a473e961e475fa25e2cbf8a0306e4f8c53bf50b3353f468cdcdf",
+      "used_by": [
+        "external-relations"
+      ],
+      "source_url": "https://x.com/__alpoge__/status/2087504788938510427",
+      "lineage": "Exact historical public capture or deterministic inert derivative; source code text is never executed."
+    },
+    {
+      "path": "matrices/author_payload.signs",
+      "bytes": 23829,
+      "sha256": "6af364c5cbb505f32fe585ddd83999a9f1ce0432a4c664ef61b4c934d75eeb4c",
+      "used_by": [
+        "external-relations"
+      ],
+      "source_url": "https://x.com/__alpoge__/status/2087504785952182273",
+      "lineage": "Exact historical public capture or deterministic inert derivative; source code text is never executed."
+    },
+    {
+      "path": "matrices/author_x.data",
+      "bytes": 382346,
+      "sha256": "4f8be5f1f8a1e99e01d0494ca141944f99ce26de8c3ad5acdb80bc3968d69dee",
+      "used_by": [
+        "external-relations"
+      ],
+      "source_url": "https://x.com/__alpoge__/status/2087504785952182273",
+      "lineage": "Exact historical public capture or deterministic inert derivative; source code text is never executed."
+    },
+    {
+      "path": "matrices/decoded_author_program_source.txt",
+      "bytes": 6130,
+      "sha256": "cf0ac77c3c6329d7d904466c18e653229521913ed19f2535322a9c5abc986f05",
+      "used_by": [
+        "external-relations"
+      ],
+      "source_url": "https://x.com/__alpoge__/status/2087504788938510427",
+      "lineage": "Exact historical public capture or deterministic inert derivative; source code text is never executed."
+    }
+  ]
+}

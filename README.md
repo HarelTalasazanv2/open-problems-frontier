@@ -2,7 +2,7 @@
 
 **HTYT Enterprises LLC | Public research repository**
 
-Start with the [results index](RESULTS.md) for exact statements, proof/certificate links and review limits. Run the [automated verification](VERIFICATION.md) to replay the self-contained packages. Analytic proofs and external-input dependencies are identified separately.
+Start with the [results index](RESULTS.md) for exact statements, proof/certificate links and review limits. Run the [automated verification](VERIFICATION.md) to replay all18 declared tasks using the included exact-input bundle. Analytic proofs and input-dependent tasks remain identified separately.
 
 Open Problems Frontier is a research program for investigating open problems in mathematics and physics through precise statements, primary-source review, mathematical reasoning, computational certificates, and adversarial verification.
 
@@ -107,7 +107,7 @@ Research records distinguish current working views from dated historical evidenc
 - [Backlog batch 004: eighty-three individual audits, qualified corrections and expanded verification](backlog-batch-004/README.md).
 - [Publication policy](PUBLICATION_POLICY.md), [references and credit](REFERENCES.md), and [rights notice](LICENSE).
 
-The current release contains all 118 individually audited records in the authorized historical snapshot. Seven are source/interface records, and several mathematical records share a proof or checker; these are not counts of new discoveries. The 83-record backlog is covered by batch 004 at explicit claim ceilings, including the documented M07 correction. The three graph packages previously held are released as project-authored proofs, outputs and checking tools requiring an exact externally supplied seed. The curator's graph data and original CNF input are excluded; their redistribution terms remain unresolved. New matrix/source-input packages likewise publish project proofs, checking tools, output certificates and exact input identities while requiring separately supplied raw inputs. Each dated batch preserves its own historical counts and claim ceilings.
+The current release contains all 118 individually audited records in the authorized historical snapshot. Seven are source/interface records, and several mathematical records share a proof or checker; these are not counts of new discoveries. The 83-record backlog is covered by batch 004 at explicit claim ceilings, including the documented M07 correction. The four input-dependent replay tasks now receive their exact21 data files from the [versioned input bundle](verification-inputs/INPUTS.json), under the November17 reproducibility instruction. GitHub Actions requires all18 tasks in normal,-O,-OO modes. The fixed source identities, original contributor credit and exact mathematical claim ceilings are retained; this is a reproduction change, not a new mathematical result. Each dated batch preserves its own historical counts and claim ceilings.
 
 The historical exclusion chain released through Cycle 197 left 49 neighborhood classes / 14,872 labeled neighborhoods unresolved at that cycle. Later local graph work is outside that released chain. No full graph/Ramsey, Erdős covering, Erdős–Straus, P-versus-NP or other global open-problem resolution is asserted.
 

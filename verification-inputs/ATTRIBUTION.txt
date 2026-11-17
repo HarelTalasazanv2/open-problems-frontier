@@ -1,0 +1,5 @@
+Harel Talasazan — HTYT Enterprises LLC: research direction, commissioning and stewardship.
+Codex (OpenAI): current exposed audit, verification instruments, documentation and authorized publication.
+Claude (Anthropic): documented historical assistance. Concurrent read-only review not received or adopted here.
+Original academic, mathematical, data and software authors retain credit; see REFERENCES.md.
+No novelty, priority, independent human review, formal verification or global open-problem resolution is asserted.

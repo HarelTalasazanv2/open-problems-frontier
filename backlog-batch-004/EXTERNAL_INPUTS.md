@@ -1,23 +1,16 @@
-# Exact external inputs
+# Exact typed inputs: now included for reproducibility
 
-The public package contains project proofs, checkers, lossless output certificates and input identities. Raw third-party data and source captures are supplied separately. Default CI explicitly reports the matrix/source checks as `MISSING_EXTERNAL_INPUT`; it does not claim to have replayed them.
-
-For the fifteen final witnesses, put the exact gzip files at the filenames in [MATRIX_INPUTS.json](MATRIX_INPUTS.json) in one folder. Each compressed and expanded hash must match. The checker accepts no replacement matrix merely because it is Hadamard at the same order.
-
-For the ten source relationships, the same folder also needs the four exact files named in [RELATION_INPUTS.json](RELATION_INPUTS.json): the saved announcement HTML, decoder-reply HTML, payload-sign derivative and inert decoded-program derivative. They are parsed as data. The decoded program is never imported, evaluated or executed. The twelve headers and all 23,828 signs must be present, even though only ten selected matrices are reconstructed.
-
-For C166, add the exact `H668.csv` to that folder: 1,115,894 bytes, SHA256 `5eaef5f4c814469a1f0815756876b83e8c4944ff7ccf4f023ee479de5e8f9a8b`. The checker tests the canonical sign encoding and every row/column pair.
+The four input-dependent tasks keep their original strict input contracts. Their exact21 data files are now delivered in the repository's [versioned bundle](../verification-inputs/INPUTS.json), with [source references and credit](../verification-inputs/REFERENCES.md). This supersedes the earlier output-only delivery limitation, not the historical byte identities or mathematical statements.
 
 From the repository root:
 
 ```sh
-python3 -B scripts/verify_all.py --matrix-root '/path/to/exact matrix inputs'
+python -B scripts/prepare_inputs.py --output .verification-inputs --report input-report.json
+python -B scripts/verify_all.py --matrix-root .verification-inputs/matrices --external-seed .verification-inputs/graph/seed.g6 --require-external --report verification-report.json
 ```
 
-The separate graph-seed tasks still require their own exact graph input. To require every declared replay, supply both independent inputs:
+The output directory and reports must be new. All18 tasks must finish successfully; `--require-external` rejects a missing input. The materializer performs no download and never executes archive contents. See [full verification instructions](../VERIFICATION.md).
 
-```sh
-python3 -B scripts/verify_all.py --matrix-root '/path/to/exact matrix inputs' --external-seed '/path/to/exact seed.g6' --require-external
-```
+The15 final matrix objects retain their compressed/expanded hashes in [MATRIX_INPUTS.json](MATRIX_INPUTS.json). The10 selected source relationships retain all four exact capture/derivative hashes in [RELATION_INPUTS.json](RELATION_INPUTS.json); all12 payload records and23,828 signs remain required. C166 retains its exact1,115,894-byte CSV hash. The graph task retains its independent exact145-byte record hash excluding its saved newline. A valid alternative matrix or graph is not accepted as a replacement.
 
-These are user-supplied data paths, not files claimed to be distributed in the repository. No network download, permission bypass or automatic acquisition is performed. Missing or wrong inputs remain a missing-input state or a failed check, respectively. References describe the source lineages and their unresolved authentication/redistribution limits.
+Directly invoking the mathematical runner without prepared inputs still produces an explicit missing-input state. Hosted CI now always prepares the bundle and requires all18, under normal,-O,-OO. Original-source and third-party-rights qualifications remain in the references; this delivery change is not a new license, account-authentication or novelty claim.

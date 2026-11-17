@@ -2426,5 +2426,12 @@
       "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
       "correction": null
     }
-  ]
+  ],
+  "reproduction_update": {
+    "date": "2026-11-17",
+    "input_delivery": "verification-inputs/INPUTS.json",
+    "hosted_requirement": "All18 existing task IDs must replay with no missing input.",
+    "claim_membership_changed": false,
+    "scientific_statements_or_certificates_changed": false
+  }
 }

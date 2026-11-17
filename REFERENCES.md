@@ -16,3 +16,5 @@ Codex (OpenAI) implemented the current theorem-oriented index, explicit certific
 ## Batch004 references and contribution roles
 
 See [the batch004 reference file](backlog-batch-004/REFERENCES.md) for original academic/data contributors, selected primary-source extents, named theorem imports, AI assistance roles and the limits of the concurrent Claude review.
+
+The [November17 exact-input reproduction path](verification-inputs/REFERENCES.md) adds source custody and credit for the21 frozen data members. [Concrete findings](REVIEW_FINDINGS.md) remain separate from mathematical claim counts. No current Claude review was supplied or adopted.

@@ -1,0 +1,132 @@
+{
+  "schema": "OPF_LOCAL_FULL_REPRODUCTION_V1",
+  "utc": "2026-11-17T18:02:49.059630+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.7.3-arm64-arm-64bit",
+  "scope": "All18 existing replay tasks from the exact versioned input bundle. Same exposed implementation rerun, not independent derivation or human/formal proof.",
+  "archive_sha256": "679d9a41a0e9abc42ce9d7a7f8cedc2311d135494afacd4e472ba2e56b8c4342",
+  "materialized_members": 21,
+  "runs": [
+    {
+      "mode": "NORMAL",
+      "seconds": 40.937,
+      "steps": [
+        {
+          "step": "PREPARE_NORMAL",
+          "returncode": 0,
+          "status": "EXACT_INPUTS_MATERIALIZED",
+          "members": 21,
+          "replays": 0,
+          "missing": null,
+          "failed": null
+        },
+        {
+          "step": "REPLAY_NORMAL",
+          "returncode": 0,
+          "status": "DECLARED_REPLAYS_VERIFIED",
+          "members": null,
+          "replays": 18,
+          "missing": [],
+          "failed": []
+        }
+      ],
+      "success": true
+    },
+    {
+      "mode": "O",
+      "seconds": 41.654,
+      "steps": [
+        {
+          "step": "PREPARE_O",
+          "returncode": 0,
+          "status": "EXACT_INPUTS_MATERIALIZED",
+          "members": 21,
+          "replays": 0,
+          "missing": null,
+          "failed": null
+        },
+        {
+          "step": "REPLAY_O",
+          "returncode": 0,
+          "status": "DECLARED_REPLAYS_VERIFIED",
+          "members": null,
+          "replays": 18,
+          "missing": [],
+          "failed": []
+        }
+      ],
+      "success": true
+    },
+    {
+      "mode": "OO",
+      "seconds": 41.478,
+      "steps": [
+        {
+          "step": "PREPARE_OO",
+          "returncode": 0,
+          "status": "EXACT_INPUTS_MATERIALIZED",
+          "members": 21,
+          "replays": 0,
+          "missing": null,
+          "failed": null
+        },
+        {
+          "step": "REPLAY_OO",
+          "returncode": 0,
+          "status": "DECLARED_REPLAYS_VERIFIED",
+          "members": null,
+          "replays": 18,
+          "missing": [],
+          "failed": []
+        }
+      ],
+      "success": true
+    }
+  ],
+  "contract_unit_tests_per_mode": 30,
+  "unit_modes": [
+    {
+      "mode": "NORMAL",
+      "returncode": 0
+    },
+    {
+      "mode": "O",
+      "returncode": 0
+    },
+    {
+      "mode": "OO",
+      "returncode": 0
+    }
+  ],
+  "selected_entrypoint_controls": [
+    {
+      "case": "damaged-member-consistent-outer-hashes",
+      "materializer_returncode": 1,
+      "reason": "ValueError: Member byte/hash identity",
+      "detected": true
+    },
+    {
+      "case": "changed-member-all-bundle-pins-resealed",
+      "materializer_returncode": 0,
+      "mathematical_consumer_state": "FAILED",
+      "reason": "Nonzero child exit",
+      "detected": true
+    },
+    {
+      "case": "omitted-critical-input-manifest-entry",
+      "materializer_returncode": 1,
+      "reason": "ValueError: Missing verification infrastructure membership",
+      "detected": true
+    }
+  ],
+  "code_sha256": {
+    "scripts/prepare_inputs.py": "c5e3cc23a38a5ea4da04fa54beae0dec789e5c27e9f93f0c1977959652511607",
+    "scripts/test_prepare_inputs.py": "58fe2af29614edcf397c0cdeeec7dc31afe8ec1569f275ccf354a526f35561cf",
+    "scripts/verify_all.py": "fc67d54c1411e8bec9dd528954b3176bdc1b0a832e9b00b4f0d205b009988b7e",
+    "scripts/test_verify_all.py": "3bcfd3c8a071e35434da46f4f8d3ce217ca1d998c453ee1254d61f6a4cae05a4"
+  },
+  "scientific_claim_records_before": 118,
+  "scientific_claim_records_after": 118,
+  "new_theorem_claims": 0,
+  "current_claude_review_received": false
+}

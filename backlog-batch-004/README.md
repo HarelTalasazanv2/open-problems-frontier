@@ -1,3 +1,7 @@
+# Reproduction update — November17,2026
+
+The [exact versioned data bundle](../verification-inputs/INPUTS.json) now supplies the four input-dependent tasks. Hosted CI requires all18 replays in normal,-O,-OO; the original scientific statements and certificate bytes are unchanged. See [current verification instructions](../VERIFICATION.md). The dated audit account below retains its original delivery context.
+
 # Backlog batch 004: 83 individually audited records
 
 This package completes the authorized historical roster of 118 records, including the 35 previously published records. It adds 83 scoped audits: mathematical arguments, finite certificates and seven source/interface records. These are not 83 new theorems or open-problem solutions.

@@ -1,0 +1,63 @@
+{
+  "schema": "OPF_CONCRETE_FINDING_ADJUDICATION_V1",
+  "utc": "2026-11-17T17:59:24.947284+00:00",
+  "review_provenance": "Exposed local Codex checks of saved findings and current code. User directed continuation without the current Claude review stored on MacBook Air. No independent human/formal review inferred.",
+  "records": [
+    {
+      "id": "F01-C034-ANCILLARY-COEFFICIENT",
+      "origin": "Saved exposed local audit; not current Claude review",
+      "object": "Historical Section7 comparison in M07-PROPORTIONAL-HESSIAN-LOCAL-STABILITY",
+      "status": "CORRECTED_PRIOR_RELEASE",
+      "exact_affected_statement": "The historical identification r^2 k_second=pq[(r+1)d-2(r/a)i]/(2d^2) at scalar stationarity.",
+      "evidence": "The correct coefficient is one copy of(r/a)i; the doubled expression is too small by pq*r*i/(2*a*d^2)>0. The accepted published reading edition already has the correct coefficient and is byte-unchanged.",
+      "control": "Exact rational local-jet algebra distinguishes the two expressions; this is not a numerical scalar-optimizer witness.",
+      "dependent_conclusion": "The primary Hessian/local-stability equations used the correct coefficient earlier. No new global M07 conclusion follows.",
+      "proof": "backlog-batch-004/proofs/m07-proportional-hessian-local-stability.md",
+      "errata": "backlog-batch-004/ERRATA.md",
+      "scientific_status_change": false
+    },
+    {
+      "id": "F02-ALL18-HOSTED-INPUT-GAP",
+      "origin": "Current requested reproducibility contract",
+      "object": "Previous hosted workflow omitted four typed-input tasks by design",
+      "status": "FIXED_AND_ALL18_LOCALLY_REPLAYED",
+      "exact_affected_statement": "A successful default prior CI run established only14self-contained replays; it did not establish all18.",
+      "evidence": "The baseline with --require-external exits1 with the same four missing inputs and no failed scientific consumer. The new workflow materializes all21pinned data files and uses --require-external.",
+      "control": "Missing/altered inputs must fail; no MISSING_EXTERNAL_INPUT row may count as a complete hosted run.",
+      "dependent_conclusion": "Delivery/CI completeness only; no theorem was false solely because its data were missing.",
+      "scientific_status_change": false,
+      "hosted_acceptance": "The exact published commit must pass all18 with zero missing inputs in each hosted optimization job. Hosted results are observed separately from this local receipt."
+    },
+    {
+      "id": "F03-MATERIALIZER-DANGLING-OUTPUT-SYMLINK",
+      "origin": "Current exposed local code review and concrete failing regression",
+      "object": "First new materializer resolved a dangling output symlink before testing freshness",
+      "status": "FIXED_AND_REGRESSION_VERIFIED_LOCALLY",
+      "exact_affected_statement": "The materializer must reject an existing output path and stay within a fresh single-writer checkout directory.",
+      "evidence": "A healthy21-member baseline passed. The new dangling-link regression then failed with ValueError not raised; the old source/failure are retained locally. The guard now rejects symbolic-link output before resolving it.",
+      "control": "The same test passes under normal,-O,-OO and verifies that the link target was not created.",
+      "dependent_conclusion": "Output ownership; no scientific certificate or mathematical statement changed.",
+      "code": "scripts/prepare_inputs.py",
+      "test": "scripts/test_prepare_inputs.py",
+      "scientific_status_change": false
+    },
+    {
+      "id": "F04-ARCHIVE-MEMBERSHIP-AND-FAILURE-PROPAGATION",
+      "origin": "Current contract-derived adversarial tests",
+      "object": "Input archive consumer and existing checker runner",
+      "status": "SUPPORTED_IN_TESTED_SCOPE",
+      "exact_affected_statement": "All21named data objects must match and all18scientific consumers must satisfy their exact success contracts.",
+      "evidence": "New input tests cover missing,extra,duplicate,traversal,link,oversized,wrong-hash/wrong-member bytes,noninteger sizes,existing/outside/dangling output; existing runner tests reject false/malformed JSON,wrong case count,boolean integer substitution,timeout and nonzero exit after PASS.",
+      "control": "Damaged archives/member data must be rejected even after the outer archive identity is updated in a test fixture; positive exact inputs must still pass.",
+      "dependent_conclusion": "Selected controls support the fixed consumer contract, not exhaustive software assurance or machine proof of analytic arguments.",
+      "scientific_status_change": false
+    }
+  ],
+  "historical_claim_records_before": 118,
+  "historical_claim_records_after": 118,
+  "scientific_index_rows_unchanged": true,
+  "scientific_task_plan_sha256": "6bb00d908825c251cd23f2bcb7d21a7d32a469fec008dd0ddb294831a4fb91c4",
+  "unchanged_scientific_artifacts_checked": 270,
+  "new_mathematical_resolution_claims": 0,
+  "local_reproduction": "LOCAL_REPRODUCTION.json"
+}

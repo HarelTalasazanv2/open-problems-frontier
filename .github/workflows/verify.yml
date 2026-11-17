@@ -1,4 +1,4 @@
-name: Verify self-contained research certificates
+name: Verify all 18 research replay tasks
 on:
   push:
   pull_request:
@@ -7,7 +7,7 @@ permissions:
   contents: read
 jobs:
   certificates:
-    name: Self-contained replays; external inputs pending (${{ matrix.optimization }})
+    name: All 18 replays (${{ matrix.optimization }})
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
@@ -22,6 +22,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Challenge runner failure handling
-        run: python -B ${{ matrix.optimization }} -m unittest discover -s scripts -p test_verify_all.py -v
-      - name: Replay every self-contained certificate
-        run: python -B ${{ matrix.optimization }} scripts/verify_all.py --report verification-report.json
+        run: python -B ${{ matrix.optimization }} -m unittest discover -s scripts -p 'test_*.py' -v
+      - name: Verify and materialize all 21 frozen input files
+        run: python -B ${{ matrix.optimization }} scripts/prepare_inputs.py --output .verification-inputs --report input-report.json
+      - name: Require all 18 certificate replays
+        run: python -B ${{ matrix.optimization }} scripts/verify_all.py --external-seed .verification-inputs/graph/seed.g6 --matrix-root .verification-inputs/matrices --require-external --report verification-report.json

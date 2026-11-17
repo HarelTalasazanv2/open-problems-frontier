@@ -4,7 +4,7 @@ This index contains **118 individually reviewed historical claim records**, incl
 
 The authorized83-record backlog is audited at the exact statements below. One nonessential historical M07 comparison is corrected explicitly; see [errata](backlog-batch-004/ERRATA.md). Mathematical originals remain preserved locally.
 
-Run [automated verification](VERIFICATION.md). Default CI checks every self-contained package; four external-input tasks remain explicitly `MISSING_EXTERNAL_INPUT` until their exact inputs are supplied. Analytic arguments are not machine-proved. Source contracts establish what a dated source says, not that its claimed theorem is true.
+Run [automated verification](VERIFICATION.md). Hosted CI now supplies the [exact versioned inputs](verification-inputs/INPUTS.json) and requires all18 replay tasks, including the four typed-input consumers. Direct invocation without those inputs still reports `MISSING_EXTERNAL_INPUT` and fails when `--require-external` is set. Analytic arguments are not machine-proved. Source contracts establish what a dated source says, not that its claimed theorem is true.
 
 Machine-readable files: [index](RESULTS.json), [exact published membership](PUBLISHED_RECORD_IDS.json), [verification plan](VERIFICATION_PLAN.json). Attribution: [references](REFERENCES.md) and [credit](ATTRIBUTION.txt).
 

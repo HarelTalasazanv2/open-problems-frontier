@@ -1,4 +1,4 @@
-name: Verify published research packages
+name: Verify self-contained research certificates
 on:
   push:
   pull_request:
@@ -7,6 +7,7 @@ permissions:
   contents: read
 jobs:
   certificates:
+    name: Self-contained replays; external inputs pending (${{ matrix.optimization }})
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "functional17.cnf",
+    "native_path": "artifacts/m12_degree_projection_cycle184/functional17.cnf",
+    "sha256": "ed7c0772ee4e50df32df19f3021ea0a8e2b4f8e3da57ce1306d70c6edc328184",
+    "bytes": 444354
+  },
+  {
+    "file": "sequential17.cnf",
+    "native_path": "artifacts/m12_degree_projection_cycle184/sequential17.cnf",
+    "sha256": "5432483ee5d247cee18e8e9d1f86bd1fc65b2832342dac3420bcb3295fdba8af",
+    "bytes": 372971
+  }
+]

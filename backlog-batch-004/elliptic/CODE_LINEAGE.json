@@ -1,0 +1,81 @@
+{
+  "inputs": [
+    {
+      "file": "central_check.py",
+      "native_path": "artifacts/m02_central_zero_cycle060/verify.py",
+      "sha256": "f497c77bfb35876f066efc5359f582a0ec3f5f7d807e03f40ee1b04dbd278eda"
+    },
+    {
+      "file": "central_389.json",
+      "native_path": "artifacts/m02_central_zero_cycle060/certificate_389_discovery.json",
+      "sha256": "9607a8b790b0b6f6f280202072992c31db82ca8ab90a159b916c0fdf9a16a443"
+    },
+    {
+      "file": "central_11.json",
+      "native_path": "artifacts/m02_central_zero_cycle060/control_11_nonimage.json",
+      "sha256": "de02968734c0d50664e199c320be5fdf285c420f21aa4a3d4e2c0200ef225f13"
+    },
+    {
+      "file": "derivative_original_reviewed.py",
+      "native_path": "artifacts/m02_second_derivative_cycle061/certify.py",
+      "sha256": "4b579d49f67350d544630394f0406b8b817ace8a698a0b1640c2bb0ad7bbf49f"
+    },
+    {
+      "file": "derivative.json",
+      "native_path": "artifacts/m02_second_derivative_cycle061/certificate.json",
+      "sha256": "98552da9c714ddbd79542232b4cc1162b402778ed185dc751e449190254ccaf4"
+    },
+    {
+      "file": "rank_check.py",
+      "native_path": "artifacts/m02_rank_readiness_cycle089/check_certificate.py",
+      "sha256": "2d033913c062e321dfee55cd2de1dbe99c6fbcb358539b7dcb4c7d302a497442"
+    },
+    {
+      "file": "rank.json",
+      "native_path": "artifacts/m02_rank_readiness_cycle089/discovery.json",
+      "sha256": "31e87a660c7edf2b9b3c1c352af78dc995f82883b7caef0c008fa4eb8f93f1bf"
+    },
+    {
+      "file": "basis_check.py",
+      "native_path": "artifacts/m02_odd_index_readiness_cycle090/check_basis.py",
+      "sha256": "2740d08990e2d9f877de20258f2fa1ace56ac08cc743f836b69a1ff8c2782cf6"
+    },
+    {
+      "file": "basis.json",
+      "native_path": "artifacts/m02_odd_index_readiness_cycle090/discovery.json",
+      "sha256": "8fb1f8fd318a37ec821effa682f745e917de818d9335c62f437fdda61e234318"
+    },
+    {
+      "file": "height_check.py",
+      "native_path": "artifacts/m02_height_pairing_cycle152/check_height.py",
+      "sha256": "24c62e5479789f9ceb90395a5043c3ffdd54e3fc6936e3fa48715108b05bfd54"
+    },
+    {
+      "file": "height.json",
+      "native_path": "artifacts/m02_height_pairing_cycle152/candidate.json",
+      "sha256": "c2c0ab8b5e3e470d93741773cb07a4ac2bfad51ff2e62c83372babc045616791"
+    },
+    {
+      "file": "height_proof.md",
+      "native_path": "artifacts/m02_height_pairing_cycle152/height_proof.md",
+      "sha256": "05575ee82a495c107d3823669ad4f6dffb10e9a1c8c5c95114542c11479c74c3"
+    },
+    {
+      "file": "period_check.py",
+      "native_path": "artifacts/m02_real_period_cycle153/check_period.py",
+      "sha256": "fc3a8bcb2a4088ba716f8e3f7e4519512a77b6ed1906c5d5dd21f618815ffad5"
+    },
+    {
+      "file": "period.json",
+      "native_path": "artifacts/m02_real_period_cycle153/period_candidate.json",
+      "sha256": "20b7a38632e8ae6886f4bfc9e85a13c74fc5bdc6e45279479db7b57de49cfec8"
+    },
+    {
+      "file": "period_proof.md",
+      "native_path": "artifacts/m02_real_period_cycle153/period_proof.md",
+      "sha256": "eff0e659a5e8f58a332f0f1d7ac62e46994139048846567c9c75759c1103e90e"
+    }
+  ],
+  "adaptation": "Native derivative producer main changed to return its full recomputation; native output mutation removed. Every assert converted to equivalent explicit ValueError guard before first execution; arithmetic, cells and tails unchanged. Original reviewed source retained.",
+  "independence": "Same implementation replay with optimization-safe guards, not a new independent derivation."
+}

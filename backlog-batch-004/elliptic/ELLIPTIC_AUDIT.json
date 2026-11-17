@@ -1,0 +1,154 @@
+{
+  "status": "PASS_FIXED_389A1_FINITE_REPLAYS",
+  "central": [
+    {
+      "verdict": "PASS_EXACT_IMAGE",
+      "level": 389,
+      "coordinates_checked": 390,
+      "relations_checked": 780,
+      "nonzero_w": 58,
+      "nonzero_r": 312
+    },
+    {
+      "verdict": "PASS_EXACT_NONIMAGE",
+      "level": 11,
+      "coordinates_checked": 12,
+      "relations_checked": 24,
+      "target_dual_pairing": "-1/5"
+    }
+  ],
+  "quartics": {
+    "status": "ACCEPT",
+    "triples": 10205,
+    "quartics": 64,
+    "target_counts": {
+      "Q": 20,
+      "P": 14,
+      "R": 22,
+      "T": 8
+    },
+    "finite_claim": "Every integral quartic with invariants112,-1712 in the conservative box is equivalent to at least one of T,P,Q,R by source Proposition3.6.3.",
+    "rank_claim": "Under the explicitly sourced complete descent/reduction theorems and086 lower-bound proof, fixed E has rank2. No fullBSD/saturation/Sha claim."
+  },
+  "basis": {
+    "status": "ACCEPT",
+    "affine_points": 60,
+    "infinity": 1,
+    "raw_pairs": 184365,
+    "coprime_pairs": 113201,
+    "max_witness_coefficient": 4,
+    "bounds": {
+      "U_rational_upper": "529/100",
+      "C_rational_upper": "6297/1000",
+      "coset_height_upper": "207/160 < 13/10",
+      "naive_height_upper": "38/5 < 11*56/81 < 11log2",
+      "fourths": {
+        "P": [
+          114,
+          121,
+          -267,
+          1331
+        ],
+        "Q": [
+          1431,
+          961,
+          -64665,
+          29791
+        ],
+        "R": [
+          2319450,
+          243049,
+          3616419800,
+          119823157
+        ]
+      }
+    },
+    "finite_claim": "Complete affine point set of naiveheight<=log2048 has exact positiveLmembership witnesses.",
+    "basis_claim": "Under named canonicalheight/difference theorems, provedheightball generation lemma and086/089quotient facts, E(Q)=ZP+ZQ;086independence makes aZbasis andtorsiontrivial. NoShaorder/fullBSD/regulator."
+  },
+  "height": {
+    "outcome": "CERTIFIED_RANGE",
+    "determinant_interval": [
+      "76181/500000",
+      "19067/125000"
+    ],
+    "width": "87/500000",
+    "doublings": 8,
+    "source_theorem": "imported Cremona Proposition3.5.1",
+    "basis": "not needed for named-point determinant; regulator interpretation inherits Cycle090 full basis"
+  },
+  "period": {
+    "outcome": "CERTIFIED_RANGE",
+    "period_interval": [
+      "199217/40000",
+      "2490213/500000"
+    ],
+    "one_component_interval": [
+      "622553/250000",
+      "2490213/1000000"
+    ],
+    "width": "1/1000000",
+    "complete_real_components": 2,
+    "series_terms": 120,
+    "secondary_method": "positive binomial integral series with explicit tail",
+    "arithmetic": "exact integer/Fraction",
+    "general_BSD_or_Sha_order_proved": false
+  },
+  "derivative_raw_range": [
+    "1.51125652187901730520937837991",
+    "1.52599032062642969672811322048"
+  ],
+  "derivative_cells_reintegrated": 7900,
+  "derivative_coefficient_indices": 100,
+  "derivative_arithmetic_canaries": [
+    "exp 0",
+    "exp 3/10",
+    "exp -1",
+    "exp 2",
+    "exp -24",
+    "ln 1",
+    "ln 5/4",
+    "ln 2",
+    "ambient negation fault and repaired path"
+  ],
+  "halving": {
+    "halving_parity_classes": 3,
+    "mod3_residues": 3,
+    "two_torsion_mod5_residues": 5,
+    "known_true_half": true
+  },
+  "negative_controls": [
+    "central omitted relation",
+    "central zero witness",
+    "central wrong eigenvalue",
+    "central zero target",
+    "central zero nonimage dual",
+    "quartic omitted member with adjusted count",
+    "quartic duplicate membership",
+    "quartic forged equivalence root",
+    "quartic boolean root",
+    "basis omitted point with adjusted count",
+    "basis false positive membership",
+    "basis missing infinity",
+    "basis wrong height normalization",
+    "height missing point",
+    "height missing infinite-limit bound",
+    "height half convention",
+    "height inward determinant",
+    "period missing root",
+    "period omitted real component",
+    "period half value",
+    "period inward interval",
+    "derivative omitted cell",
+    "derivative missing coefficient",
+    "derivative omitted coefficient tail",
+    "derivative omitted integration tail",
+    "derivative wrong factorial",
+    "derivative inward endpoint",
+    "derivative division across zero",
+    "derivative invalid log"
+  ],
+  "negative_controls_detected": 29,
+  "code_sha256": "33494cc24504fa0371417a502fb1435d1074579dd31419170a9fec541bedab95",
+  "claim_ceiling": "Only the stated fixed curve, exact finite identities and enclosures. Mathematical modularity, descent completeness/equivalence, height theory, period identity and Kummer exactness are named imported theorems, not machine-proved here. No general BSD, full Sha, novelty or external expert/formal review."
+}

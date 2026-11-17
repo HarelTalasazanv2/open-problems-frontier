@@ -104,9 +104,10 @@ Research records distinguish current working views from dated historical evidenc
 - [Backlog batch 001: fourteen earlier scoped records](backlog-batch-001/README.md).
 - [Backlog batch 002: eight scoped mathematical records](backlog-batch-002/README.md).
 - [Backlog batch 003: nine additional audits and three output-only graph releases](backlog-batch-003/README.md).
+- [Backlog batch 004: eighty-three individual audits, qualified corrections and expanded verification](backlog-batch-004/README.md).
 - [Publication policy](PUBLICATION_POLICY.md), [references and credit](REFERENCES.md), and [rights notice](LICENSE).
 
-The current release contains 35 of the 118 historical candidate records; 83 await individual audit. The three graph packages previously held are released as project-authored proofs, outputs and checking tools requiring an exact externally supplied seed. The curator's graph data and original CNF input are excluded; their redistribution terms remain unresolved. Each dated batch preserves its own historical counts and claim ceilings.
+The current release contains all 118 individually audited records in the authorized historical snapshot. Seven are source/interface records, and several mathematical records share a proof or checker; these are not counts of new discoveries. The 83-record backlog is covered by batch 004 at explicit claim ceilings, including the documented M07 correction. The three graph packages previously held are released as project-authored proofs, outputs and checking tools requiring an exact externally supplied seed. The curator's graph data and original CNF input are excluded; their redistribution terms remain unresolved. New matrix/source-input packages likewise publish project proofs, checking tools, output certificates and exact input identities while requiring separately supplied raw inputs. Each dated batch preserves its own historical counts and claim ceilings.
 
 The historical exclusion chain released through Cycle 197 left 49 neighborhood classes / 14,872 labeled neighborhoods unresolved at that cycle. Later local graph work is outside that released chain. No full graph/Ramsey, Erdős covering, Erdős–Straus, P-versus-NP or other global open-problem resolution is asserted.
 

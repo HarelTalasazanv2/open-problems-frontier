@@ -1,0 +1,199 @@
+{
+  "utc": "2026-11-17T01:42:16.804341+00:00",
+  "scope": "Seven exact source/interface records, separated from new mathematical proof claims. Provider captures are not full-source reads.",
+  "records": [
+    {
+      "ids": [
+        "M10-LITERAL-4-2-C114",
+        "M10-PROOF-LOCATION-RECONCILIATION-C120",
+        "M10-FULL42-IMPORT-MAP-C120",
+        "M10-SECTION3-CATEGORY-C134"
+      ],
+      "sources": [
+        {
+          "native_path": "artifacts/m10_rational_span_cycle092/captures/structural_v2.pdf",
+          "sha256": "87801fbd57539a8371009e8e181c773c51701396519809f2500c525fed331960",
+          "bytes": 484598,
+          "inspection_extent": {
+            "physical_pages_text_and_visual": [
+              6,
+              10,
+              14,
+              15,
+              16,
+              18
+            ]
+          },
+          "role": "Alon-Bucic-Sauermann v2 definitions, statement, proof/import map and conditional consumer"
+        },
+        {
+          "native_path": "dossiers/M10_WEIGHTED_SELECTION_2026-11-01_CYCLE110.md",
+          "sha256": "77fa46d8fb127b5004e5a09e553eebc207b11e142359a2ec7e4a45c2d98b0b61",
+          "bytes": 13394,
+          "inspection_extent": {
+            "lines_inclusive": [
+              1,
+              30
+            ]
+          },
+          "role": "Explicit older proof span, not newly discovered"
+        }
+      ],
+      "primary_url": "https://arxiv.org/pdf/2302.09058v2",
+      "verdict": "MATCHED_AT_DATED_SOURCE_CONTRACT_CEILING",
+      "limits": "No source theorem adopted merely from these statement/map records; separately audited C140/C141 retain their own proofs."
+    },
+    {
+      "ids": [
+        "M08-STATUS-SOURCE-C123"
+      ],
+      "sources": [
+        {
+          "native_path": "artifacts/m08_status_source_cycle123/captures/epoch.html",
+          "sha256": "7d53661d1589d56197471f13e78f4ea2d8965efc440f720fd2dd71af7c9c54e0",
+          "bytes": 106110,
+          "inspection_extent": {
+            "representation": "Complete previously derived visible text, not scripts/assets"
+          },
+          "role": "Dated owning-page capture"
+        },
+        {
+          "native_path": "artifacts/m08_status_source_cycle123/captures/oeis.html",
+          "sha256": "70616fcac6bc901900e4e7982a45a18ecff0b1bf6a86ade0c227c37706aa41d5",
+          "bytes": 24379,
+          "inspection_extent": {
+            "representation": "Complete previously derived visible text"
+          },
+          "role": "Dated index/links capture"
+        },
+        {
+          "native_path": "artifacts/m08_status_source_cycle123/captures/drive_folder.html",
+          "sha256": "46b26ac4d738f3fdde58984623c986945507e1816ed2e68c309ad309fc358cae",
+          "bytes": 464263,
+          "inspection_extent": {
+            "codepoint_ranges": [
+              [
+                267,
+                310
+              ],
+              [
+                233444,
+                233597
+              ],
+              [
+                243898,
+                244051
+              ],
+              [
+                254352,
+                254505
+              ],
+              [
+                264807,
+                264961
+              ],
+              [
+                275255,
+                275409
+              ],
+              [
+                285713,
+                285867
+              ],
+              [
+                296171,
+                296325
+              ],
+              [
+                306629,
+                306783
+              ],
+              [
+                317087,
+                317241
+              ],
+              [
+                327546,
+                327700
+              ],
+              [
+                338005,
+                338159
+              ],
+              [
+                348454,
+                348608
+              ]
+            ]
+          },
+          "role": "Title and twelve exact filename attributes only"
+        }
+      ],
+      "primary_urls": [
+        "https://epoch.ai/frontiermath/open-problems/hadamard",
+        "https://oeis.org/A007299",
+        "https://drive.google.com/drive/folders/111dYn72d8bElNjYRHn2WTLXnUpwwJ8fX"
+      ],
+      "verdict": "MATCHED_DATED_CAPTURE_FACTS",
+      "limits": "No current-world status survey, full folder membership, payload proof, authenticated authorship or rights; later C166 checks one pinned payload separately."
+    },
+    {
+      "ids": [
+        "M07-GLOBAL-SOURCE-SCOPE-C127",
+        "M07-MODEL-CONTRACT-C164"
+      ],
+      "sources": [
+        {
+          "native_path": "artifacts/m07_global_source_cycle127/captures/zhao_2608_23482v1.pdf",
+          "sha256": "0d6ffb6aa16879434c1ba1f1175dd3a24ecc5337d1240386fecaaa31026cc1dc",
+          "bytes": 422275,
+          "inspection_extent": {
+            "physical_pages_text_and_visual": [
+              1,
+              2
+            ]
+          },
+          "role": "Versioned statement comparison only; unread proof not adopted"
+        },
+        {
+          "native_path": "reviews/m07_two_point_independent_2026-11-02/input_snapshot/manuscript.tex",
+          "sha256": "77446b5626b9974f0f0cb33a61fe9107c0d5f5cb7b2971cf85aeb7b0628f6504",
+          "bytes": 20239,
+          "inspection_extent": {
+            "lines_inclusive": [
+              [
+                35,
+                110
+              ],
+              [
+                198,
+                246
+              ]
+            ]
+          },
+          "role": "Submitted model/proposition/reset formulas; no TeX execution"
+        }
+      ],
+      "primary_urls": [
+        "https://arxiv.org/pdf/2608.23482v1",
+        "https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/complete-positivity-order-and-relative-entropy-decay/7270B6BBA7891B612C00FAB066F1A380"
+      ],
+      "provider_extents": {
+        "Cambridge_Definition_3_1_current_lines": [
+          810,
+          848
+        ],
+        "Problems_6_4_and_6_5": [
+          1868,
+          1879
+        ]
+      },
+      "verdict": "MATCHED_DEFINITION_AND_QUANTIFIER_CONTRACTS",
+      "limits": "No universal status resolution, proof of Zhao theorem, or matrix-to-arbitrary-finite-algebra equivalence. The manuscript unrestricted-state converse remains unestablished."
+    }
+  ],
+  "unique_claim_ids": 7,
+  "underlying_source_and_global_corpus_denominators": "UNKNOWN",
+  "review": "Same exposed assistant; concurrent Claude review not received or adopted.",
+  "no_raw_third_party_papers_or_datasets_redistributed": true
+}

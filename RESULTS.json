@@ -1,6 +1,6 @@
 {
   "schema": "OPF_RESULTS_V1",
-  "scope": "Exact authorized historical publication snapshot; record count is not a novelty count.",
+  "scope": "Exact authorized118historical records. Record counts are not independent theorem, novelty, whole-corpus or global-resolution counts.",
   "results": [
     {
       "id": "M05-ISOMETRY-SPAN-C150",
@@ -714,6 +714,1717 @@
         "unit-fractions"
       ],
       "review": "Internal, same actor/model, exposed expected conclusions; no external expert or formal review."
+    },
+    {
+      "id": "M01-STRICT-LOG-DOMAIN-20261018",
+      "area": "Analysis",
+      "title": "Finite log-energy is a proper domain",
+      "statement": "For every bounded nonempty interval, supported first-log Fourier energy defines a Hilbert space properly contained in L2; the interval indicator has finite energy.",
+      "scope": "No historical Weil-form identification or RH conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-strict-log-domain-20261018.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M03-HEAT-L2-L3-C070",
+      "area": "PDE",
+      "title": "Explicit heat smoothing bound",
+      "statement": "For every nu,t>0 and vector f in L2(R3), ||exp(nu t Delta)f||3 <= (4pi)^(-1/4)(5/6)^(5/4)(nu t)^(-1/4)||f||2.",
+      "scope": "The forced/mild transfer is conditional on its stated forcing norm; no nonlinear Navier-Stokes conclusion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m03-heat-l2-l3-c070.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M06-GAP-TRANSFER-C094",
+      "area": "Mathematical physics",
+      "title": "Uniform fixed-time gap transfer",
+      "statement": "Under the specified strong convergence of fixed-time self-adjoint semigroups and uniform excited operator-norm bound, the limit retains the stated spectral exclusion and vacuum projections converge strongly.",
+      "scope": "Abstract operators on one Hilbert space; no actual Yang-Mills construction, vacuum-survival or empirical mass assertion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m06-gap-transfer-c094.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M06-TEMPORAL-CRITERION-C095",
+      "area": "Mathematical physics",
+      "title": "Dense positive temporal correlation criterion",
+      "statement": "A common eventual exponential rate for positive self-correlations on a norm-dense excited family is equivalent to the stated spectral gap.",
+      "scope": "Full vacuum projection, positivity, common rate and infinite-time control are essential; no finite-observation inference.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m06-temporal-criterion-c095.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M06-POSITIVE-FORM-LIMIT-C096",
+      "area": "Mathematical physics",
+      "title": "Positive-form quotient and gap limits",
+      "statement": "The specified pointwise positive-form limit gives a quotient contraction semigroup; condition R is exactly strong continuity, and the stated connected-correlation hypotheses yield a unique vacuum and gap.",
+      "scope": "Nontrivial excited sector needs a positive limiting connected variance. No gauge-field or reconstruction theorem is asserted.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m06-positive-form-limit-c096.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-ONE-FLIP-CERTIFICATE-C091",
+      "area": "Geometry and combinatorics",
+      "title": "One-coordinate least-squares certificate",
+      "statement": "A stationary full-rank positive-weight least-squares pair satisfying every reoptimized signed coordinate comparison gives modular margins at least half its leverage scores.",
+      "scope": "Sufficient certificate theorem; no universal certificate-generation or generic-norm assertion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-one-flip-certificate-c091.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-VECTOR-PARTITION-C092",
+      "area": "Geometry and combinatorics",
+      "title": "Finite vector partition",
+      "statement": "For finite represented configurations, a partition into q represented-independent families exists exactly when every subset cardinality is at most the sum of its q ranks.",
+      "scope": "Generic norm capacity remains a separate claim; real and rational ranks are distinguished.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-vector-partition-c092.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-INTEGER-AVOIDANCE-C093",
+      "area": "Geometry and combinatorics",
+      "title": "Sharp shifted integer avoidance",
+      "statement": "For q nonsingular integral N-by-N matrices and arbitrary real shifts, one x gives every row phase distance at least 1/(2q) from Z.",
+      "scope": "Known theorem reproduced analytically; rational extension and shifted sharpness are stated separately; no new Euclidean chromatic bound.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-integer-avoidance-c093.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-SMALL-FACET-APPROX-C097",
+      "area": "Geometry and combinatorics",
+      "title": "Small-facet approximation",
+      "statement": "Every origin-symmetric full-dimensional convex body admits a symmetric polytope approximation with independent positive Hausdorff and whole-facet diameter tolerances.",
+      "scope": "Existence and strict tolerances only; no facet-count algorithm or novelty claim.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-small-facet-approx-c097.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-FACET-OFFSET-STABILITY-C098",
+      "area": "Geometry and combinatorics",
+      "title": "Fixed-normal facet stability",
+      "statement": "Positive fixed-normal offset perturbations obey the displayed radial Hausdorff bound and upper semicontinuity of maximum whole-facet diameter.",
+      "scope": "No adoption of the source's stronger individual-face continuity assertion.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-facet-offset-stability-c098.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-BOUNDARY-FACET-TRANSPORT-C099",
+      "area": "Geometry and combinatorics",
+      "title": "Boundary-to-facet transport",
+      "statement": "Under the stated inner-radius, facet-diameter, angle and Hausdorff bounds, separated boundary directions have distinct antipodal facet labels and controlled support-coordinate errors.",
+      "scope": "Finite-dimensional transport; no genericity follows by itself.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-boundary-facet-transport-c099.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-RATIONAL-FAMILY-HOLE-C100",
+      "area": "Geometry and combinatorics",
+      "title": "Fixed rational-family exclusion",
+      "statement": "Every specified m=0 rational dependence family with separated boundary directions is nowhere dense in norm-body Hausdorff space.",
+      "scope": "Fixed family only; the body center may move and no closedness of the existential bad family is assumed.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-rational-family-hole-c100.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-GENERIC-Q-CAPACITY-C101",
+      "area": "Geometry and combinatorics",
+      "title": "Generic rational capacity",
+      "statement": "The displayed rational all-subset capacity holds on a comeager class containing a dense G-delta subset of norm bodies.",
+      "scope": "Q-rank and distinct unoriented lines; no probability, all-norms assertion or conclusion that the whole class is G-delta.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-generic-q-capacity-c101.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-GLOBAL-COLOURING-C102",
+      "area": "Geometry and combinatorics",
+      "title": "Finite-to-infinite generic colouring",
+      "statement": "Every norm in the stated rational-capacity class admits a set-theoretic 2d-colouring of its full unit-distance graph.",
+      "scope": "Known generic upper theorem; no measurability, typical equality in every dimension or named Euclidean norm claim.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-global-colouring-c102.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-RATIONAL-IMAGE-C108",
+      "area": "Geometry and combinatorics",
+      "title": "Rational images have algebraic exclusions",
+      "statement": "The normalized L=d ell+m+1 rational-output achievable family is covered by a finite proper polynomial zero set, at every legitimate common evaluation.",
+      "scope": "Normalized full witness list; no arbitrary pole filling or certification of defective shorter source wording.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-rational-image-c108.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-MPOSITIVE-GEOMETRY-C109",
+      "area": "Geometry and combinatorics",
+      "title": "Rational-function geometric exclusion",
+      "statement": "Every fixed stated m-positive rational-function dependence family with separated boundary directions is nowhere dense.",
+      "scope": "Original vectors and actual parameter are retained; no full distinct-distance application by this lemma alone.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-mpositive-geometry-c109.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-WEIGHTED-SELECTION-C110",
+      "area": "Geometry and combinatorics",
+      "title": "Weighted independent extraction",
+      "statement": "Under the full labelled closure bound |cl(I)|<=d|I|+m and weights in [0,M], an independent J has weight at least (total weight-mM)/d.",
+      "scope": "Known finite theorem; label multiplicity and coefficient field cannot be changed.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-weighted-selection-c110.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-FOREST-EDGE-C115",
+      "area": "Geometry and combinatorics",
+      "title": "Direction-forest edge bound",
+      "statement": "For the stated finite simple graph over any field with independent directions and each full direction class a forest, edges <= (n/2) log2 n.",
+      "scope": "The historical printed entropy-step failure is not adopted; the separate corrected proof is used.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-forest-edge-c115.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-FINITE-PROJECTION-C122",
+      "area": "Geometry and combinatorics",
+      "title": "Planar projection preserves finite directions",
+      "statement": "Every finite distinct real-affine-noncollinear point set admits a planar real-linear projection preserving point distinctness, noncollinearity and its entire unoriented direction set bijectively.",
+      "scope": "The projection depends on the finite configuration; no infinite-set or one-map-for-all claim.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-finite-projection-c122.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-D_N-IMPORT-C140",
+      "area": "Geometry and combinatorics",
+      "title": "Real direction bound and transfer",
+      "statement": "Every finite real-affine-noncollinear n-point set, n>=3, in an arbitrary real vector space has at least n-1 unoriented pair directions.",
+      "scope": "Known Ungar import with explicit interface; no direction theorem is applied to F-quotients.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-d_n-import-c140.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-FIXED-MU-MEAGRE-C141",
+      "area": "Geometry and combinatorics",
+      "title": "Fixed-tolerance direction consumer",
+      "statement": "At the displayed sufficient N(d,mu), the field-span conclusion and fixed-tolerance bad-norm meagreness follow under the precise real-field/norm definitions.",
+      "scope": "Known-result integration of the included restricted ingredients; no current Euclidean bound or novelty.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-fixed-mu-meagre-c141.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-ALL-TOLERANCE-INTEGRATED-C142",
+      "area": "Geometry and combinatorics",
+      "title": "Generic distinct-distance asymptotic",
+      "statement": "For each fixed d>=2 a dense G-delta set of norm bodies has m_B(n)/n tending to one for positive distinct distances.",
+      "scope": "Known generic theorem; the all-norms version fails for the displayed sup-norm grids.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-all-tolerance-integrated-c142.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-TWO-POINT-PD-TRANSFER-C116",
+      "area": "Functional inequalities",
+      "title": "Finite two-point matrix transfer",
+      "statement": "For every 0<p<1 and finite positive-definite complex Hermitian pair, J_p>=2 a_p H_p and the all-finite-matrix infimum equals the scalar infimum a_p.",
+      "scope": "Exactly the stated reset generator, total density normalization and factor two; no numerical scalar bracket or general classical-generator equality.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-two-point-pd-transfer-c116.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-TWO-POINT-PSD-BOUNDARY-C117",
+      "area": "Functional inequalities",
+      "title": "Finite singular two-point extension",
+      "statement": "The finite two-point comparison extends to every complex PSD pair with the stated support-sensitive extended production.",
+      "scope": "Unequal supports give infinite production; equal-support finiteness relies on finite dimension here.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-two-point-psd-boundary-c117.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-TRACIAL-UNIFORMLY-INVERTIBLE-C118",
+      "area": "Functional inequalities",
+      "title": "Tracial positive-gap two-point transfer",
+      "statement": "The two-point scalar bound and reverse infimum hold for bounded uniformly invertible positive pairs in every specified finite tracial von Neumann algebra.",
+      "scope": "No matrix approximation, separability, unbounded state or zero-gap extension is assumed.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-tracial-uniformly-invertible-c118.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-TRACIAL-BOUNDED-BOUNDARY-C119",
+      "area": "Functional inequalities",
+      "title": "Bounded tracial two-point boundary",
+      "statement": "The same infimum identity holds for all bounded positive pairs with the explicit canonical trace-truncation relative entropy and extended production.",
+      "scope": "Bounded finite-tracial class and exact production convention; no unrestricted L1 or arbitrary-generator statement.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-tracial-bounded-boundary-c119.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-RESET-PD-A-BOUND-V3",
+      "area": "Functional inequalities",
+      "title": "Finite reset positive-gap lower bound",
+      "statement": "For every finite reset distribution with minimum weight p and bounded positive invertible tracial inputs, I>=2 A(p)H, A(p)=(1-p)log(1/p)/(2(log(1/p)-1+p)).",
+      "scope": "Method-specific lower bound, not the sharp scalar or complete constant; c rescales production.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-reset-bounded-a-bound-v3x2.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-RESET-BOUNDED-A-BOUND-V3X2",
+      "area": "Functional inequalities",
+      "title": "Bounded-positive reset lower bound",
+      "statement": "The same A(p) lower bound and displayed exponential entropy decay hold for bounded positive families under the explicit nonnegative resolvent production convention.",
+      "scope": "No unbounded L1 extension, sharpness, all-classical-generator equality or fresh external-definition equivalence.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-reset-bounded-a-bound-v3x2.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-PROPORTIONAL-HESSIAN-LOCAL-STABILITY",
+      "area": "Functional inequalities",
+      "title": "Proportional-base Hessian and local stability",
+      "statement": "At a scalar stationary ratio r!=1 the full two-input Hessian equals k_second(r)/tr(B) times the stated positive log-derivative form in X-rY; strict scalar curvature yields a local coercive neighbourhood.",
+      "scope": "Finite dimension and positive cone only; no uniform neighbourhood, global constant or novelty claim.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-proportional-hessian-local-stability.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/ERRATA.md"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": "The original Section7 recovery formula had an extra factor2 on r i/a. Earlier Hessian equations were correct. The reading edition corrects that comparison explicitly; original source bytes and the failure record are retained locally."
+    },
+    {
+      "id": "M07-GENERAL-BIASED-SCALAR-AND-LOCAL-MATRIX",
+      "area": "Functional inequalities",
+      "title": "All biased scalar minimizers and local corollary",
+      "statement": "Every biased 0<p<1 has exactly one nondegenerate scalar minimizer in the stated side of sqrt(q/p), with 0<alpha1(p)<1; the proportional local theorem applies.",
+      "scope": "No sharp numerical optimum, p/dimension-uniform matrix neighbourhood or new global-generator result.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; known results credited to original sources.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-general-biased-scalar-and-local-matrix.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-BOMBIERI-SUZUKI-CORE-20261017",
+      "area": "Analysis",
+      "title": "Log-coordinate core bridge",
+      "statement": "The displayed L2(dx) logarithmic unitary sends linear inversion to reflection and the displayed dagger convolution to the additive autocorrelation; the two explicitly written core functionals then agree term by term.",
+      "scope": "Exact displayed conventions and smooth core only; no historical 2003 closed extension, current source availability, parity continuity or RH.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-bombieri-suzuki-core-20261017.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-REGIONAL-LOG-DOMAIN-20261018",
+      "area": "Analysis",
+      "title": "Regional logarithmic domain",
+      "statement": "On every bounded interval, finite literal regional 1/|x-y| energy is exactly supported first-log Fourier energy, with equivalent shifted norms. The displayed canonical multiplier plus bounded terms has that domain.",
+      "scope": "Defined literal integral and specified canonical multiplier; no historical-extension identification or fresh attribution of a source error.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-regional-log-domain-20261018.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-REGIONAL-PRIOR-ART-20261018",
+      "area": "Analysis",
+      "title": "Boundary Hardy estimate and known domain",
+      "statement": "The displayed boundary logarithmic potential is bounded by a constant times regional energy plus L2 norm, hence yields the specified zero-extension domain equality.",
+      "scope": "Known analytic result, not a new prior-art discovery. Historical page pointer is corrected separately: pinned Chen-Weth v6 Proposition4.2 is physical19 and Remark4.3 physical20.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-regional-prior-art-20261018.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/ERRATA.md"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": "Historical C024 page pointer18-19 is corrected by C050: pinned Chen-Weth v6 Proposition4.2 is physical19 and Remark4.3 physical20. The Hardy/domain proof is unaffected. This is a source-location correction, not a defect in the primary theorem."
+    },
+    {
+      "id": "M01-GLOBAL-REMAINDER-C048",
+      "area": "Analysis",
+      "title": "Global source-defined remainder",
+      "statement": "The explicitly defined even remainder r is globally C2, has r_second(0)=-7/4 and the displayed smooth punctured second derivative; its compact rescaled kernels are norm continuous.",
+      "scope": "For the exact displayed g/prime decomposition and named digamma identity; no historical form or positivity result.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-global-remainder-c048.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-QUADRATIC-DECOMPOSITION-C049",
+      "area": "Analysis",
+      "title": "Quadratic finite-part decomposition",
+      "statement": "On complex H01, the displayed source-defined quadratic form has the exact regional/boundary, scalar, paired-prime and remainder decomposition.",
+      "scope": "Exact specified form and normalization; no historical extension, positivity, numeric enclosure or new source-layout audit.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-quadratic-decomposition-c049.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-LOG-FORM-CLOSURE-C050",
+      "area": "Analysis",
+      "title": "Closed logarithmic form and smooth core",
+      "statement": "The stated nonnegative interval form is closed on supported first-log Fourier space, has smooth interior form core, and equals the supported pure-log Fourier expression.",
+      "scope": "No zero boundary traces on the completed domain; pure-log identity relies on interval support.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-log-form-closure-c050.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-CANONICAL-IDENTIFICATION-C051",
+      "area": "Analysis",
+      "title": "Canonical Friedrichs identification",
+      "statement": "For the explicitly specified Connes-Consani canonical multiplier and pole/prime terms, its closed form equals the Friedrichs closure of the displayed D-star-G-D form, with common supported log domain; ordinary parity infima are attained and continuous.",
+      "scope": "Canonical formulas and named special-function identities only; no unavailable historical 2003 extension, positivity or RH.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-canonical-identification-c051.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-CONTINUITY-MODULUS-C052",
+      "area": "Analysis",
+      "title": "Inverse-log parameter modulus",
+      "statement": "On each specified positive compact parameter interval, both ordinary complex parity minima obey the displayed explicit C_K/log(e/delta) bound.",
+      "scope": "Actual specified canonical minima; loose sufficient constants, not sharpness, useful numerical mesh or positivity.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-continuity-modulus-c052.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-ENERGY-MODULUS-SHARPNESS-C053",
+      "area": "Analysis",
+      "title": "Energy-ball inverse-log obstruction",
+      "statement": "The explicit smooth even interior unit family has uniformly bounded first-log Fourier energy and autocorrelation deficit at least 1/[144 log(e/delta_j)] along the specified sequence.",
+      "scope": "Varying generic states along a sequence; excludes energy-only little-o/H\u00f6lder improvements, not better eigenvalue regularity.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-energy-modulus-sharpness-c053.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-POLYNOMIAL-COMPLEMENT-C054",
+      "area": "Analysis",
+      "title": "Polynomial complement and enclosure interface",
+      "statement": "For moment-orthogonal interval vectors the displayed b_N(R) and logN-1 complement lower bounds hold; polynomial heads belong to the represented operator domain. The stated Schur lower enclosure follows when actual head/coupling bounds are supplied.",
+      "scope": "Analytic complement theorem and conditional interface only. No actual eigenvalue enclosure, sign result or practical millions-degree computation.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-polynomial-complement-c054.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-ARCHIMEDEAN-NORM-C055",
+      "area": "Analysis",
+      "title": "Global digamma comparison and closure cross-check",
+      "statement": "For every real frequency, w <= m+C0 <= 6w with the displayed m and C0. The stated support-specific archimedean and closed-form identities follow under the named standard identities.",
+      "scope": "Named digamma/Fourier identities; no novel theorem, numeric eigenvalue or historical 2003 result.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-archimedean-norm-c055.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-OPERATOR-GRAPH-NORM-C075",
+      "area": "Analysis",
+      "title": "Actual first operator domain",
+      "statement": "The interval operator domain equals supported squared-log Fourier space, with W2 <= 2||Au||^2+(pi^2+2)||u||^2.",
+      "scope": "Exact interval logarithmic operator; no H1 trace requirement or eigenvalue value.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-operator-graph-norm-c075.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-SQUARED-LOG-MODULUS-C076",
+      "area": "Analysis",
+      "title": "Squared-log canonical modulus",
+      "statement": "Every specified compact positive parameter interval has the displayed inverse-log-squared bound for both ordinary complex parity minima.",
+      "scope": "Upper modulus only; no sharpness, numerical mesh, positivity or RH.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-squared-log-modulus-c076.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-COMPLETE-FORM-CONSUMER-C080",
+      "area": "Analysis",
+      "title": "Complete canonical modulus consumer",
+      "statement": "The same canonical minima obey the displayed inverse-log-squared bound with H_K=2(21/2+2M_K)^2+pi^2/2+1.",
+      "scope": "Smaller sufficient constant, not a new modulus order, runtime gain, practical certificate or positivity.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-complete-form-consumer-c080.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-COMPRESSED-ITERATION-C155",
+      "area": "Analysis",
+      "title": "Justified compressed second domain",
+      "statement": "Every ordinary canonical parity minimizer lies in D(A squared) with the displayed uniform bound. The abstract bounded-leakage implication to the full-line second domain is false.",
+      "scope": "One compressed iteration only; abstract counterexample remains separate from actual logarithmic regularity.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-compressed-iteration-c155.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M01-SECOND-DOMAIN-C156",
+      "area": "Analysis",
+      "title": "Actual second-domain identification",
+      "statement": "For the actual interval logarithmic operator, D(A squared) equals supported D(M squared), with the displayed fourth-log moment and tail bounds for canonical parity minimizers.",
+      "scope": "Actual kernel structure essential; no all-powers, eigenvalue-modulus improvement, useful mesh or RH.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "analytic-proof",
+      "proofs": [
+        "backlog-batch-004/proofs/m01-second-domain-c156.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-OFFDIAGONAL-CURVATURE-20261017",
+      "area": "Functional inequalities",
+      "title": "Off-diagonal curvature enclosure",
+      "statement": "For p=1/10 and q=9/10 on the stated scalar-minimizer bracket, the defined off-diagonal coefficient C lies strictly between 4685/10^6 and 4690/10^6.",
+      "scope": "Local specified real family only; no universal matrix inequality or separation.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-offdiagonal-curvature-20261017.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/CURVATURE_AUDIT_V2.json"
+      ],
+      "checks": [
+        "curvature"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-ROTATED-PROPORTIONAL-20261017",
+      "area": "Functional inequalities",
+      "title": "Rotated proportional coefficient",
+      "statement": "For the stated biased two-point bracket, the exact coefficient H=(r+1)d-(r/a)i lies strictly between 9/10 and 91/100, hence the specified local rotation direction is positive.",
+      "scope": "Specified local family; historical C034 recovery factor error is recorded in ERRATA, not adopted.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-rotated-proportional-20261017.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/CURVATURE_AUDIT_V2.json"
+      ],
+      "checks": [
+        "curvature"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-MIXED-OPTIMIZER-EQUILIBRIUM-HESSIAN",
+      "area": "Functional inequalities",
+      "title": "Mixed-base full complex Hessian",
+      "statement": "At the stated scalar minimizer and mixed 2x2 base, the full complex Hermitian-pair Hessian has the displayed rank-four positive normal part and four-dimensional kernel; beta lies in (23/2500,6/625).",
+      "scope": "Fixed reset generator and base; no global comparison or dimension-uniform neighbourhood.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-mixed-optimizer-equilibrium-hessian.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/CURVATURE_AUDIT_V2.json"
+      ],
+      "checks": [
+        "curvature"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-MIXED-FINITE-NEIGHBORHOOD-FIXED-CHAIN-2X2",
+      "area": "Functional inequalities",
+      "title": "Finite mixed critical-family neighbourhood",
+      "statement": "For the specified complex 2x2 biased reset problem there is an open positive neighbourhood of the stated mixed critical family with the displayed residual coercivity bound (Q-alpha1)>=||residual||^2/8000.",
+      "scope": "Existential neighbourhood for this fixed chain and finite dimension only; no explicit radius, global inequality or M07 resolution.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-mixed-finite-neighborhood-fixed-chain-2x2.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/CURVATURE_AUDIT_V2.json"
+      ],
+      "checks": [
+        "curvature"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H2092",
+      "area": "Combinatorics",
+      "title": "Hadamard order2092",
+      "statement": "There exists a real sign Hadamard matrix at each of the exact orders [2092].",
+      "scope": "Final objects only. Historical construction details remain context; no new order, priority, complete gap census or universal Hadamard theorem.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h2092.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/MATRIX_AUDIT.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-matrices"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H2292",
+      "area": "Combinatorics",
+      "title": "Hadamard order2292",
+      "statement": "There exists a real sign Hadamard matrix at each of the exact orders [2292].",
+      "scope": "Final objects only. Historical construction details remain context; no new order, priority, complete gap census or universal Hadamard theorem.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h2292.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/MATRIX_AUDIT.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-matrices"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H716",
+      "area": "Combinatorics",
+      "title": "Hadamard order716",
+      "statement": "There exists a real sign Hadamard matrix at each of the exact orders [716].",
+      "scope": "Final objects only. Historical construction details remain context; no new order, priority, complete gap census or universal Hadamard theorem.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h716.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/MATRIX_AUDIT.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-matrices"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-AUGUST-TEN",
+      "area": "Combinatorics",
+      "title": "Ten specified Hadamard orders",
+      "statement": "There exists a real sign Hadamard matrix at each of the exact orders [892, 1132, 1244, 1388, 1436, 1676, 1772, 1916, 1948, 1964].",
+      "scope": "Final objects only. Historical construction details remain context; no new order, priority, complete gap census or universal Hadamard theorem.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-august-ten.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/MATRIX_AUDIT.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-matrices"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H1212",
+      "area": "Combinatorics",
+      "title": "Hadamard order1212",
+      "statement": "There exists a real sign Hadamard matrix at each of the exact orders [1212].",
+      "scope": "Final objects only. Historical construction details remain context; no new order, priority, complete gap census or universal Hadamard theorem.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h1212.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/MATRIX_AUDIT.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-matrices"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H1940",
+      "area": "Combinatorics",
+      "title": "Hadamard order1940",
+      "statement": "There exists a real sign Hadamard matrix at each of the exact orders [1940].",
+      "scope": "Final objects only. Historical construction details remain context; no new order, priority, complete gap census or universal Hadamard theorem.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h1940.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/MATRIX_AUDIT.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-matrices"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H1132-ORIGINAL-LINKED-SOURCE-RELATION",
+      "area": "Combinatorics",
+      "title": "Specified seed-to-mirror relationship [1132]",
+      "statement": "For the exact pinned payload records and the displayed mathematical translations, each reconstructed matrix at orders [1132] is Hadamard and matches its pinned mirror under the declared row/column sign map; raw equality is false.",
+      "scope": "Specified selected seed-derived mathematical translations, not execution of the downloaded program, general builder validity, author/account authentication, priority or independent-source corroboration.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h1132-original-linked-source-relation.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/RELATION_AUDIT.json",
+        "backlog-batch-004/RELATION_INPUTS.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-relations"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H1244-ORIGINAL-LINKED-SOURCE-RELATION",
+      "area": "Combinatorics",
+      "title": "Specified seed-to-mirror relationship [1244]",
+      "statement": "For the exact pinned payload records and the displayed mathematical translations, each reconstructed matrix at orders [1244] is Hadamard and matches its pinned mirror under the declared row/column sign map; raw equality is false.",
+      "scope": "Specified selected seed-derived mathematical translations, not execution of the downloaded program, general builder validity, author/account authentication, priority or independent-source corroboration.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h1244-original-linked-source-relation.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/RELATION_AUDIT.json",
+        "backlog-batch-004/RELATION_INPUTS.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-relations"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H716-BORDERED-ORIGINAL-LINKED-SOURCE-RELATION",
+      "area": "Combinatorics",
+      "title": "Specified seed-to-mirror relationship [716]",
+      "statement": "For the exact pinned payload records and the displayed mathematical translations, each reconstructed matrix at orders [716] is Hadamard and matches its pinned mirror under the declared row/column sign map; raw equality is false.",
+      "scope": "Specified selected seed-derived mathematical translations, not execution of the downloaded program, general builder validity, author/account authentication, priority or independent-source corroboration.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h716-bordered-original-linked-source-relation.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/RELATION_AUDIT.json",
+        "backlog-batch-004/RELATION_INPUTS.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-relations"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H1388-V-SOURCE-RELATION",
+      "area": "Combinatorics",
+      "title": "Specified seed-to-mirror relationship [1388]",
+      "statement": "For the exact pinned payload records and the displayed mathematical translations, each reconstructed matrix at orders [1388] is Hadamard and matches its pinned mirror under the declared row/column sign map; raw equality is false.",
+      "scope": "Specified selected seed-derived mathematical translations, not execution of the downloaded program, general builder validity, author/account authentication, priority or independent-source corroboration.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h1388-v-source-relation.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/RELATION_AUDIT.json",
+        "backlog-batch-004/RELATION_INPUTS.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-relations"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H1916-W-SOURCE-RELATION",
+      "area": "Combinatorics",
+      "title": "Specified seed-to-mirror relationship [1916]",
+      "statement": "For the exact pinned payload records and the displayed mathematical translations, each reconstructed matrix at orders [1916] is Hadamard and matches its pinned mirror under the declared row/column sign map; raw equality is false.",
+      "scope": "Specified selected seed-derived mathematical translations, not execution of the downloaded program, general builder validity, author/account authentication, priority or independent-source corroboration.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h1916-w-source-relation.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/RELATION_AUDIT.json",
+        "backlog-batch-004/RELATION_INPUTS.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-relations"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H1436-U-SOURCE-RELATION",
+      "area": "Combinatorics",
+      "title": "Specified seed-to-mirror relationship [1436]",
+      "statement": "For the exact pinned payload records and the displayed mathematical translations, each reconstructed matrix at orders [1436] is Hadamard and matches its pinned mirror under the declared row/column sign map; raw equality is false.",
+      "scope": "Specified selected seed-derived mathematical translations, not execution of the downloaded program, general builder validity, author/account authentication, priority or independent-source corroboration.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h1436-u-source-relation.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/RELATION_AUDIT.json",
+        "backlog-batch-004/RELATION_INPUTS.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-relations"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H1676-H-SOURCE-RELATION",
+      "area": "Combinatorics",
+      "title": "Specified seed-to-mirror relationship [1676]",
+      "statement": "For the exact pinned payload records and the displayed mathematical translations, each reconstructed matrix at orders [1676] is Hadamard and matches its pinned mirror under the declared row/column sign map; raw equality is false.",
+      "scope": "Specified selected seed-derived mathematical translations, not execution of the downloaded program, general builder validity, author/account authentication, priority or independent-source corroboration.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h1676-h-source-relation.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/RELATION_AUDIT.json",
+        "backlog-batch-004/RELATION_INPUTS.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-relations"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-H1772-H-SOURCE-RELATION",
+      "area": "Combinatorics",
+      "title": "Specified seed-to-mirror relationship [1772]",
+      "statement": "For the exact pinned payload records and the displayed mathematical translations, each reconstructed matrix at orders [1772] is Hadamard and matches its pinned mirror under the declared row/column sign map; raw equality is false.",
+      "scope": "Specified selected seed-derived mathematical translations, not execution of the downloaded program, general builder validity, author/account authentication, priority or independent-source corroboration.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-h1772-h-source-relation.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/RELATION_AUDIT.json",
+        "backlog-batch-004/RELATION_INPUTS.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-relations"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-FINAL-G-PAIR-SOURCE-RELATIONS",
+      "area": "Combinatorics",
+      "title": "Specified seed-to-mirror relationship [1948, 1964]",
+      "statement": "For the exact pinned payload records and the displayed mathematical translations, each reconstructed matrix at orders [1948, 1964] is Hadamard and matches its pinned mirror under the declared row/column sign map; raw equality is false.",
+      "scope": "Specified selected seed-derived mathematical translations, not execution of the downloaded program, general builder validity, author/account authentication, priority or independent-source corroboration.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-final-g-pair-source-relations.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/RELATION_AUDIT.json",
+        "backlog-batch-004/RELATION_INPUTS.json",
+        "backlog-batch-004/MATRIX_INPUTS.json"
+      ],
+      "checks": [
+        "external-relations"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M02-389A1-CENTRAL-ZERO-C060",
+      "area": "Arithmetic geometry",
+      "title": "Exact central vanishing for389.a1",
+      "statement": "For E:y^2+y=x^3+x^2-2x, L(E,1)=0 in arithmetic normalization.",
+      "scope": "Known fixed curve under standard modularity/reduction/Hecke-Mellin theorems; no rank, Sha or general BSD result.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m02-389a1-central-zero-c060.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/ELLIPTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/CODE_LINEAGE.json"
+      ],
+      "checks": [
+        "elliptic"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M02-389A1-ANALYTIC-ORDER-TWO-C061",
+      "area": "Arithmetic geometry",
+      "title": "Analytic order two for389.a1",
+      "statement": "For the same fixed curve, the displayed outward raw L_second interval is positive and ord_(s=1)L(E,s)=2.",
+      "scope": "Known fixed curve under standard modularity and Mellin/functional-equation theory. Decimal correctness is an explicit implementation contract; no general BSD or independent human/formal review.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m02-389a1-analytic-order-two-c061.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/ELLIPTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/CODE_LINEAGE.json"
+      ],
+      "checks": [
+        "elliptic"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M02-POINT-INDEPENDENCE-C086",
+      "area": "Arithmetic geometry",
+      "title": "Point independence and2-saturation",
+      "statement": "The points P=(0,0),Q=(1,0) are Z-independent and their subgroup is2-saturated.",
+      "scope": "Named nonsingular Weierstrass group law; no upper rank or odd/full saturation from this record alone.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m02-point-independence-c086.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/ELLIPTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/CODE_LINEAGE.json"
+      ],
+      "checks": [
+        "elliptic"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M02-389A1-RANK-TWO-C089",
+      "area": "Arithmetic geometry",
+      "title": "Complete quartic envelope and rank two",
+      "statement": "The exact conservative10205-triple envelope has64quartics, each with a positive equivalence witness to one of four soluble targets. Under the specified published complete descent/reduction theorems the fixed curve has rank2.",
+      "scope": "Finite exact computation and fixed-curve deduction under named published completeness/equivalence and Mordell-Weil theorems; no source-theorem reproof, novelty or general BSD.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m02-389a1-rank-two-c089.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/ELLIPTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/CODE_LINEAGE.json"
+      ],
+      "checks": [
+        "elliptic"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M02-FULL-BASIS-C090",
+      "area": "Arithmetic geometry",
+      "title": "Full rational basis for389.a1",
+      "statement": "For this fixed curve E(Q)=Z(0,0) direct-sum Z(1,0).",
+      "scope": "Known full basis under named canonical-height/difference theorems and the complete descent input. No full Sha or general BSD.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m02-full-basis-c090.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/ELLIPTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/CODE_LINEAGE.json"
+      ],
+      "checks": [
+        "elliptic"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M02-HEIGHT-DETERMINANT-C152",
+      "area": "Arithmetic geometry",
+      "title": "Named-point height determinant",
+      "statement": "For the displayed larger height convention and named P,Q, the pairing determinant lies in[76181/500000,19067/125000].",
+      "scope": "Named-point determinant under imported uniform height theorem; regulator interpretation additionally uses the verified full-basis result. No BSD quotient or Sha rounding.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m02-height-determinant-c152.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/ELLIPTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/CODE_LINEAGE.json"
+      ],
+      "checks": [
+        "elliptic"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M02-REAL-PERIOD-C153",
+      "area": "Arithmetic geometry",
+      "title": "Full real period for389.a1",
+      "statement": "For the minimal differential dx/(2y+1), the full real period lies in[199217/40000,2490213/500000], and is exactly twice the single-component period.",
+      "scope": "Known fixed curve under the named Gauss integral identity; no newform-to-curve period or Manin-constant identification, BSD identity or Sha claim.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m02-real-period-c153.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/ELLIPTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/CODE_LINEAGE.json"
+      ],
+      "checks": [
+        "elliptic"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M02-SHA-TWO-PRIMARY-C154",
+      "area": "Arithmetic geometry",
+      "title": "Vanishing2-primary Sha for389.a1",
+      "statement": "For the fixed curve, Sha[2]=0 and every element killed by some power of2 is zero.",
+      "scope": "Named published descent/cohomology theorems imported. No finiteness or vanishing of the odd-primary part, full Sha or general BSD.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m02-sha-two-primary-c154.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/ELLIPTIC_AUDIT.json",
+        "backlog-batch-004/elliptic/CODE_LINEAGE.json"
+      ],
+      "checks": [
+        "elliptic"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-LITERAL-4-2-C114",
+      "area": "Source contracts",
+      "title": "Literal field-span consumer interface",
+      "statement": "The pinned v2source states Lemma4.2 on physical10. Assuming that lemma at its uniform threshold, the displayed finite normed-space consumer satisfies its field, real-noncollinearity, coverage and integer-ceiling hypotheses.",
+      "scope": "Conditional interface plus fixed-version source contract. This source-location audit alone does not prove4.2 or a generic/Euclidean theorem.",
+      "outcome": "CONDITIONALLY_PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "source-contract",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-literal-4-2-c114.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/SOURCE_CONTRACT_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-PROOF-LOCATION-RECONCILIATION-C120",
+      "area": "Source contracts",
+      "title": "Dated proof-location reconciliation",
+      "statement": "The fixed v2proof begins on physical14and ends on16; the earlier native110context already recorded this span, contrary to the later UNKNOWN handoff.",
+      "scope": "Historical source/readiness reconciliation, not a mathematical theorem or proof of present project-wide state.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "source-contract",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-proof-location-reconciliation-c120.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/SOURCE_CONTRACT_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-FULL42-IMPORT-MAP-C120",
+      "area": "Source contracts",
+      "title": "Fixed v2proof import map",
+      "statement": "The pinned v2Lemma4.2proof spans14-16and invokes Ungar4.6before its first k>=n-1step, then quotient forests, weighted selection and the direction-forest bound.",
+      "scope": "Dated source/import map only. Later separately reviewed C140/C141 proofs have their own stronger local ceilings.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "source-contract",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-full42-import-map-c120.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/SOURCE_CONTRACT_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-STATUS-SOURCE-C123",
+      "area": "Source contracts",
+      "title": "Dated Hadamard source and folder metadata",
+      "statement": "The pinned November4owner/index snapshots and the specified folder HTML contain the reported finite-status labels, links, title and twelve bounded filename fields.",
+      "scope": "Dated snapshot facts only, not a current-world survey, complete folder list, payload authentication, rights or mathematical certificate.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "source-contract",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-status-source-c123.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/SOURCE_CONTRACT_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-GLOBAL-SOURCE-SCOPE-C127",
+      "area": "Source contracts",
+      "title": "Circle claim versus universal question",
+      "statement": "The inspected primary conventions distinguish the general classical-semigroup Problem6.4from circle Problem6.5; Zhao v1pages1-2claim the latter for all finite matrix sizes at the stated factor-two clock.",
+      "scope": "Source statement comparison only. Zhao proof and matrix-to-arbitrary-finite-algebra extension not audited here; universal current status remains unresolved.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "source-contract",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-global-source-scope-c127.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/SOURCE_CONTRACT_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M10-SECTION3-CATEGORY-C134",
+      "area": "Source contracts",
+      "title": "Norm-body category source contract",
+      "statement": "Pinned v2physical6defines exactly the stated real norm-ball class, Euclidean Hausdorff metric and nowhere-dense/meagre/Baire conventions.",
+      "scope": "Definition/category match only, not by itself the generic-distance theorem or completeness of the norm-body metric.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "source-contract",
+      "proofs": [
+        "backlog-batch-004/proofs/m10-section3-category-c134.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/SOURCE_CONTRACT_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M07-MODEL-CONTRACT-C164",
+      "area": "Source contracts",
+      "title": "Exact finite reset-model admission",
+      "statement": "The cited manuscript defines the stated positive finite reset generator, weighted entropy/production, all-finite-tracial auxiliary class and common-mean pencils. Its displayed algebraic sanity checks hold.",
+      "scope": "Definitions and sanity checks only. The manuscript unrestricted-state equivalence needs a converse not supplied here; separate V3/V3x2 proofs support only their own bounds.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "source-contract",
+      "proofs": [
+        "backlog-batch-004/proofs/m07-model-contract-c164.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/SOURCE_CONTRACT_AUDIT.json"
+      ],
+      "checks": [],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M08-CSV668-PAYLOAD-C166",
+      "area": "Combinatorics",
+      "title": "Exact publicCSV668binding",
+      "statement": "The pinned1115894-byte CSV is668-square Hadamard; canonical ordered sign-LF encoding has the declared446892-byte witness hash.",
+      "scope": "One fixed payload/encoding relationship. No authenticated release completeness, authorship, priority or redistribution license.",
+      "outcome": "CERTIFIED_RANGE",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "external-input-required",
+      "proofs": [
+        "backlog-batch-004/proofs/m08-csv668-payload-c166.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/CSV668_AUDIT.json"
+      ],
+      "checks": [
+        "external-csv668"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M05-SIXTEEN-SUBSPACE-C181",
+      "area": "Arithmetic geometry",
+      "title": "Literal double-plane resolution and16classes",
+      "statement": "For the literal F17/F23double covers the normalized plane blowup is the minimal base-field resolution, and the named sixteen divisor classes are independent with geometric Frobenius pI on their untwisted span.",
+      "scope": "Exact two finite-field models under named published surface-resolution and etale cycle/trace results. No independently chosen integral-model comparison, full operator, Picard rank18, RM/Hodge result or novelty.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m05-sixteen-subspace-c181.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/geometry181/GEOMETRY_AUDIT.json",
+        "backlog-batch-004/geometry181/NUMERICAL_DEPENDENCY.md",
+        "backlog-batch-004/geometry181/CYCLE_CLASS_IMPORTS.md"
+      ],
+      "checks": [
+        "geometry181"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
+    },
+    {
+      "id": "M12-DEGREE-PROJECTION-C184",
+      "area": "Combinatorics and logic",
+      "title": "Exact compact degree-CNF projection",
+      "statement": "For every assignment to the136graph edges, the two saved compact formulas after existentially quantifying their disjoint auxiliaries equal the direct degree-seven graph predicate with unchanged clique/independent-set clauses.",
+      "scope": "Specified encoding equivalence and exact files only; no17vertex satisfying graph, nonexistence certificate, search performance or Ramsey bound.",
+      "outcome": "PROVED",
+      "novelty": "NOT_ESTABLISHED; original mathematical and source contributors retain credit.",
+      "verification": "mixed",
+      "proofs": [
+        "backlog-batch-004/proofs/m12-degree-projection-c184.md"
+      ],
+      "evidence": [
+        "backlog-batch-004/ANALYTIC_AUDIT.json",
+        "backlog-batch-004/degree_projection/DEGREE_AUDIT.json",
+        "backlog-batch-004/degree_projection/INPUTS.json"
+      ],
+      "checks": [
+        "degree-projection"
+      ],
+      "current_audit": "backlog-batch-004/ANALYTIC_AUDIT.json",
+      "correction": null
     }
   ]
 }

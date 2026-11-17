@@ -1,0 +1,39 @@
+{
+  "status": "PASS_C181_GEOMETRY_INPUTS",
+  "instances": [
+    {
+      "p": 17,
+      "lines": 6,
+      "nodes": 15,
+      "divisor_classes": 16,
+      "pairings": 256,
+      "rank": 16,
+      "determinant": "-65536",
+      "untwisted_action_if_standard_imports": "17I16",
+      "twisted_action_if_standard_imports": "I16"
+    },
+    {
+      "p": 23,
+      "lines": 6,
+      "nodes": 15,
+      "divisor_classes": 16,
+      "pairings": 256,
+      "rank": 16,
+      "determinant": "-65536",
+      "untwisted_action_if_standard_imports": "23I16",
+      "twisted_action_if_standard_imports": "I16"
+    }
+  ],
+  "negative_controls": [
+    "missing field",
+    "duplicate field",
+    "missing node",
+    "duplicate node",
+    "changed point",
+    "wrong incidence",
+    "similitude alone does not imply scalar action"
+  ],
+  "negative_controls_detected": 7,
+  "code_sha256": "2ad9950954ef64532d188784937fc829cf346ad9ed0ecac21179b0b8c4f752ba",
+  "scope": "Exact input and rational matrix facts. Smooth minimal resolution and16-dimensional cohomological subspace are the separately reviewed analytic deductions under named standard imports. No observed full Frobenius operator or Hodge/RM theorem."
+}

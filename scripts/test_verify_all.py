@@ -53,6 +53,33 @@ class RunnerContract(unittest.TestCase):
         self.assertEqual(result["state"], "MISSING_EXTERNAL_INPUT")
         self.assertNotEqual(result["state"], "VERIFIED_REPLAY")
 
+    def test_graph_seed_cannot_discharge_matrix_input(self):
+        self.task.update(kind="external-input", external_input="matrix-root")
+        result = V.execute_task(self.root, self.task, seed=self.root / "seed.g6")
+        self.assertEqual(result["state"], "MISSING_EXTERNAL_INPUT")
+
+    def test_matrix_folder_cannot_discharge_graph_seed(self):
+        self.task.update(kind="external-input", external_input="graph-seed")
+        result = V.execute_task(self.root, self.task, matrix_root=self.root)
+        self.assertEqual(result["state"], "MISSING_EXTERNAL_INPUT")
+
+    def test_matrix_path_with_spaces_is_one_literal_argument(self):
+        folder = self.root / "matrix inputs"
+        folder.mkdir()
+        self.task.update(kind="external-input", external_input="matrix-root",
+                         arguments=["{MATRIX_ROOT}"])
+        (self.root / "child.py").write_text(
+            "import json,sys\nfrom pathlib import Path\n"
+            "if len(sys.argv)!=2 or not Path(sys.argv[1]).is_dir(): raise ValueError('argument contract')\n"
+            "print(json.dumps({'status':'PASS','cases':3}))\n")
+        result = V.execute_task(self.root, self.task, matrix_root=folder)
+        self.assertEqual(result["state"], "VERIFIED_REPLAY")
+
+    def test_unresolved_external_placeholder_is_rejected(self):
+        self.task["arguments"] = ["{MATRIX_ROOT}"]
+        with self.assertRaisesRegex(ValueError, "Unresolved"):
+            V.execute_task(self.root, self.task)
+
     def test_parent_traversal_rejected(self):
         with self.assertRaises(ValueError):
             V.inside(self.root, "../outside.py")

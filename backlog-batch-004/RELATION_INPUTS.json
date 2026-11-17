@@ -1,0 +1,30 @@
+{
+  "source_files": [
+    {
+      "file": "author_x.data",
+      "bytes": 382346,
+      "sha256": "4f8be5f1f8a1e99e01d0494ca141944f99ce26de8c3ad5acdb80bc3968d69dee",
+      "native_path": "artifacts/adaptive_research_cycle033/initial_replay/author_x.data"
+    },
+    {
+      "file": "author_decoder_actual.html",
+      "bytes": 226939,
+      "sha256": "fc5362d59805a473e961e475fa25e2cbf8a0306e4f8c53bf50b3353f468cdcdf",
+      "native_path": "artifacts/adaptive_research_cycle033/initial_replay/author_decoder_actual.html"
+    },
+    {
+      "file": "author_payload.signs",
+      "bytes": 23829,
+      "sha256": "6af364c5cbb505f32fe585ddd83999a9f1ce0432a4c664ef61b4c934d75eeb4c",
+      "native_path": "artifacts/adaptive_research_cycle033/initial_replay/author_payload.signs"
+    },
+    {
+      "file": "decoded_author_program_source.txt",
+      "bytes": 6130,
+      "sha256": "cf0ac77c3c6329d7d904466c18e653229521913ed19f2535322a9c5abc986f05",
+      "native_path": "artifacts/adaptive_research_cycle033/initial_replay/decoded_author_program_source.txt"
+    }
+  ],
+  "matrix_manifest": "MATRIX_INPUTS.json",
+  "scope": "Exact pinned source-derived data; raw inputs supplied separately, not redistributed."
+}

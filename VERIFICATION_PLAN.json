@@ -168,7 +168,144 @@
         "curator_data_redistributed": false
       },
       "kind": "external-input",
+      "timeout_seconds": 240,
+      "external_input": "graph-seed"
+    },
+    {
+      "id": "curvature",
+      "script": "backlog-batch-004/curvature_check_v2.py",
+      "arguments": [
+        "--certificate",
+        "CURVATURE_AUDIT_V2.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_EXACT_LOCAL_ENCLOSURES",
+        "local_coefficients": 6,
+        "root_sign_decisions": 20,
+        "arithmetic_canaries": 7,
+        "invalid_inputs_detected": 5
+      },
+      "kind": "self-contained",
       "timeout_seconds": 240
+    },
+    {
+      "id": "elliptic",
+      "script": "backlog-batch-004/elliptic/elliptic_suite.py",
+      "arguments": [
+        "--certificate",
+        "ELLIPTIC_AUDIT.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_FIXED_389A1_FINITE_REPLAYS",
+        "records": 8,
+        "negative_controls_detected": 29,
+        "derivative_cells_reintegrated": 7900,
+        "quartics": 64,
+        "affine_points": 60
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "degree-projection",
+      "script": "backlog-batch-004/degree_projection/degree_check.py",
+      "arguments": [
+        "--certificate",
+        "DEGREE_AUDIT.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_LITERAL_DEGREE_PROJECTION_CHECKS",
+        "formulas": 2,
+        "small_cohorts": 12,
+        "full_sixteen_input_checks": 131072,
+        "negative_controls_detected": 10
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "geometry181",
+      "script": "backlog-batch-004/geometry181/geometry_check.py",
+      "arguments": [
+        "--certificate",
+        "GEOMETRY_AUDIT.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_C181_GEOMETRY_INPUTS",
+        "fields": 2,
+        "nodes": 30,
+        "negative_controls_detected": 7
+      },
+      "kind": "self-contained",
+      "timeout_seconds": 240
+    },
+    {
+      "id": "external-matrices",
+      "script": "backlog-batch-004/matrix_check.py",
+      "arguments": [
+        "--inputs",
+        "MATRIX_INPUTS.json",
+        "--external-root",
+        "{MATRIX_ROOT}",
+        "--certificate",
+        "MATRIX_AUDIT.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_FINITE_MATRICES",
+        "matrices": 15,
+        "unordered_pairs_checked": 20118294,
+        "negative_controls_detected": 10
+      },
+      "kind": "external-input",
+      "timeout_seconds": 240,
+      "external_input": "matrix-root"
+    },
+    {
+      "id": "external-relations",
+      "script": "backlog-batch-004/relation_check.py",
+      "arguments": [
+        "--external-root",
+        "{MATRIX_ROOT}",
+        "--certificate",
+        "RELATION_AUDIT.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_EXACT_SOURCE_RELATIONS",
+        "objects_checked": 10,
+        "source_and_map_cells": 24602272,
+        "row_pairs_checked": 12293540,
+        "negative_controls_detected": 43
+      },
+      "kind": "external-input",
+      "timeout_seconds": 240,
+      "external_input": "matrix-root"
+    },
+    {
+      "id": "external-csv668",
+      "script": "backlog-batch-004/csv668_check.py",
+      "arguments": [
+        "--external-root",
+        "{MATRIX_ROOT}",
+        "--certificate",
+        "CSV668_AUDIT.json",
+        "--verify"
+      ],
+      "expected": {
+        "status": "PASS_CSV668_CANONICAL_RELATION",
+        "order": 668,
+        "row_pairs_checked": 222778,
+        "column_pairs_checked": 222778,
+        "negative_controls_detected": 7
+      },
+      "kind": "external-input",
+      "timeout_seconds": 240,
+      "external_input": "matrix-root"
     }
   ]
 }

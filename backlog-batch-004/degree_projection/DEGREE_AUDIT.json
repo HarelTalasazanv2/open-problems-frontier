@@ -1,0 +1,44 @@
+{
+  "status": "PASS_LITERAL_DEGREE_PROJECTION_CHECKS",
+  "formulas": [
+    {
+      "kind": "functional",
+      "variables": 2312,
+      "clauses": 16762,
+      "literal_occurrences": 98022,
+      "bytes": 444354,
+      "sha256": "ed7c0772ee4e50df32df19f3021ea0a8e2b4f8e3da57ce1306d70c6edc328184",
+      "sixteen_bit_inputs": 65536,
+      "accepted_inputs": 26333
+    },
+    {
+      "kind": "sequential",
+      "variables": 1921,
+      "clauses": 12274,
+      "literal_occurrences": 84898,
+      "bytes": 372971,
+      "sha256": "5432483ee5d247cee18e8e9d1f86bd1fc65b2832342dac3420bcb3295fdba8af",
+      "sixteen_bit_inputs": 65536,
+      "accepted_inputs": 26333
+    }
+  ],
+  "gate_truth_assignments": 16,
+  "small_joint_states": 4938,
+  "small_cohorts": 12,
+  "full_sixteen_input_checks": 131072,
+  "negative_controls": [
+    "functional omitted clause",
+    "functional duplicate clause",
+    "functional auxiliary alias",
+    "sequential omitted clause",
+    "sequential duplicate clause",
+    "sequential auxiliary alias",
+    "missing final overflow exposes explicit forbidden input",
+    "missing functional cap exposes explicit forbidden input",
+    "zero literal",
+    "malformed dimension"
+  ],
+  "negative_controls_detected": 10,
+  "code_sha256": "dc7d2bc22f8b19d1b9ef0e9105c6dd24dc4fb0a740446e6d2900e47d0f854af2",
+  "scope": "Exact two saved CNFs and finite controls. Analytic induction proves existential projection for all graph inputs; no SAT decision or graph nonexistence certificate."
+}

@@ -1,0 +1,65 @@
+{
+  "utc": "2026-11-17T01:42:16.804341+00:00",
+  "M02": {
+    "Cremona_chapter3_url": "https://johncremona.github.io/book/fulltext/chapter3.pdf",
+    "current_download_sha256": "c4843b80ae1b6b91795b9952d782912542dd8d6b17c1940cd1a881fa6fdd9c26",
+    "physical_pages_visually_read": [
+      10,
+      11,
+      16,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35
+    ],
+    "scope": "Descent coverage/equivalence and height normalization/difference statements; underlying reference proofs not reproduced."
+  },
+  "M05": {
+    "source": "https://www.jmilne.org/math/CourseNotes/LEC.pdf",
+    "version": "2.21,2013-03-22",
+    "provider_text_extents": [
+      [
+        7011,
+        7065
+      ],
+      [
+        7270,
+        7284
+      ],
+      [
+        7406,
+        7424
+      ],
+      [
+        8761,
+        8805
+      ]
+    ],
+    "visual_inspection_this_run": false,
+    "raw_pdf_hash": "UNKNOWN",
+    "scope": "Cycle multiplicativity, rational l-adic coefficient clause including l2, trace normalization, and geometric/arithmetic Frobenius identification imported as statements; source proof omissions remain explicit.",
+    "surface_resolution_tags": [
+      "https://stacks.math.columbia.edu/tag/0C5S",
+      "https://stacks.math.columbia.edu/tag/0C5R",
+      "https://stacks.math.columbia.edu/tag/0C5J"
+    ]
+  },
+  "M01": {
+    "source": "https://ems.press/content/serial-article-files/44477?nt=1",
+    "pdf_sha256": "6e2e2611014d24a4951de04779f297fa7f609141929aea3dde18de69e92841b7",
+    "physical_pages_visually_read": [
+      10,
+      11
+    ],
+    "scope": "Canonical definitions and Proposition2.1; digamma integral independently compared with NIST5.9.16."
+  },
+  "primary_handbook_definitions": [
+    "https://dlmf.nist.gov/5.9.E16",
+    "https://dlmf.nist.gov/19.8.E4",
+    "https://www.lmfdb.org/knowledge/show/ec.q.real_period"
+  ],
+  "claim_ceiling": "Source statements and conventions are imports. No wholesale paper review, proof-assistant replay, human review, independent-source count or global-status/novelty certification."
+}

@@ -1,0 +1,526 @@
+{
+  "status": "PASS_EXACT_SOURCE_RELATIONS",
+  "objects": [
+    {
+      "index": 3,
+      "order": 1132,
+      "kind": "g",
+      "payload_interval": [
+        2268,
+        3400
+      ],
+      "candidate_sha256": "7d1c1e892149e90330d58bb0cf9ef2c888078df1b35fb55f8724d580ebf7b743",
+      "source_cells": 1281424,
+      "map_cells": 1281424,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        2,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 640146,
+      "row_norm_squared": 1132,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1131
+        ],
+        [
+          565,
+          566
+        ],
+        [
+          1130,
+          1131
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 283,
+      "proper_divisors_rejected": [
+        1
+      ]
+    },
+    {
+      "index": 4,
+      "order": 1244,
+      "kind": "g",
+      "payload_interval": [
+        3400,
+        4644
+      ],
+      "candidate_sha256": "4cb747cf511eba1f203582b5121bdf6ab02671133e45579c1d023add8b2da143",
+      "source_cells": 1547536,
+      "map_cells": 1547536,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        1,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 773146,
+      "row_norm_squared": 1244,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1243
+        ],
+        [
+          621,
+          622
+        ],
+        [
+          1242,
+          1243
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 311,
+      "proper_divisors_rejected": [
+        1
+      ]
+    },
+    {
+      "index": 1,
+      "order": 716,
+      "kind": "h",
+      "payload_interval": [
+        664,
+        1376
+      ],
+      "candidate_sha256": "3adcb1bb2884467d9e34069a3b32950728adabcdb8b35a4503d20c3312664ee6",
+      "source_cells": 512656,
+      "map_cells": 512656,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 255970,
+      "row_norm_squared": 716,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          715
+        ],
+        [
+          357,
+          358
+        ],
+        [
+          714,
+          715
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 178,
+      "proper_divisors_rejected": [
+        1,
+        2,
+        89
+      ]
+    },
+    {
+      "index": 5,
+      "order": 1388,
+      "kind": "v",
+      "payload_interval": [
+        4644,
+        7372
+      ],
+      "candidate_sha256": "a6b92584eb803b87026709d64fe892dec8f7182a120e13de9edd3065cf05bf0b",
+      "source_cells": 1926544,
+      "map_cells": 1926544,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 962578,
+      "row_norm_squared": 1388,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1387
+        ],
+        [
+          693,
+          694
+        ],
+        [
+          1386,
+          1387
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 57,
+      "proper_divisors_rejected": [
+        1,
+        3,
+        19
+      ]
+    },
+    {
+      "index": 9,
+      "order": 1916,
+      "kind": "w",
+      "payload_interval": [
+        17484,
+        19916
+      ],
+      "candidate_sha256": "be2073eeaa5399cfe104023829d2c6770b49dd2f07bf6347203f1cbd75577ae9",
+      "source_cells": 3671056,
+      "map_cells": 3671056,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        2,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 1834570,
+      "row_norm_squared": 1916,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1915
+        ],
+        [
+          957,
+          958
+        ],
+        [
+          1914,
+          1915
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 119,
+      "proper_divisors_rejected": [
+        1,
+        7,
+        17
+      ]
+    },
+    {
+      "index": 6,
+      "order": 1436,
+      "kind": "u",
+      "payload_interval": [
+        7372,
+        14044
+      ],
+      "candidate_sha256": "e4d745a4d44f39a5671f9cd86f5c1d0aef93504dcfb2e253451cadc9e4086728",
+      "source_cells": 2062096,
+      "map_cells": 2062096,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 1030330,
+      "row_norm_squared": 1436,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1435
+        ],
+        [
+          717,
+          718
+        ],
+        [
+          1434,
+          1435
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 11,
+      "proper_divisors_rejected": [
+        1
+      ]
+    },
+    {
+      "index": 7,
+      "order": 1676,
+      "kind": "h",
+      "payload_interval": [
+        14044,
+        15716
+      ],
+      "candidate_sha256": "8e919c2bdb4d30c34817eb5650d2dd3d82d7c6504feccd96c5ca22a2191cdb99",
+      "source_cells": 2808976,
+      "map_cells": 2808976,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 1403650,
+      "row_norm_squared": 1676,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1675
+        ],
+        [
+          837,
+          838
+        ],
+        [
+          1674,
+          1675
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 418,
+      "proper_divisors_rejected": [
+        1,
+        2,
+        11,
+        19,
+        22,
+        38,
+        209
+      ]
+    },
+    {
+      "index": 8,
+      "order": 1772,
+      "kind": "h",
+      "payload_interval": [
+        15716,
+        17484
+      ],
+      "candidate_sha256": "1852e951db69c44eb95b37ed741c3ff2e29691267eaf872d6a9da3a977236ba2",
+      "source_cells": 3139984,
+      "map_cells": 3139984,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 1569106,
+      "row_norm_squared": 1772,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1771
+        ],
+        [
+          885,
+          886
+        ],
+        [
+          1770,
+          1771
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 442,
+      "proper_divisors_rejected": [
+        1,
+        2,
+        13,
+        17,
+        26,
+        34,
+        221
+      ]
+    },
+    {
+      "index": 10,
+      "order": 1948,
+      "kind": "g",
+      "payload_interval": [
+        19916,
+        21864
+      ],
+      "candidate_sha256": "fddc841ebf951f6e17e939551d058ea5df046251ea065b5f6e7ee2fd8d0f62ce",
+      "source_cells": 3794704,
+      "map_cells": 3794704,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 1896378,
+      "row_norm_squared": 1948,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1947
+        ],
+        [
+          973,
+          974
+        ],
+        [
+          1946,
+          1947
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 487,
+      "proper_divisors_rejected": [
+        1
+      ]
+    },
+    {
+      "index": 11,
+      "order": 1964,
+      "kind": "g",
+      "payload_interval": [
+        21864,
+        23828
+      ],
+      "candidate_sha256": "740b907cd442f1b7fd40dcc31f2b3aae9794842da6dc579f98dac1d0d9e1493d",
+      "source_cells": 3857296,
+      "map_cells": 3857296,
+      "raw_identity": false,
+      "first_raw_difference": [
+        0,
+        3,
+        -1,
+        1
+      ],
+      "unordered_pairs_checked": 1927666,
+      "row_norm_squared": 1964,
+      "direct_signed_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1963
+        ],
+        [
+          981,
+          982
+        ],
+        [
+          1962,
+          1963
+        ]
+      ],
+      "HHt_equals_nI": true,
+      "HtH_equals_nI_by_square_invertibility": true,
+      "word_length": 491,
+      "proper_divisors_rejected": [
+        1
+      ]
+    }
+  ],
+  "objects_checked": 10,
+  "source_records_consumed": 12,
+  "payload_symbols_consumed": 23828,
+  "source_and_map_cells": 24602272,
+  "row_pairs_checked": 12293540,
+  "negative_controls": [
+    "g offset source rule",
+    "1132 final-cell map",
+    "1132 final-cell Gram",
+    "1132 fixed-order map",
+    "1244 final-cell map",
+    "1244 final-cell Gram",
+    "1244 fixed-order map",
+    "h frames source rule",
+    "716 final-cell map",
+    "716 final-cell Gram",
+    "716 fixed-order map",
+    "v phase source rule",
+    "v reversal source rule",
+    "1388 final-cell map",
+    "1388 final-cell Gram",
+    "1388 fixed-order map",
+    "w phase source rule",
+    "w reversal source rule",
+    "1916 final-cell map",
+    "1916 final-cell Gram",
+    "1916 fixed-order map",
+    "u phase source rule",
+    "u reversal source rule",
+    "1436 final-cell map",
+    "1436 final-cell Gram",
+    "1436 fixed-order map",
+    "1676 final-cell map",
+    "1676 final-cell Gram",
+    "1676 fixed-order map",
+    "1772 final-cell map",
+    "1772 final-cell Gram",
+    "1772 fixed-order map",
+    "1948 final-cell map",
+    "1948 final-cell Gram",
+    "1948 fixed-order map",
+    "1964 final-cell map",
+    "1964 final-cell Gram",
+    "1964 fixed-order map",
+    "missing payload",
+    "extra payload",
+    "invalid payload",
+    "header membership",
+    "changed wrapper"
+  ],
+  "negative_controls_detected": 43,
+  "code_sha256": "d9663c93be643b545789ede60ef6b841f8ab05f741ecd8314d3013c322d93481",
+  "scope": "The specified scalar mathematical translations and pinned data only; no source-runtime execution, author authentication, priority or universal theorem."
+}

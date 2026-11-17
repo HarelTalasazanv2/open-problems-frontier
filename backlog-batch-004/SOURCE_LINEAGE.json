@@ -1,0 +1,503 @@
+{
+  "scope": "Versioned project-authored proof reading editions; original source files remain unchanged locally. No raw third-party papers, source programs or datasets are redistributed here.",
+  "records": [
+    {
+      "id": "M01-STRICT-LOG-DOMAIN-20261018",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M01_EXTENDED_DOMAIN_2026-10-18.md",
+      "sha256": "9c5d69df183dfbff12b87a7ed0cc0caebfd8ce849e12f5d11804582d14c05024",
+      "public_proof": "proofs/m01-strict-log-domain-20261018.md"
+    },
+    {
+      "id": "M03-HEAT-L2-L3-C070",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M03_HEAT_BASELINE_2026-10-25_CYCLE070.md",
+      "sha256": "55f9ca7be323dbef3a1cea30fc15bd3fb5ba2012bf4fd2b45ea379e57487789e",
+      "public_proof": "proofs/m03-heat-l2-l3-c070.md"
+    },
+    {
+      "id": "M06-GAP-TRANSFER-C094",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M06_SPECTRAL_GAP_TRANSFER_2026-10-29_CYCLE094.md",
+      "sha256": "c5b60e60eb3021f6500d77dea23f54a6561de66915fc9efeff9de4057864c4c8",
+      "public_proof": "proofs/m06-gap-transfer-c094.md"
+    },
+    {
+      "id": "M06-TEMPORAL-CRITERION-C095",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M06_TEMPORAL_CORRELATION_CRITERION_2026-10-29_CYCLE095.md",
+      "sha256": "6224ac52162522e6e5d15876e9d7e1825bb9fd0eb004787a7e7375794b4438e8",
+      "public_proof": "proofs/m06-temporal-criterion-c095.md"
+    },
+    {
+      "id": "M06-POSITIVE-FORM-LIMIT-C096",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M06_POSITIVE_FORM_LIMIT_2026-10-29_CYCLE096.md",
+      "sha256": "387b2b4fac324a5242f31a5041ba898faedbe42c11731bf05e8fd7b2a9110a32",
+      "public_proof": "proofs/m06-positive-form-limit-c096.md"
+    },
+    {
+      "id": "M10-ONE-FLIP-CERTIFICATE-C091",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_NORM_SCOPE_AND_CERTIFICATES_2026-10-28_CYCLE091.md",
+      "sha256": "522a2dcded7d5e124e34a531530903f820caf21811dabc5e2199c6f7ea8eba19",
+      "public_proof": "proofs/m10-one-flip-certificate-c091.md"
+    },
+    {
+      "id": "M10-VECTOR-PARTITION-C092",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_RATIONAL_SPANS_AND_PARTITION_2026-10-28_CYCLE092.md",
+      "sha256": "11b11bbcf811292dfb944158e03d6e679177e265680f781e93b62b21fb6cb26c",
+      "public_proof": "proofs/m10-vector-partition-c092.md"
+    },
+    {
+      "id": "M10-INTEGER-AVOIDANCE-C093",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_INTEGER_AVOIDANCE_2026-10-28_CYCLE093.md",
+      "sha256": "b578b581eb98e26598a17ab4c067ae9be40169f9b3eb75c12a95b0f53cf18a17",
+      "public_proof": "proofs/m10-integer-avoidance-c093.md"
+    },
+    {
+      "id": "M10-SMALL-FACET-APPROX-C097",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_SMALL_FACET_APPROXIMATION_2026-10-29_CYCLE097.md",
+      "sha256": "cf340105b70b8dcec6dccb175e5ede99a9f82fe7914a3f8a4dfd286e3f28ae61",
+      "public_proof": "proofs/m10-small-facet-approx-c097.md"
+    },
+    {
+      "id": "M10-FACET-OFFSET-STABILITY-C098",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_FACET_OFFSET_STABILITY_2026-10-29_CYCLE098.md",
+      "sha256": "d670cd5fb33938ba79597dcd766e9eb00853c7d4ba379131bd6adc7671a61ded",
+      "public_proof": "proofs/m10-facet-offset-stability-c098.md"
+    },
+    {
+      "id": "M10-BOUNDARY-FACET-TRANSPORT-C099",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_BOUNDARY_FACET_TRANSPORT_2026-10-30_CYCLE099.md",
+      "sha256": "b967a69f1f09ceb5a6c20923f874c18f0b976d77152be8d05038e4d01f562d86",
+      "public_proof": "proofs/m10-boundary-facet-transport-c099.md"
+    },
+    {
+      "id": "M10-RATIONAL-FAMILY-HOLE-C100",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_RATIONAL_FAMILY_EXCLUSION_2026-10-30_CYCLE100.md",
+      "sha256": "5b6efe2a0b1e1ee9bbd2a8768a87c3142862b6958a8875e41fecb46c5781e67f",
+      "public_proof": "proofs/m10-rational-family-hole-c100.md"
+    },
+    {
+      "id": "M10-GENERIC-Q-CAPACITY-C101",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_COUNTABLE_CAPACITY_2026-10-30_CYCLE101.md",
+      "sha256": "9a82820aa30a56959f43d32e47e76440bd294c67e62ae6d253d064f3aecb9ddd",
+      "public_proof": "proofs/m10-generic-q-capacity-c101.md"
+    },
+    {
+      "id": "M10-GLOBAL-COLOURING-C102",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_FINITE_TO_INFINITE_COLOURING_2026-10-30_CYCLE102.md",
+      "sha256": "89be0ec271d7eb9baf9b626626561604b1b132c6b73a456815be8c61553e5763",
+      "public_proof": "proofs/m10-global-colouring-c102.md"
+    },
+    {
+      "id": "M10-RATIONAL-IMAGE-C108",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_RATIONAL_IMAGE_2026-10-31_CYCLE108.md",
+      "sha256": "a4730a652e4fba55a6e893b769fd4bcea1cd3f25e5ebf60c6f3cc52aa03fe81a",
+      "public_proof": "proofs/m10-rational-image-c108.md"
+    },
+    {
+      "id": "M10-MPOSITIVE-GEOMETRY-C109",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_MPOSITIVE_GEOMETRY_2026-10-31_CYCLE109.md",
+      "sha256": "f56cd84bf3973f73e574ad811d91fe1359febf6892b3542d1cec2f0e492545c7",
+      "public_proof": "proofs/m10-mpositive-geometry-c109.md"
+    },
+    {
+      "id": "M10-WEIGHTED-SELECTION-C110",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_WEIGHTED_SELECTION_2026-11-01_CYCLE110.md",
+      "sha256": "77fa46d8fb127b5004e5a09e553eebc207b11e142359a2ec7e4a45c2d98b0b61",
+      "public_proof": "proofs/m10-weighted-selection-c110.md"
+    },
+    {
+      "id": "M10-FOREST-EDGE-C115",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_FOREST_EDGE_2026-11-03_CYCLE115.md",
+      "sha256": "ddee7a63c18b929c1384b2f30e683bb89dd063b51a2bdc9fca359824ffbc107a",
+      "public_proof": "proofs/m10-forest-edge-c115.md"
+    },
+    {
+      "id": "M10-FINITE-PROJECTION-C122",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_FINITE_PROJECTION_2026-11-04_CYCLE122.md",
+      "sha256": "473979ce60db16b32e4aecf824957d1e27dd27d7064eca60305c025a1556a25a",
+      "public_proof": "proofs/m10-finite-projection-c122.md"
+    },
+    {
+      "id": "M10-D_N-IMPORT-C140",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_UNGAR_DIRECTION_BOUND_2026-11-06_CYCLE140.md",
+      "sha256": "57b5c1b5a29e4f903d4eac43b9312b83632d9b3d67ed340672a0b883623f9eb1",
+      "public_proof": "proofs/m10-d_n-import-c140.md"
+    },
+    {
+      "id": "M10-FIXED-MU-MEAGRE-C141",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_CONSUMER_INTEGRATION_2026-11-06_CYCLE141.md",
+      "sha256": "d24dc9232c96978711cf3dc05cb560d390df59e3b0f433b3963d6f1a29510353",
+      "public_proof": "proofs/m10-fixed-mu-meagre-c141.md"
+    },
+    {
+      "id": "M10-ALL-TOLERANCE-INTEGRATED-C142",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M10_ALL_TOLERANCE_INTEGRATION_2026-11-06_CYCLE142.md",
+      "sha256": "a92e6407d40c1b3469b7ead9fb4a1b8d3b9686655ea897ecd93d2d0d72d02d89",
+      "public_proof": "proofs/m10-all-tolerance-integrated-c142.md"
+    },
+    {
+      "id": "M07-TWO-POINT-PD-TRANSFER-C116",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M07_TWO_POINT_PD_TRANSFER_2026-11-03_CYCLE116.md",
+      "sha256": "f4e522d355143a4a794d102e20cab011dc31075e55a2e1660ebbdcd228decaa4",
+      "public_proof": "proofs/m07-two-point-pd-transfer-c116.md"
+    },
+    {
+      "id": "M07-TWO-POINT-PSD-BOUNDARY-C117",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M07_FINITE_PSD_BOUNDARY_2026-11-03_CYCLE117.md",
+      "sha256": "74da0edb72556e2beb528bd3cc3557dcddb86cd0e96acf071b15e28b5bb54b82",
+      "public_proof": "proofs/m07-two-point-psd-boundary-c117.md"
+    },
+    {
+      "id": "M07-TRACIAL-UNIFORMLY-INVERTIBLE-C118",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M07_TRACIAL_UNIFORMLY_INVERTIBLE_2026-11-03_CYCLE118.md",
+      "sha256": "0742992c8e7dc14197e412ba8d9ecfaed98397e96cfd8a870a5bcd6be701a6c6",
+      "public_proof": "proofs/m07-tracial-uniformly-invertible-c118.md"
+    },
+    {
+      "id": "M07-TRACIAL-BOUNDED-BOUNDARY-C119",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M07_TRACIAL_BOUNDED_BOUNDARY_2026-11-03_CYCLE119.md",
+      "sha256": "97e3f602f0c8f1ec8c89eb8e1a2338e4d81a6789b096cd57ded1662de9a53f31",
+      "public_proof": "proofs/m07-tracial-bounded-boundary-c119.md"
+    },
+    {
+      "id": "M07-RESET-PD-A-BOUND-V3",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/artifacts/m07_reset_pd_audit_v3/20261110T210155Z/REPORT.md",
+      "sha256": "ccc7d46e5ea5b7d07fa449e784fea21568685c2e6ba02016fb34a83307ebc11c",
+      "public_proof": "proofs/m07-reset-bounded-a-bound-v3x2.md"
+    },
+    {
+      "id": "M07-RESET-BOUNDED-A-BOUND-V3X2",
+      "native_path": "dossiers/M07_BOUNDED_RESET_EXTENSION_2026-11-10_V3X2.md",
+      "sha256": "cd5ca8f112181e9384f84c9c84e9a078b3fae350518dede9eb665ed909ab21c7",
+      "public_proof": "proofs/m07-reset-bounded-a-bound-v3x2.md"
+    },
+    {
+      "id": "M07-PROPORTIONAL-HESSIAN-LOCAL-STABILITY",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M07_PROPORTIONAL_HESSIAN_AND_LOCAL_STABILITY_2026-10-20_CYCLE034.md",
+      "sha256": "07495a1eb56ac0ca00851a2509e24cb9bb900385c6398ddc63c4986a0f5ab4f3",
+      "public_proof": "proofs/m07-proportional-hessian-local-stability.md"
+    },
+    {
+      "id": "M07-GENERAL-BIASED-SCALAR-AND-LOCAL-MATRIX",
+      "native_path": "reviews/2026-11-16-github-audit-batch-004/input_snapshot/dossiers/M07_GENERAL_WEIGHT_SCALAR_EXTENSION_2026-10-20_CYCLE035.md",
+      "sha256": "289c0051e4c128d557e433d2164484f45e278d977bcf4eb01b524ef7646777a6",
+      "public_proof": "proofs/m07-general-biased-scalar-and-local-matrix.md"
+    },
+    {
+      "id": "M01-BOMBIERI-SUZUKI-CORE-20261017",
+      "native_path": "dossiers/M01_BOMBIERI_SUZUKI_CORE_BRIDGE_2026-10-17.md",
+      "sha256": "fb72f9894c8a0d642921b63a0e6e64e53866e76d47a3af3c79c2a9063f769a9b",
+      "public_proof": "proofs/m01-bombieri-suzuki-core-20261017.md"
+    },
+    {
+      "id": "M01-REGIONAL-LOG-DOMAIN-20261018",
+      "native_path": "dossiers/M01_CANONICAL_LOG_DOMAIN_2026-10-18.md",
+      "sha256": "9a872334c15555ac4c0e8fce8781ae4d4dba684fdada02cd0806a341419a78c2",
+      "public_proof": "proofs/m01-regional-log-domain-20261018.md"
+    },
+    {
+      "id": "M01-REGIONAL-PRIOR-ART-20261018",
+      "native_path": "dossiers/M01_REGIONAL_PRIOR_ART_2026-10-18_CYCLE024.md",
+      "sha256": "44249126d7b64a0be9fd95e5f1b8c85a953e2021cb84c9837d59379dbdecda7e",
+      "public_proof": "proofs/m01-regional-prior-art-20261018.md"
+    },
+    {
+      "id": "M01-GLOBAL-REMAINDER-C048",
+      "native_path": "dossiers/M01_GLOBAL_REMAINDER_2026-10-22_CYCLE048.md",
+      "sha256": "6b70cbfe73f754420fbf4f4344809337e580fb7cdb48a35d4416dd70498f5646",
+      "public_proof": "proofs/m01-global-remainder-c048.md"
+    },
+    {
+      "id": "M01-QUADRATIC-DECOMPOSITION-C049",
+      "native_path": "dossiers/M01_QUADRATIC_DECOMPOSITION_2026-10-22_CYCLE049.md",
+      "sha256": "89b570d8ecb216fe10b8b9f401978b12eb52d3b7bdf35e1e97809fdee9c6f3a2",
+      "public_proof": "proofs/m01-quadratic-decomposition-c049.md"
+    },
+    {
+      "id": "M01-LOG-FORM-CLOSURE-C050",
+      "native_path": "dossiers/M01_LOG_FORM_CLOSURE_2026-10-22_CYCLE050.md",
+      "sha256": "555944d4a8565cd4db30765fc08732b7f0e04ad1720be94372eb8a0d10d9c4a4",
+      "public_proof": "proofs/m01-log-form-closure-c050.md"
+    },
+    {
+      "id": "M01-CANONICAL-IDENTIFICATION-C051",
+      "native_path": "dossiers/M01_CANONICAL_IDENTIFICATION_2026-10-22_CYCLE051.md",
+      "sha256": "04b6591fee4b80438096629bab55a8454ccf645a9acf071b913ca2672ca887c8",
+      "public_proof": "proofs/m01-canonical-identification-c051.md"
+    },
+    {
+      "id": "M01-CONTINUITY-MODULUS-C052",
+      "native_path": "dossiers/M01_CONTINUITY_MODULUS_2026-10-22_CYCLE052.md",
+      "sha256": "cadf7021d9b9bc7ff2e41446d1e8cb9b47a61b658555d5209e1bf3678865512b",
+      "public_proof": "proofs/m01-continuity-modulus-c052.md"
+    },
+    {
+      "id": "M01-ENERGY-MODULUS-SHARPNESS-C053",
+      "native_path": "dossiers/M01_ENERGY_MODULUS_SHARPNESS_2026-10-22_CYCLE053.md",
+      "sha256": "f506eb9d702dccfecab4cfc18e8d2643a8de86c714cdb5af4f920ad4a93b65de",
+      "public_proof": "proofs/m01-energy-modulus-sharpness-c053.md"
+    },
+    {
+      "id": "M01-POLYNOMIAL-COMPLEMENT-C054",
+      "native_path": "dossiers/M01_POLYNOMIAL_COMPLEMENT_2026-10-23_CYCLE054.md",
+      "sha256": "9aa5ca33f9b86e948cd7f5bf102827b190a31bbfb56a84bf49ecdc4b5bb16ba7",
+      "public_proof": "proofs/m01-polynomial-complement-c054.md"
+    },
+    {
+      "id": "M01-ARCHIMEDEAN-NORM-C055",
+      "native_path": "dossiers/M01_CANONICAL_INTERFACE_REVIEW_2026-10-23_CYCLE055.md",
+      "sha256": "08456eed0566fe9ad7417c1c1d93bac9729fdd8bdade507388affd0270b0f113",
+      "public_proof": "proofs/m01-archimedean-norm-c055.md"
+    },
+    {
+      "id": "M01-OPERATOR-GRAPH-NORM-C075",
+      "native_path": "dossiers/M01_BOUNDARY_LEAKAGE_2026-10-26_CYCLE075.md",
+      "sha256": "58cc4b1b6661619dcb229cb5d9ae2e00fb732e56e30e9d8b0697b51f7fa51b0b",
+      "public_proof": "proofs/m01-operator-graph-norm-c075.md"
+    },
+    {
+      "id": "M01-SQUARED-LOG-MODULUS-C076",
+      "native_path": "dossiers/M01_SQUARED_LOG_MODULUS_2026-10-26_CYCLE076.md",
+      "sha256": "adbcde3bb8c04d7c3d00a9a266e5b5d06cb0234730151a4c45821a64e2c91c07",
+      "public_proof": "proofs/m01-squared-log-modulus-c076.md"
+    },
+    {
+      "id": "M01-COMPLETE-FORM-CONSUMER-C080",
+      "native_path": "dossiers/M01_COMPLETE_FORM_CONSUMER_2026-10-27_CYCLE080.md",
+      "sha256": "dab327d62cc7bc3931aa4bb512d0ec6887b292853daa467c685ecb91c2b76ec3",
+      "public_proof": "proofs/m01-complete-form-consumer-c080.md"
+    },
+    {
+      "id": "M01-COMPRESSED-ITERATION-C155",
+      "native_path": "dossiers/M01_DOMAIN_ITERATION_2026-11-09_CYCLE155.md",
+      "sha256": "f8caadb06a5ebf54f71bcea0dedf795442d788d6828bf2b4122ebd3809c58af8",
+      "public_proof": "proofs/m01-compressed-iteration-c155.md"
+    },
+    {
+      "id": "M01-SECOND-DOMAIN-C156",
+      "native_path": "dossiers/M01_EXTERIOR_LIFT_2026-11-09_CYCLE156.md",
+      "sha256": "5ab9e5b513ad1be2319532676f49e6cbc684697e709dde82c6e3f50ded53a709",
+      "public_proof": "proofs/m01-second-domain-c156.md"
+    },
+    {
+      "id": "M07-OFFDIAGONAL-CURVATURE-20261017",
+      "native_path": "dossiers/M07_OFFDIAGONAL_CURVATURE_2026-10-17.md",
+      "sha256": "3c14d9fa2e8be8e9ee6d755bdd858c21523fca460ef7c6af6ac83bd5805c89fd",
+      "public_proof": "proofs/m07-offdiagonal-curvature-20261017.md"
+    },
+    {
+      "id": "M07-ROTATED-PROPORTIONAL-20261017",
+      "native_path": "dossiers/M07_ROTATED_PROPORTIONAL_2026-10-17.md",
+      "sha256": "2cb1580a0dcce44786a0ea5176d578833dc82449d78a92ab5cb67b67af0457ba",
+      "public_proof": "proofs/m07-rotated-proportional-20261017.md"
+    },
+    {
+      "id": "M07-MIXED-OPTIMIZER-EQUILIBRIUM-HESSIAN",
+      "native_path": "dossiers/M07_MIXED_BASE_HESSIAN_2026-10-20_CYCLE036.md",
+      "sha256": "8ec43a7ce9627da15842ecb2f2411fd19edcd84c058b8b7f9270b99fe5ff31fc",
+      "public_proof": "proofs/m07-mixed-optimizer-equilibrium-hessian.md"
+    },
+    {
+      "id": "M07-MIXED-FINITE-NEIGHBORHOOD-FIXED-CHAIN-2X2",
+      "native_path": "dossiers/M07_MIXED_FINITE_NEIGHBORHOOD_2026-10-20_CYCLE040.md",
+      "sha256": "d05afc752577c7784ec4b8d51b487f2a7483636db2e0cd5a613e2f6bdd10cf74",
+      "public_proof": "proofs/m07-mixed-finite-neighborhood-fixed-chain-2x2.md"
+    },
+    {
+      "id": "M08-H2092",
+      "native_path": "dossiers/M08_H2092_FINITE_CERTIFICATE_2026-10-18_CYCLE026.md",
+      "sha256": "bae2dff9f08a6826f40529d8cccec60ee9366e20482efca0b96b60d5b35ce703",
+      "public_proof": "proofs/m08-h2092.md"
+    },
+    {
+      "id": "M08-H2292",
+      "native_path": "dossiers/M08_H2292_FINITE_CERTIFICATE_2026-10-18_CYCLE027.md",
+      "sha256": "5333955ab70efd8801cf4a237771aac744a6cd53645391e2b483f272f0b1867d",
+      "public_proof": "proofs/m08-h2292.md"
+    },
+    {
+      "id": "M08-H716",
+      "native_path": "dossiers/M08_H716_STATUS_AND_CERTIFICATE_2026-10-19_CYCLE028.md",
+      "sha256": "dc0cf3b933fdf057c035f247952f0e0b9093c4f0d2b3892dfb117aa3b7292897",
+      "public_proof": "proofs/m08-h716.md"
+    },
+    {
+      "id": "M08-AUGUST-TEN",
+      "native_path": "dossiers/M08_AUGUST_TEN_FINITE_CERTIFICATES_2026-10-19_CYCLE029.md",
+      "sha256": "765b8f2f6d2648311deda7c33964949a4e40b7f8dc492b30bc2dd5a55e07c6a0",
+      "public_proof": "proofs/m08-august-ten.md"
+    },
+    {
+      "id": "M08-H1212",
+      "native_path": "dossiers/M08_H1212_COOPER_WALLIS_CERTIFICATE_2026-10-19_CYCLE031.md",
+      "sha256": "baf8c95c3b88ec93e3651a1fa81e6462e8de3537d651520e2b8a1ca1358d4d85",
+      "public_proof": "proofs/m08-h1212.md"
+    },
+    {
+      "id": "M08-H1940",
+      "native_path": "dossiers/M08_H1940_PALEY_W97_CERTIFICATE_2026-10-19_CYCLE032.md",
+      "sha256": "74c9f064065f17f26561e974d26a15fb00e08e6b53045aeda808857069a416ae",
+      "public_proof": "proofs/m08-h1940.md"
+    },
+    {
+      "id": "M08-H1132-ORIGINAL-LINKED-SOURCE-RELATION",
+      "native_path": "dossiers/M08_H1132_SOURCE_RELATION_2026-10-20_CYCLE037.md",
+      "sha256": "88f152076f872d407eb540cbbcbd4ddf098624a7de9ec1b825719f8709fee01b",
+      "public_proof": "proofs/m08-h1132-original-linked-source-relation.md"
+    },
+    {
+      "id": "M08-H1244-ORIGINAL-LINKED-SOURCE-RELATION",
+      "native_path": "dossiers/M08_H1244_SOURCE_RELATION_2026-10-20_CYCLE038.md",
+      "sha256": "0ff31d22fda0d2b4d27b985a18ccf300f1f08acaa65e5a2a3f1ac60ab29a3801",
+      "public_proof": "proofs/m08-h1244-original-linked-source-relation.md"
+    },
+    {
+      "id": "M08-H716-BORDERED-ORIGINAL-LINKED-SOURCE-RELATION",
+      "native_path": "dossiers/M08_H716_BORDERED_SOURCE_RELATION_2026-10-20_CYCLE039.md",
+      "sha256": "f6f51ad9f8603798ae523b323619bf81d555124b7ab268e346c165680ce44c04",
+      "public_proof": "proofs/m08-h716-bordered-original-linked-source-relation.md"
+    },
+    {
+      "id": "M08-H1388-V-SOURCE-RELATION",
+      "native_path": "dossiers/M08_H1388_SOURCE_RELATION_2026-10-20_CYCLE041.md",
+      "sha256": "bed81ba72d58aab3f7634265ce0a356ef5e75e5a64fc0e1c44b044ff21efa0b4",
+      "public_proof": "proofs/m08-h1388-v-source-relation.md"
+    },
+    {
+      "id": "M08-H1916-W-SOURCE-RELATION",
+      "native_path": "dossiers/M08_H1916_SOURCE_RELATION_2026-10-21_CYCLE042.md",
+      "sha256": "5419afc6654dfd14bee7ecbbf33a1f1aab0d415b3efe00646d96c4cc8d03377f",
+      "public_proof": "proofs/m08-h1916-w-source-relation.md"
+    },
+    {
+      "id": "M08-H1436-U-SOURCE-RELATION",
+      "native_path": "dossiers/M08_H1436_SOURCE_RELATION_2026-10-21_CYCLE043.md",
+      "sha256": "5b8dd9c875b911b6d5acc0ee4fc58d3a019547a4155a3b1204a06ea374f7ac86",
+      "public_proof": "proofs/m08-h1436-u-source-relation.md"
+    },
+    {
+      "id": "M08-H1676-H-SOURCE-RELATION",
+      "native_path": "dossiers/M08_H1676_SOURCE_RELATION_2026-10-21_CYCLE044.md",
+      "sha256": "7add48c04f77c59cf02deec3c4249f56168eb1fa11162456ce30031bdcf2e1a3",
+      "public_proof": "proofs/m08-h1676-h-source-relation.md"
+    },
+    {
+      "id": "M08-H1772-H-SOURCE-RELATION",
+      "native_path": "dossiers/M08_H1772_SOURCE_RELATION_2026-10-21_CYCLE045.md",
+      "sha256": "ee689c4e2c2bde27d08eb5d91877c1fde3e60645283f51d33ee06b0e6a1bf758",
+      "public_proof": "proofs/m08-h1772-h-source-relation.md"
+    },
+    {
+      "id": "M08-FINAL-G-PAIR-SOURCE-RELATIONS",
+      "native_path": "dossiers/M08_FINAL_G_PAIR_SOURCE_RELATIONS_2026-10-21_CYCLE046.md",
+      "sha256": "a783cc23595d5cb74ce9d0c66abdb9487abfd330b416a471cf9142fdf3d403bc",
+      "public_proof": "proofs/m08-final-g-pair-source-relations.md"
+    },
+    {
+      "id": "M02-389A1-CENTRAL-ZERO-C060",
+      "native_path": "dossiers/M02_CENTRAL_ZERO_2026-10-23_CYCLE060.md",
+      "sha256": "9a138379d4c2939c6c55787fcec11476249c0eef6fd72b34c87f603258c8da08",
+      "public_proof": "proofs/m02-389a1-central-zero-c060.md"
+    },
+    {
+      "id": "M02-389A1-ANALYTIC-ORDER-TWO-C061",
+      "native_path": "dossiers/M02_SECOND_DERIVATIVE_2026-10-24_CYCLE061.md",
+      "sha256": "222eb2c142dd07d1e73af753198bf4307cd7aa3ae5961d3f2866922345a362c7",
+      "public_proof": "proofs/m02-389a1-analytic-order-two-c061.md"
+    },
+    {
+      "id": "M02-POINT-INDEPENDENCE-C086",
+      "native_path": "dossiers/M02_POINT_INDEPENDENCE_2026-10-27_CYCLE086.md",
+      "sha256": "eb02dd29b1cf381ade91970122f3f71c1f7d999b5c14fca3f8ae7d03c51eba5a",
+      "public_proof": "proofs/m02-point-independence-c086.md"
+    },
+    {
+      "id": "M02-389A1-RANK-TWO-C089",
+      "native_path": "dossiers/M02_RANK_DESCENT_2026-10-28_CYCLE089.md",
+      "sha256": "3b1d6e5e75b7e4f495d975085533fd42d040b4f68caa4c5597aaf9fe631a84a4",
+      "public_proof": "proofs/m02-389a1-rank-two-c089.md"
+    },
+    {
+      "id": "M02-FULL-BASIS-C090",
+      "native_path": "dossiers/M02_FULL_BASIS_2026-10-28_CYCLE090.md",
+      "sha256": "93f08b7b0f559d5316bfd11d7972f3c1dcb55c3878fcf5464707f3612df5d14b",
+      "public_proof": "proofs/m02-full-basis-c090.md"
+    },
+    {
+      "id": "M02-HEIGHT-DETERMINANT-C152",
+      "native_path": "dossiers/M02_HEIGHT_PAIRING_2026-11-08_CYCLE152.md",
+      "sha256": "d345e3414eed4351938a19ec09eea787d5a40227ef0b6dc4e5afe80cc55354b7",
+      "public_proof": "proofs/m02-height-determinant-c152.md"
+    },
+    {
+      "id": "M02-REAL-PERIOD-C153",
+      "native_path": "dossiers/M02_REAL_PERIOD_2026-11-08_CYCLE153.md",
+      "sha256": "43cbb15812bdb0b73a7d0d1837ed5fc3aafa271d471a86cb223eb40de1ae781f",
+      "public_proof": "proofs/m02-real-period-c153.md"
+    },
+    {
+      "id": "M02-SHA-TWO-PRIMARY-C154",
+      "native_path": "dossiers/M02_SHA_TWO_PRIMARY_2026-11-09_CYCLE154.md",
+      "sha256": "b3390c0266f7e31518951615c6c89e9511672806cdb4ed13eac9f96e496f5de5",
+      "public_proof": "proofs/m02-sha-two-primary-c154.md"
+    },
+    {
+      "id": "M10-LITERAL-4-2-C114",
+      "native_path": "dossiers/M10_LITERAL_CONTRACT_2026-11-02_CYCLE114.md",
+      "sha256": "eecaa84167e7a3a4f84d5bbab76ce498fdf9515206bb5ee4c933ec2f2ec2db30",
+      "public_proof": "proofs/m10-literal-4-2-c114.md"
+    },
+    {
+      "id": "M10-PROOF-LOCATION-RECONCILIATION-C120",
+      "native_path": "dossiers/M10_FULL42_IMPORT_MAP_2026-11-03_CYCLE120.md",
+      "sha256": "10418525d0d610c209453960d9b0154d413d49d50dcdc77e48d9f57ed6bdaf6f",
+      "public_proof": "proofs/m10-proof-location-reconciliation-c120.md"
+    },
+    {
+      "id": "M10-FULL42-IMPORT-MAP-C120",
+      "native_path": "dossiers/M10_FULL42_IMPORT_MAP_2026-11-03_CYCLE120.md",
+      "sha256": "10418525d0d610c209453960d9b0154d413d49d50dcdc77e48d9f57ed6bdaf6f",
+      "public_proof": "proofs/m10-full42-import-map-c120.md"
+    },
+    {
+      "id": "M08-STATUS-SOURCE-C123",
+      "native_path": "dossiers/M08_STATUS_SOURCE_2026-11-04_CYCLE123.md",
+      "sha256": "057dc397a9260540ae7b6ed124af4673b0e894d89924665fab9941a035b3b384",
+      "public_proof": "proofs/m08-status-source-c123.md"
+    },
+    {
+      "id": "M07-GLOBAL-SOURCE-SCOPE-C127",
+      "native_path": "dossiers/M07_GLOBAL_SOURCE_SCOPE_2026-11-05_CYCLE127.md",
+      "sha256": "d3b36e8364772b01e3081ea14292a4e355bb5ab7d25920381b3a09e004f1a031",
+      "public_proof": "proofs/m07-global-source-scope-c127.md"
+    },
+    {
+      "id": "M10-SECTION3-CATEGORY-C134",
+      "native_path": "dossiers/M10_SECTION3_CATEGORY_2026-11-06_CYCLE134.md",
+      "sha256": "f90a150afab54598fdb01744670ae794e80e70491f7baa0c29ed72c07e8654d0",
+      "public_proof": "proofs/m10-section3-category-c134.md"
+    },
+    {
+      "id": "M07-MODEL-CONTRACT-C164",
+      "native_path": "dossiers/M07_MODEL_CONTRACT_2026-11-10_CYCLE164.md",
+      "sha256": "f294162ea5bd3a78f74eac72231e1739a215b71b37c6ed51e7f6917cd9db7b40",
+      "public_proof": "proofs/m07-model-contract-c164.md"
+    },
+    {
+      "id": "M08-CSV668-PAYLOAD-C166",
+      "native_path": "dossiers/M08_CSV668_SOURCE_BINDING_2026-11-11_CYCLE166.md",
+      "sha256": "be904c8642ec8834449d5d639ffc872bf7f6267ccbdf604518a795019b39c61c",
+      "public_proof": "proofs/m08-csv668-payload-c166.md"
+    },
+    {
+      "id": "M05-SIXTEEN-SUBSPACE-C181",
+      "native_path": "artifacts/m05_resolution_identification_cycle181/PROOF.md",
+      "sha256": "f353c4da64b1d8248e2d69bb125ac4af9bee5b97bdc5f050c5186a807b244928",
+      "public_proof": "proofs/m05-sixteen-subspace-c181.md"
+    },
+    {
+      "id": "M12-DEGREE-PROJECTION-C184",
+      "native_path": "artifacts/m12_degree_projection_cycle184/PROOF.md",
+      "sha256": "708ee766f750e046ac89b724910dd5231ff55602ed505bb4d1d9d851fa007463",
+      "public_proof": "proofs/m12-degree-projection-c184.md"
+    }
+  ]
+}

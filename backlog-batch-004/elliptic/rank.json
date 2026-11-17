@@ -1,0 +1,943 @@
+{
+  "phase": "DISCOVERY",
+  "I": 112,
+  "J": -1712,
+  "triples": 10205,
+  "targets": {
+    "T": [
+      1,
+      0,
+      -20,
+      44,
+      -24
+    ],
+    "P": [
+      1,
+      0,
+      -2,
+      4,
+      9
+    ],
+    "Q": [
+      1,
+      0,
+      -8,
+      4,
+      4
+    ],
+    "R": [
+      1,
+      0,
+      10,
+      -4,
+      1
+    ]
+  },
+  "count": 64,
+  "counts": {
+    "equivalent_Q": 20,
+    "equivalent_P": 14,
+    "equivalent_R": 22,
+    "equivalent_T": 8
+  },
+  "rows": [
+    {
+      "coefficients": [
+        -1,
+        -2,
+        16,
+        -16,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 48
+      }
+    },
+    {
+      "coefficients": [
+        -1,
+        -2,
+        16,
+        50,
+        37
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -48
+      }
+    },
+    {
+      "coefficients": [
+        -1,
+        2,
+        16,
+        -50,
+        37
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 48
+      }
+    },
+    {
+      "coefficients": [
+        -1,
+        2,
+        16,
+        16,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -48
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        -2,
+        -8,
+        0,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -32
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        -2,
+        -8,
+        18,
+        -5
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 32
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        -2,
+        4,
+        -14,
+        15
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": 40
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        -2,
+        4,
+        8,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": -40
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        -2,
+        4,
+        8
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -36
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -26,
+        -68,
+        -47
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 48
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -26,
+        68,
+        -47
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -48
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -20,
+        -44,
+        -24
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "T",
+        "root": -160
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -20,
+        44,
+        -24
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "T",
+        "root": 160
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -8,
+        -4,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -64
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -8,
+        4,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 64
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -2,
+        -4,
+        9
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": -16
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -2,
+        4,
+        9
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": 16
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        4,
+        -12,
+        8
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -16
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        4,
+        12,
+        8
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 16
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        10,
+        -4,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -80
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        10,
+        4,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 80
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2,
+        -4,
+        8
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 36
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        2,
+        -8,
+        -18,
+        -5
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -32
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        2,
+        -8,
+        0,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 32
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        2,
+        4,
+        -8,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": 40
+      }
+    },
+    {
+      "coefficients": [
+        1,
+        2,
+        4,
+        14,
+        15
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": -40
+      }
+    },
+    {
+      "coefficients": [
+        2,
+        -2,
+        -2,
+        2,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -24
+      }
+    },
+    {
+      "coefficients": [
+        2,
+        2,
+        -2,
+        -2,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 24
+      }
+    },
+    {
+      "coefficients": [
+        3,
+        -2,
+        4,
+        -8,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": -88
+      }
+    },
+    {
+      "coefficients": [
+        3,
+        2,
+        4,
+        8,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": 88
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -8,
+        -32,
+        -26,
+        -6
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "T",
+        "root": 32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -8,
+        -32,
+        98,
+        -68
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "T",
+        "root": -32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -8,
+        -20,
+        -10,
+        -1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 96
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -8,
+        -20,
+        58,
+        -35
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -96
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -8,
+        4,
+        -2,
+        3
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": -32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -8,
+        4,
+        2,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": 32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -8,
+        16,
+        -14,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -160
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -8,
+        16,
+        -10,
+        2
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 160
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -4,
+        -8,
+        0,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -64
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -4,
+        4,
+        4,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": -80
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -2,
+        -2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -72
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        -1,
+        7,
+        5,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -20
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        0,
+        -20,
+        -22,
+        -6
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "T",
+        "root": -320
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        0,
+        -20,
+        22,
+        -6
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "T",
+        "root": 320
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        0,
+        -8,
+        -2,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -128
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        0,
+        -8,
+        2,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 128
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        0,
+        4,
+        -6,
+        2
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        0,
+        4,
+        6,
+        2
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        1,
+        7,
+        -5,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 20
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        2,
+        -2,
+        -2,
+        2
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 72
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        4,
+        -8,
+        0,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 64
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        4,
+        4,
+        -4,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": 80
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        8,
+        -32,
+        -98,
+        -68
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "T",
+        "root": 32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        8,
+        -32,
+        26,
+        -6
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "T",
+        "root": -32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        8,
+        -20,
+        -58,
+        -35
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": 96
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        8,
+        -20,
+        10,
+        -1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "Q",
+        "root": -96
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        8,
+        4,
+        -2,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": -32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        8,
+        4,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "P",
+        "root": 32
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        8,
+        16,
+        10,
+        2
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -160
+      }
+    },
+    {
+      "coefficients": [
+        4,
+        8,
+        16,
+        14,
+        4
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 160
+      }
+    },
+    {
+      "coefficients": [
+        8,
+        -12,
+        4,
+        0,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 48
+      }
+    },
+    {
+      "coefficients": [
+        8,
+        -4,
+        -2,
+        1,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -48
+      }
+    },
+    {
+      "coefficients": [
+        8,
+        4,
+        -2,
+        -1,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": 48
+      }
+    },
+    {
+      "coefficients": [
+        8,
+        12,
+        4,
+        0,
+        1
+      ],
+      "certificate": {
+        "kind": "equivalent",
+        "target": "R",
+        "root": -48
+      }
+    }
+  ],
+  "seconds": 0.29988145800000005,
+  "claim_ceiling": "Candidate certificate only; independent complete checker and source reduction audit pending."
+}

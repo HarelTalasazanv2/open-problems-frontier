@@ -1,0 +1,22 @@
+{
+  "status": "PASS_CSV668_CANONICAL_RELATION",
+  "order": 668,
+  "source_bytes": 1115894,
+  "source_sha256": "5eaef5f4c814469a1f0815756876b83e8c4944ff7ccf4f023ee479de5e8f9a8b",
+  "canonical_bytes": 446892,
+  "canonical_sha256": "bdeb5059d77e2703211082627b60441b8c888c928a55cc6f295e011941a387b0",
+  "row_pairs_checked": 222778,
+  "column_pairs_checked": 222778,
+  "negative_controls": [
+    "invalid zero",
+    "extra column",
+    "missing row",
+    "invalid symbol",
+    "extra row",
+    "actual final-cell damage",
+    "actual duplicate row"
+  ],
+  "negative_controls_detected": 7,
+  "code_sha256": "9d8c99b0ae6cdf72ef5ea448e0cff80e4752c7956dec018aafc3b25445d4abf2",
+  "scope": "Exact pinned CSV/canonical bytes and finite Hadamard identity; no author authentication, priority, complete release membership or redistribution license inferred."
+}

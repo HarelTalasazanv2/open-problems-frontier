@@ -105,7 +105,7 @@ Research records distinguish current working views from dated historical evidenc
 - [Backlog batch 002: eight scoped mathematical records](backlog-batch-002/README.md).
 - [Backlog batch 003: nine additional audits and three output-only graph releases](backlog-batch-003/README.md).
 - [Backlog batch 004: eighty-three individual audits, qualified corrections and expanded verification](backlog-batch-004/README.md).
-- [Publication policy](PUBLICATION_POLICY.md), [references and credit](REFERENCES.md), and [rights notice](LICENSE).
+- [Publication policy](PUBLICATION_POLICY.md), [references and credit](REFERENCES.md), and [license](LICENSE).
 
 The current release contains all 118 individually audited records in the authorized historical snapshot. Seven are source/interface records, and several mathematical records share a proof or checker; these are not counts of new discoveries. The 83-record backlog is covered by batch 004 at explicit claim ceilings, including the documented M07 correction. The four input-dependent replay tasks now receive their exact21 data files from the [versioned input bundle](verification-inputs/INPUTS.json), under the November17 reproducibility instruction. GitHub Actions requires all18 tasks in normal,-O,-OO modes. The fixed source identities, original contributor credit and exact mathematical claim ceilings are retained; this is a reproduction change, not a new mathematical result. Each dated batch preserves its own historical counts and claim ceilings.
 
@@ -123,14 +123,14 @@ Published theorems, methods, software, and other source materials retain their o
 
 This repository contains research materials authorized for public release and review.
 
-Public access does not, by itself, grant permission to republish, modify, redistribute, or sublicense copyrightable Company Materials outside an applicable authorization. External submissions, communications on behalf of the project, and additional releases require separate authorization. Applicable law, third-party rights, and the exclusions for facts, ideas, and discoveries stated below remain in effect.
+You may use, copy, share and adapt the Company Materials for noncommercial purposes, with credit, under the terms in [LICENSE](LICENSE). Commercial use needs a separate written license from HTYT Enterprises LLC. External submissions, communications on behalf of the project, and additional releases by the project itself require separate authorization. Applicable law, third-party rights, and the exclusions for facts, ideas, and discoveries stated below remain in effect.
 
 ## Rights
 
-Copyright © 2026 HTYT Enterprises LLC. All rights reserved.
+Copyright © 2026 HTYT Enterprises LLC.
 
-Original copyrightable Company Materials are proprietary to the extent that HTYT Enterprises LLC owns the applicable rights. This README grants no public license to reproduce, modify, distribute, publish, or sublicense those materials.
+HTYT Enterprises LLC keeps the copyright in its original Company Materials, to the extent that it owns the applicable rights. They are licensed to the public for noncommercial use: text, proofs, data and certificates under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), and software under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0). See [LICENSE](LICENSE) for the exact terms, the credit line, and how to ask about commercial use.
 
-Third-party materials remain subject to their respective ownership, attribution requirements, and license terms. Applicable law and controlling separate agreements remain in effect.
+Third-party materials remain subject to their respective ownership, attribution requirements, and license terms. HTYT Enterprises LLC grants no license to them. Applicable law and controlling separate agreements remain in effect.
 
 No copyright ownership is asserted over mathematical facts, theorems, scientific facts, ideas, or discoveries as such.

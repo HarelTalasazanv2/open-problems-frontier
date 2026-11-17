@@ -11,3 +11,7 @@ No automatic mirror, synchronizer or publishing workflow is installed by this se
 ## November17,2026 reproducibility authorization
 
 The owner explicitly requested all18 existing checks in GitHub Actions, including the four typed-input tasks. This authorizes the minimum21-file frozen data bundle identified in verification-inputs/INPUTS.json and its guarded workflow. The older output-only delivery limit is superseded for those named data inputs only. No additional research claims, source papers, unrelated estate, credential, account change or unattended publisher is authorized. Original contributors and third-party rights remain separate; no new license or source-authentication claim is made.
+
+## November 17, 2026 licensing authorization
+
+The owner explicitly chose to license the Company Materials in this repository to the public for noncommercial use: CC BY-NC 4.0 for text, proofs, data and certificates, and the PolyForm Noncommercial License 1.0.0 for software. The exact terms are in LICENSE. This replaces the earlier "all rights reserved" notice for Company Materials only. It grants no license to third-party materials, makes no new research claim, and changes no scientific statement, certificate or verification task. Commercial use still requires a separate written license from the owner.

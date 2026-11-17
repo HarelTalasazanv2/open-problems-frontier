@@ -19,8 +19,18 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 780,
-      "sha256": "62cce9c1bf895d2a5595842fe510d9f457ba333c0c3dd9dc7bc8d229cdf99d2d"
+      "bytes": 2887,
+      "sha256": "76afa52643d0e6dff938ad91df7db8f56bce180d554b111c4be3232535b22417"
+    },
+    {
+      "path": "LICENSES/CC-BY-NC-4.0.txt",
+      "bytes": 19347,
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    },
+    {
+      "path": "LICENSES/PolyForm-Noncommercial-1.0.0.txt",
+      "bytes": 4563,
+      "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8"
     },
     {
       "path": "LOCAL_REPRODUCTION.json",
@@ -29,8 +39,8 @@
     },
     {
       "path": "PUBLICATION_POLICY.md",
-      "bytes": 1932,
-      "sha256": "793eb9ebf5217ff33ce28e27f2eca66b7dbf91cf47c9fce76e1197202107f086"
+      "bytes": 2543,
+      "sha256": "2661773d55a741c63cb5b8fd9691dc3371fc3e6401af31af8f4278f279efa6dc"
     },
     {
       "path": "PUBLISHED_RECORD_IDS.json",
@@ -39,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9698,
-      "sha256": "f45da651bf1e8bb437a7e1341eaf7b790d7df02a4df56c7b63b03f7797df27c1"
+      "bytes": 10054,
+      "sha256": "b1fd117d1112832a00b187f3b8e6bcaefaab17473f61f08e2ff3cc6544b68c5f"
     },
     {
       "path": "REFERENCES.md",

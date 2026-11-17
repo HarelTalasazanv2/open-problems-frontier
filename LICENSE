@@ -1,16 +1,69 @@
-Copyright © 2026 HTYT Enterprises LLC. All rights reserved.
+Open Problems Frontier
+Copyright © 2026 HTYT Enterprises LLC.
 
-Original copyrightable Company Materials are proprietary to the extent that
-HTYT Enterprises LLC owns the applicable rights. Public availability of this
-repository grants no public license to reproduce, modify, distribute, publish,
-or sublicense those materials.
+HTYT Enterprises LLC ("the Company") keeps the copyright in its own original
+materials in this repository ("Company Materials"), to the extent that it owns
+the applicable rights. The Company makes them available to the public for
+noncommercial use under the two public licenses named below. Which license
+applies depends on the kind of file.
 
-Third-party materials remain subject to their respective ownership,
-attribution requirements, and license terms. Applicable law and controlling
-separate agreements remain in effect.
+1. Text, proofs, documentation, data and certificates
 
-No copyright ownership is asserted over mathematical facts, theorems,
-scientific facts, ideas, or discoveries as such.
+   Applies to every Company file that is not software. This includes the
+   .md, .txt, .json, .hex and .cnf files.
+
+   License:         Creative Commons Attribution-NonCommercial 4.0
+                    International (CC BY-NC 4.0)
+   SPDX identifier: CC-BY-NC-4.0
+   Full text:       LICENSES/CC-BY-NC-4.0.txt
+   Online:          https://creativecommons.org/licenses/by-nc/4.0/
+
+2. Software
+
+   Applies to every Company .py file and to the workflow files under .github/.
+
+   License:         PolyForm Noncommercial License 1.0.0
+   SPDX identifier: PolyForm-Noncommercial-1.0.0
+   Full text:       LICENSES/PolyForm-Noncommercial-1.0.0.txt
+   Online:          https://polyformproject.org/licenses/noncommercial/1.0.0
+
+Required Notice: Copyright © 2026 HTYT Enterprises LLC (https://github.com/HarelTalasazanv2/open-problems-frontier)
+
+Credit
+
+   When you share or adapt Company Materials, credit them in this form or a
+   reasonable equivalent, and say whether you made changes:
+
+   "Open Problems Frontier, © 2026 HTYT Enterprises LLC,
+   https://github.com/HarelTalasazanv2/open-problems-frontier,
+   licensed under CC BY-NC 4.0."
+
+Commercial use
+
+   The two licenses above do not permit commercial use. Commercial use needs a
+   separate written license from HTYT Enterprises LLC. Contact the Company
+   through https://htytenterprisesllc.com/.
+
+What this notice does not cover
+
+   Third-party materials. Materials owned by others remain subject to their own
+   ownership, attribution requirements and license terms. The Company grants no
+   license to them. This includes every file inside
+   verification-inputs/inputs-v1.zip and any material credited to others in the
+   REFERENCES.md and ATTRIBUTION.txt files of this repository and its packages.
+
+   Facts and ideas. No copyright ownership is asserted over mathematical facts,
+   theorems, scientific facts, ideas, or discoveries as such.
+
+   Names. No trademark rights are granted. Do not use the names
+   "HTYT Enterprises LLC" or "Open Problems Frontier" to suggest endorsement.
+
+Earlier versions
+
+   These terms also apply to the Company Materials in earlier versions of this
+   repository, which carried an "all rights reserved" notice.
+
+Applicable law and controlling separate agreements remain in effect.
 
 Research attribution and documented AI-assistance roles are recorded in
 REFERENCES.md and the reference/text files accompanying each research package.
